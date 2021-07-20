@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+{% assign my_title = page.title %}
+{% include head.html %}
+<body>
+<div class="container">      
+{% include_cached header.html %}
+{% include_cached nav.html %}
+<div class="row">
+<div class="col-md-4 text-center">
+  {% if page.module %}
+  {% if page.module!="" %}
+      <h5>
+        Module: <a href="{{site.baseurl}}/modules/{{ page.module }}">{{ page.module }}</a>
+      </h5>
+  {% endif %}
+  {% endif %}
+</div>
+<div class="col-md-4 text-center">
+  {% if page.title %}
+  {% if page.title!="" %}
+      <h4>
+        {{page.title}}
+      </h4>
+  {% endif %}
+  {% endif %}
+</div>
+<div class="col-md-4 text-center">
+  {% if page.subtitle %}
+  {% if page.subtitle!="" %}
+      <h5>
+        {{page.subtitle}}
+      </h5>
+  {% endif %}
+  {% endif %}
+</div>
+</div>
+</div><!-- /.row -->
+<main role="main" class="container">
+
+{% if content contains '<!--hide-->' %}
+{{ content | split:'<!--hide-->' | first }}
+
+<h2>THIS {{page.type | upcase}} HAS NOT YET BEEN POSTED</h2>
+
+{% if content contains '<!--unhide-->' %}
+{{ content | split:'<!--unhide-->' | last }}
+{% endif %}
+{% else %}
+<h2>THIS {{page.type | upcase}} HAS NOT YET BEEN POSTED</h2>
+{% endif %}
+{% comment %}  
+{{ content }}
+{% endcomment %}  
+
+</main><!-- /.container -->
+{% include_cached footer.html %}
+</body>
+</html>

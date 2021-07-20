@@ -1,0 +1,10 @@
+{% assign items = site.pages | where: "type",type | sort: "url" %}
+<ul>
+{% for item in items %}
+{%if item.title %}
+<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+{% else %}
+<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.url }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>

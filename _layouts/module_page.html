@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+{% assign my_title = page.title %}
+{% include head.html %}
+<body>
+<div class="container">      
+{% include_cached header.html %}
+{% include_cached nav.html %}
+{% assign my_module = page.module %}
+{% if my_module %}
+{% if my_module!="" %}
+{{ page.module }}
+{% endif %}
+{% endif %}
+</div><!-- /.row -->
+<main role="main" class="container">
+  {{ content }}
+</main><!-- /.container -->
+{% include_cached footer.html %}
+</body>
+</html>

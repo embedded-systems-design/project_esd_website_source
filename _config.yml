@@ -1,0 +1,89 @@
+title: Embedded Systems
+author:
+  name: Shawn Jordan & Daniel M. Aukes
+  email: ssjorda1@asu.edu, danaukes@asu.edu
+description: > # this means to ignore newlines until "show_excerpts:"
+  This site is about foldable robotics.
+baseurl: "/project_embedded_systems_class" # the subpath of your site, e.g. /blog
+#url: "http://danaukes.com" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: danaukes
+#github_username:  danb0b
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Build settings
+#gems:
+#  - jekyll-include-cache
+#  - jekyll-pandoc
+  
+plugins:
+  - jekyll-include-cache
+  - jekyll-pandoc
+
+markdown: Pandoc
+
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+      tags: []
+      icon: fas fa-question-circle fa-5x
+      gridwidth: col-md-4
+      type: page
+#  - scope:
+#      path: "blog_new" # an empty string here means all files in the project
+#    values:
+#      layout: "page"
+#      tags: []
+#      icon: fas fa-question-circle fa-5x
+#      gridwidth: col-md-4
+#      type: blog
+
+
+collections:
+  blog:
+    output: true
+
+
+exclude:
+  - project/
+  - Gemfile
+  - Gemfile.lock
+  
+include:
+  - .nojekyll
+  - .gitignore
+
+menu:
+- name: Posts by Tag
+  link: /posts-by-tag
+- name: Tags by Post
+  link: /tags-by-post
+#  - name: Class Schedule
+#    link: /class_schedule
+#  - name: Assignments
+#    link: /my-assignments
+#  - name: Tutorials
+#    link: /my-tutorials
+#  - name: Lectures
+#    link: /my-lectures
+#  - name: Canvas Calendar
+#    link: https://canvas.asu.edu/calendar#view_name=month
+#    external: true
+- name: Canvas
+  link: https://canvas.asu.edu/
+  external: true
+
+  
+pandoc:
+  extensions:
+#    - normalize
+#    - smart
+    - mathjax
+    - citeproc
+#    - csl: project/ieee.csl
+#    - bibliography: project/bibliography.bib
+    - highlight-style: zenburn
+
