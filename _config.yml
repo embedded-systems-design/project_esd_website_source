@@ -4,7 +4,7 @@ author:
   email: ssjorda1@asu.edu, danaukes@asu.edu
 description: > # this means to ignore newlines until "show_excerpts:"
   This site is about foldable robotics.
-baseurl: "/project_embedded_systems_class" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://danaukes.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: danaukes
 #github_username:  danb0b
