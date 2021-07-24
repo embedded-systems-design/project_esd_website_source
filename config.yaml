@@ -1,0 +1,111 @@
+baseURL: https://embedded-systems-design.github.io
+languageCode: en-us
+title: Embedded Systems Design
+theme:
+- liva-hugo
+ignorefiles:
+  - ignore/*
+taxonomies:
+  category: categories
+  tag: tags
+disqusShortname: ''
+languageCode: en-us
+menu:
+  footer:
+  - URL: about
+    name: About
+    weight: 1
+  - URL: contact
+    name: Contact
+    weight: 3
+  main:
+  - URL: cadence
+    name: Cadence
+    weight: 1
+  - URL: circuit-design
+    name: Circuit Design
+    weight: 2
+  - URL: parts
+    name: Parts
+    weight: 3
+  - URL: tutorials
+    name: Tutorials
+    weight: 4
+  - URL: posts
+    name: All Posts
+    weight: 5
+#  - URL: contact
+#    name: Contact
+#    weight: 3
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+paginate: 6
+params:
+  default_image: images/box.png
+  default_icon: bi bi-box
+  author: Dan Aukes
+  cookies:
+    enable: false
+    expire_days: 2
+  copyright: '| copyright &copy; 2021 Shawn Jordan and Dan Aukes
+    All Rights Reserved |'
+  description: This is meta description
+  email: emailaddress
+  #googleAnalitycsID: Your ID
+  home: Home
+  location: Arizona State University
+  logo: 
+#  mobile: 0124857985320
+  newsletter:
+    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      At vero
+    enable: false
+    title: Join Our Newsletter
+  plugins:
+    css:
+    - URL: plugins/bootstrap/bootstrap.min.css
+    - URL: plugins/slick/slick.css
+    - URL: plugins/themify-icons/themify-icons.css
+    - URL: plugins/venobox/venobox.css
+    - URL: https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css   
+    js:
+    - URL: plugins/jQuery/jquery.min.js
+    - URL: plugins/bootstrap/bootstrap.min.js
+    - URL: plugins/slick/slick.min.js
+    - URL: plugins/venobox/venobox.min.js
+    - URL: plugins/search/fuse.min.js
+    - URL: plugins/search/mark.js
+    - URL: plugins/search/search.js
+  preloader:
+    enable: true
+    preloader: ''
+  search:
+    enable: true
+  social:
+#  - icon: ti-facebook
+#    link: '#'
+#    title: facebook
+#  - icon: ti-twitter-alt
+#    link: 'https://twitter.com/danaukes'
+#    title: twitter
+#  - icon: ti-instagram
+#    link: '#'
+#    title: instagram
+  - icon: ti-github
+    link: 'https://github.com/embedded-systems-design'
+    title: personal github
+#  - icon: ti-linkedin
+#    link: 'https://www.linkedin.com/in/dan-aukes-502995212/'
+#    title: linkedin
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokailight
+    noClasses: true
+summarylength: 10
