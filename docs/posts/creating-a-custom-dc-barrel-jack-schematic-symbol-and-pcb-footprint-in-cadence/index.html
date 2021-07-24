@@ -161,7 +161,7 @@
 <p>Name the part and set the part reference prefix to J, as shown. Leave the PCB Footprint field blank (unless you did part 2 first, then use the name of the footprint).</p>
 </li>
 </ol>
-<p><img src="figures/figure_031.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_031.png" alt=""></p>
 <ol start="4">
 <li>
 <p>Open up the product drawing for the barrel jack adapter. Note the &ldquo;Circuit Diagram&rdquo; section on the left with the pins numbered 1, 3, 2. We will be drawing this symbol by hand in Cadence.</p>
@@ -170,40 +170,40 @@
 <p>Place the three pins spaced out vertically with their numbers, positions, and names according to the drawing.</p>
 </li>
 </ol>
-<p><img src="figures/figure_032.png" alt="Graphical user interface, application, table, Excel Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_032.png" alt="Graphical user interface, application, table, Excel Description automatically generated"></p>
 <ol start="6">
 <li>Enlarge the bounding box by clicking on it and then dragging the pink corner handles. Then, space the pins out farther. Since drawn shapes will have their vertices snapped to the grid of dots we can see in the background, we will need some extra space to make this symbol.</li>
 </ol>
-<p><img src="figures/figure_025.png" alt="Table, calendar Description automatically generated">{class=&ldquo;img-fluid&rdquo;} <img src="figures/figure_026.png" alt="Calendar Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_025.png" alt="Table, calendar Description automatically generated"> <img src="/figures/figure_026.png" alt="Calendar Description automatically generated"></p>
 <ol start="7">
 <li>Select the line tool (top of the shapes toolbar). Draw a series of lines representing the tip spring, as shown in the drawing. After drawing one line segment, you can begin another at the endpoint of the previous line.</li>
 </ol>
-<p><img src="figures/figure_027.png" alt="Graphical user interface, application, Teams Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
-<p><img src="figures/figure_033.png" alt="Chart, line chart Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_027.png" alt="Graphical user interface, application, Teams Description automatically generated"></p>
+<p><img src="/figures/figure_033.png" alt="Chart, line chart Description automatically generated"></p>
 <ol start="8">
 <li>Draw more lines representing the shunt terminal, as pictured. The arrow is imitated with two lines forming an angle pointing downward.</li>
 </ol>
-<p><img src="figures/figure_034.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_034.png" alt=""></p>
 <ol start="9">
 <li>Start drawing the center terminal with a single, short straight line.</li>
 </ol>
-<p><img src="figures/figure_035.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_035.png" alt=""></p>
 <ol start="10">
 <li>Select the rectangle tool (second from the top of the shapes toolbar). Draw a rectangle, 1 wide and 4 tall, centered at the left end of this line.</li>
 </ol>
-<p><img src="figures/figure_036.png" alt="Chart, line chart Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_036.png" alt="Chart, line chart Description automatically generated"></p>
 <ol start="11">
 <li>Draw two straight horizontal lines, one above the center of the rectangle and one below.</li>
 </ol>
-<p><img src="figures/figure_028.png" alt="">{class=&ldquo;img-fluid&rdquo;} <img src="figures/figure_029.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_028.png" alt=""> <img src="/figures/figure_029.png" alt=""></p>
 <ol start="12">
 <li>Select the Arc tool now (second from the bottom of the shape toolbar shown). Click first the left end of the top line, then the space between the lines and one to the left, then the left end of the bottom line. This will cap off the center terminal.</li>
 </ol>
-<p><img src="figures/figure_037.png" alt="Chart, diagram Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_037.png" alt="Chart, diagram Description automatically generated"></p>
 <ol start="13">
 <li>Move the pin names so they don&rsquo;t overlap the symbol. If desired or needed, readjust the positions of the lines/shapes slightly.</li>
 </ol>
-<p><img src="figures/figure_038.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_038.png" alt=""></p>
 <ol start="14">
 <li>You now have a barrel jack schematic symbol. Nice work!</li>
 </ol>
@@ -212,25 +212,25 @@
 <ol>
 <li>Open up Padstack Editor. Select Thru-Pin for padstack usage, Circle for pad geometry.</li>
 </ol>
-<p><img src="figures/figure_039.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_039.png" alt=""></p>
 <ol start="2">
 <li>Look at the dimensions in the drawing under &ldquo;Recommended P.C.B. Layout&rdquo;. The pins aren&rsquo;t circular, so you&rsquo;ll want the drill hole to be the size of the longest dimension plus tolerances (1.6+0.3=1.9 mm -&gt; 74.8 mils) to ensure it isn&rsquo;t too small. Consult the <a href="https://peraltastudios.engineering.asu.edu/pcb-mill-specs/">PCB Mill Specs</a> and round up to the nearest drill size for the drill diameter.</li>
 </ol>
-<p><img src="figures/figure_040.png" alt="Graphical user interface Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_040.png" alt="Graphical user interface Description automatically generated"></p>
 <ol start="3">
 <li>Define a drill symbol with the same radius as your drill hole.</li>
 </ol>
-<p><img src="figures/figure_041.png" alt="Graphical user interface, application Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_041.png" alt="Graphical user interface, application Description automatically generated"></p>
 <ol start="4">
 <li>Select your regular pad size. You&rsquo;ll want one that guarantees sufficient annular ring and allows adequate clearance between pins. Annular ring can be calculated using the following equation from ProtoExpress.com (read more about annular ring <a href="https://www.protoexpress.com/blog/dont-let-annular-rings-drive-you-crazy/">there</a> ).</li>
 </ol>
 <p>Annular ring width = (Diameter of the pad - Diameter of the finished hole) / 2</p>
 <p>According to this equation, a pad diameter of 100 is sufficient for the minimum annular ring of 10 needed to satisfy Peralta&rsquo;s DFM constraints. 128 was chosen for this example as this value results in a larger annular ring yet is still small enough to avoid pin overlap when used in its intended footprint.</p>
-<p><img src="figures/figure_042.png" alt="Graphical user interface Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_042.png" alt="Graphical user interface Description automatically generated"></p>
 <ol start="5">
 <li>Select an anti pad and thermal pad size approximately 20 mils larger than the size of the regular pad.</li>
 </ol>
-<p><img src="figures/figure_043.png" alt="Graphical user interface Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_043.png" alt="Graphical user interface Description automatically generated"></p>
 <ol start="6">
 <li>
 <p>Add default internal layers identical to the outer layers, so the program doesn&rsquo;t give you an error when saving. As a shortcut, you can actually drag your cursor across a row so the three pads' settings are selected together and then copy and paste this row into other layers.</p>
@@ -239,7 +239,7 @@
 <p>Define the soldermask layers with a radius about 20 mils larger than the thermal/anti pads.</p>
 </li>
 </ol>
-<p><img src="figures/figure_044.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_044.png" alt=""></p>
 <ol start="8">
 <li>Save the padstack with a memorable enough name to find it in the list later. Make sure to use the Save button in the file menu, not the one on the Summary page (which only saves the summary).</li>
 </ol>
@@ -247,15 +247,15 @@
 <ol>
 <li>Open PCB Editor, create a new drawing, enter the name you&rsquo;ll use for your PCB footprint, and select &ldquo;Package symbol&rdquo;.</li>
 </ol>
-<p><img src="figures/figure_045.png" alt="Graphical user interface Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_045.png" alt="Graphical user interface Description automatically generated"></p>
 <ol start="2">
 <li>Reset the origin so it&rsquo;s somewhere you can see it. To do this, zoom in really far, then go to Setup -&gt; Change Drawing Origin and click the center of the screen. If no errors about drawing extents appear in the command window and you can see the origin, you&rsquo;re good, if not re-adjust the zoom and try again.</li>
 </ol>
-<p><img src="figures/figure_046.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_046.png" alt=""></p>
 <ol start="3">
 <li>Click the &ldquo;Place Pin&rdquo; button to start placing your pins. Select the correct padstack, then place pin 1 at the drawing origin. You can do this either by simply clicking the origin, or by typing x 0 0 into the command window to select (0, 0) as the coordinates for this operation.</li>
 </ol>
-<p><img src="figures/figure_047.png" alt="A picture containing text, screenshot, monitor, computer Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_047.png" alt="A picture containing text, screenshot, monitor, computer Description automatically generated"></p>
 <ol start="4">
 <li>To determine the placement of pin 2, refer to the dimensions given in the drawing. Pin 1 is 13.6 mm to the right of the front of the physical package, while pin 2 is 7.8 mm to the right of the same edge. This means that the distance between them is (13.6 - 7.8) == 5.8 mm. Since pin 2 is to the left of pin 1, we put a negative sign on the number, and we need to convert to mils . Mils = mm *39.37, so 5.8 mm * 39.37 =228.3 mils (to one decimal place).</li>
 </ol>
@@ -264,20 +264,20 @@
 <li>Use the dimensions to place pin 3. The distance of pin 3 to the edge of the barrel jack is 10.6 mm, so to find its x-position relative to pin 1, 10.6 - 13.6 = -3mm = -118.1 mils. The y-distance is stated as 4.8 mm down (negative in our coordinate system) which rounds up to 189 mils.</li>
 </ol>
 <p>Thus, use x -118.1 -189 to place pin 3.</p>
-<p><img src="figures/figure_030.png" alt="A picture containing text, screenshot, monitor, electronics Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_030.png" alt="A picture containing text, screenshot, monitor, electronics Description automatically generated"></p>
 <ol start="6">
 <li>Place the reference designator. Click the button shaped like a capital I or a text cursor next to the Place Pin button to enter the correct mode.</li>
 </ol>
-<p><img src="figures/figure_048.png" alt="Graphical user interface, application Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_048.png" alt="Graphical user interface, application Description automatically generated"></p>
 <p>Click where you want the text, type J* and then hit enter. The reference designator will then appear.</p>
 <ol start="7">
-<li>Add the package outline. This is a critical step to ensure the barrel jack will be oriented correctly in your PCB layout. <img src="figures/figure_051.png" alt="">{class=&ldquo;img-fluid&rdquo;}</li>
+<li>Add the package outline. This is a critical step to ensure the barrel jack will be oriented correctly in your PCB layout. <img src="/figures/figure_051.png" alt=""></li>
 </ol>
 <p>Click the Add Rectangle tool, two to the right of the Reference Designator button. Using the drop-down menus on the right, make sure Active Class and Subclass are Package Geometry and Assembly_Top, respectively.</p>
 <p>The dimensions for this rectangle come from the width and length of the barrel jack stated in the drawing. Note that the jack is pointing to the left, so the width of our rectangle will be the length from the drawing (14.5 mm = 570.9 mils), the height of our rectangle will be the width from the drawing (9 mm = 354.3 mils), and it will be placed on the left side.</p>
-<p><img src="figures/figure_049.png" alt="">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_049.png" alt=""></p>
 <p>From the drawing, the origin of this rectangle would be 13.6 mm to the left of pin 1, and 4.5 mm above. Converting these to mils, the coordinates are (-535.4, 177.2). So type x -535.4 177.2 to place the rectangle at that location.</p>
-<p><img src="figures/figure_050.png" alt="A picture containing text, screenshot, monitor, screen Description automatically generated">{class=&ldquo;img-fluid&rdquo;}</p>
+<p><img src="/figures/figure_050.png" alt="A picture containing text, screenshot, monitor, screen Description automatically generated"></p>
 <p>You now have a barrel jack footprint!</p>
 <p>Based on a post written by Joshua Weight</p>
 

@@ -151,16 +151,16 @@
 <p>A <a href="https://en.wikipedia.org/wiki/Footprint_(electronics)">PCB footprint</a> is the physical layout on a PCB to which a component is soldered. Usually, you must create a custom PCB footprint for each custom schematic symbol that you create. Footprints can be made for many standard components (e.g., basic ICs) using the Package Symbol Wizard (see the <a href="creating-a-custom-pcb-footprint-using-package-designer-in-cadence.html">Creating a PCB footprint using Package Designer in Cadence page</a>), but more complex components (like switching power supply ICs with thermal reliefs) must be created by hand. This tutorial details the manual creation of a custom footprint.</p>
 <p>The example custom PCB footprint created in this tutorial will be a <a href="http://www.ti.com/product/lm2676">TI LM2676 SIMPLE SWITCHER® 8V to 40V, 3A Low Component Count Step-Down Regulator</a> (see Figure 1).</p>
 <hr>
-<h2 id="figure-1-lm2676-switching-power-supply-ic"><a href="larger/image0096.jpg"><img src="figures/figure_066.jpg" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-1-lm2676-switching-power-supply-ic"><a href="/larger/image0096.jpg"><img src="/figures/figure_066.jpg" alt=""></a>
 Figure 1: LM2676 Switching Power Supply IC</h2>
 <h2 id="1-search-the-datasheet-for-the-footprint-specifications">1. Search the Datasheet for the Footprint Specifications</h2>
 <p>In order to build a custom footprint, you first need to find the footprint (sometimes called &ldquo;land pattern&rdquo; specifications in the datasheet for the component. Figures 2 and 3 show the land pattern and physical dimensions of the IC package from page 34 of the <a href="http://www.ti.com/lit/ds/symlink/lm2676.pdf">LM2676 datasheet</a>.</p>
 <hr>
-<pre><code>        [![](figures/figure_067.png){class=&quot;img-fluid&quot;}](larger/image0097.png)
+<pre><code>        [![](/figures/figure_067.png)](/larger/image0097.png)
 </code></pre>
 <h2 id="figure-2-land-pattern-from-the-lm2676-datasheet-dimensions-are-in-mils-with-brackets-in-mm">Figure 2: Land pattern from the LM2676 datasheet. Dimensions are in mils, with brackets in mm.</h2>
 <hr>
-<pre><code>               [![](figures/figure_292.png){class=&quot;img-fluid&quot;}](larger/image0098.png)
+<pre><code>               [![](/figures/figure_292.png)](/larger/image0098.png)
 </code></pre>
 <h2 id="figure-3-physical-package-dimensions-from-the-lm2676-datasheet-dimensions-are-in-mils-with-brackets-in-mm">Figure 3: Physical package dimensions from the LM2676 datasheet. Dimensions are in mils, with brackets in mm.</h2>
 <p>By interpreting Figures 2 and 3, the following key dimensions were determined:</p>
@@ -197,19 +197,19 @@ Figure 1: LM2676 Switching Power Supply IC</h2>
 <p>a)  In Windows, open the PCB Editor application. (You can also use the Package Designer application).</p>
 <p>b)  Choose &ldquo;File &gt; New&hellip;&rdquo;. The New Drawing window shown in Figure 4 will appear.</p>
 <hr>
-<h2 id="figure-4-new-drawing-window"><a href="larger/image0099.png"><img src="figures/figure_295.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-4-new-drawing-window"><a href="/larger/image0099.png"><img src="/figures/figure_295.png" alt=""></a>
 Figure 4: New Drawing window</h2>
 <p>c)  Name your drawing, select &ldquo;Package symbol&rdquo; and click OK. A blank package workspace will appear.</p>
 <p>d)  Since the component footprint is a rectangle (common), choose the &ldquo;Shape Add Rect&rdquo; tool (see Figure 5).</p>
-<p><a href="larger/image0100.png"><img src="figures/figure_291.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a></p>
+<p><a href="/larger/image0100.png"><img src="/figures/figure_291.png" alt=""></a></p>
 <p>Figure 5: Toolbar</p>
 <p>e)  Move the cursor over the &ldquo;Options&rdquo; tab (see Figure 6) and enter the package geometry information from the datasheet. Then, place the rectangle on the blank workspace.</p>
 <hr>
-<h2 id="figure-6-options-tab"><a href="larger/image0101.png"><img src="figures/figure_296.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-6-options-tab"><a href="/larger/image0101.png"><img src="/figures/figure_296.png" alt=""></a>
 Figure 6: Options tab</h2>
 <p>f)  Choose &ldquo;Layout &gt; Pins&rdquo; to switch to pin mode. Move the cursor over the &ldquo;Options&rdquo; tab (see Figure 7). The options available in the tab are described below.</p>
 <hr>
-<h2 id="figure-7-layout--pins---options-tab"><a href="larger/image0102.png"><img src="figures/figure_297.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-7-layout--pins---options-tab"><a href="/larger/image0102.png"><img src="/figures/figure_297.png" alt=""></a>
 Figure 7: Layout &gt; Pins - Options tab</h2>
 <p>The <em>Connect</em> and <em>Mechanical</em> options allow a choice between an electrical pin (<em>Connect)</em> and a mechanical or thermal relief (described in step i below).</p>
 <p>The <em>Padstack</em> box and the &ldquo;&hellip;&rdquo; button allow entry of the path to the padstack file. These can be the same or different for each pin, depending on the land pattern in the component datasheet.</p>
@@ -221,41 +221,41 @@ Figure 7: Layout &gt; Pins - Options tab</h2>
 <p>The <em>Offset X</em> and <em>Y</em> options allow correction of spacing errors. If you have created your footprint correctly up to this point, you should not need this option.</p>
 <p>g)  Click on the &ldquo;&hellip;&rdquo; button next to Padstack. The &ldquo;Select a padstack:&rdquo; window will appear (see Figure 8). Make sure that both &ldquo;Database&rdquo; and &ldquo;Library&rdquo; are checked, and select the custom padstack that you created for the electrical pad. In this example, the custom padstack is called &ldquo;Smd_85W36h&rdquo;, meaning that it is a surface mount part that is 85 mil wide and 36 mil high. Click OK.</p>
 <hr>
-<h2 id="figure-8-select-a-padstack-window-for-electrical-pad"><a href="larger/image0103.png"><img src="figures/figure_298.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-8-select-a-padstack-window-for-electrical-pad"><a href="/larger/image0103.png"><img src="/figures/figure_298.png" alt=""></a>
 Figure 8: Select a padstack window for electrical pad</h2>
 <p>h)  Configure the rest of the Options window as shown in Figure 9 and click to place the first pin in the correct position inside the rectangle. The result (top view) should look like Figure 10.</p>
 <hr>
-<h2 id="figure-9-options-for-adding-7-custom-pads"><a href="larger/image0104.png"><img src="figures/figure_299.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-9-options-for-adding-7-custom-pads"><a href="/larger/image0104.png"><img src="/figures/figure_299.png" alt=""></a>
 Figure 9: Options for adding 7 custom pads</h2>
 <hr>
-<h2 id="figure-10-pins-added-to-footprint"><a href="larger/image0105.png"><img src="figures/figure_300.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-10-pins-added-to-footprint"><a href="/larger/image0105.png"><img src="/figures/figure_300.png" alt=""></a>
 Figure 10: Pins added to footprint</h2>
 <p>This is a good time to double-check the data sheet connection diagrams to make sure the pin numbering is correct. Figure 11 shows the connection diagram for the IC package from page 2 of the <a href="http://www.ti.com/lit/ds/symlink/lm2676.pdf">LM2676 datasheet</a>.</p>
 <hr>
-<h2 id="figure-11-connection-diagram-from-lm2676-datasheet"><a href="larger/image0106.png"><img src="figures/figure_301.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-11-connection-diagram-from-lm2676-datasheet"><a href="/larger/image0106.png"><img src="/figures/figure_301.png" alt=""></a>
 Figure 11: Connection diagram from LM2676 datasheet</h2>
 <p>Careful examination shows that our new symbol has pin 1 at the top of the footprint, whereas the datasheet indicates that pin 1 should be at the bottom of the footprint. This is a critical detail (and common mistake) that must be fixed in order for the board to work properly.</p>
 <p>There are two ways to fix this problem.</p>
 <p><strong>OPTION 1:</strong> <strong>Delete and replace.</strong> Right-click in the workspace and choose &ldquo;Done&rdquo;. Then, right-click on each pin and choose &ldquo;Delete&rdquo;. Finally, re-place the pins using the corrected options shown in Figure 12.</p>
 <hr>
-<h2 id="figure-12-corrected-options-for-adding-7-pads"><a href="larger/image0107.png"><img src="figures/figure_302.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-12-corrected-options-for-adding-7-pads"><a href="/larger/image0107.png"><img src="/figures/figure_302.png" alt=""></a>
 Figure 12: Corrected options for adding 7 pads</h2>
 <p><strong>OPTION 2: Manually Edit Text.</strong> Click the &ldquo;Text Edit&rdquo; tool in the toolbar (the bottom icon in Figure 13). Edit the number on each pin to correct it.</p>
 <hr>
-<h2 id="figure-13-toolbar-with-text-edit-tool-bottom"><a href="larger/image0108.png"><img src="figures/figure_303.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-13-toolbar-with-text-edit-tool-bottom"><a href="/larger/image0108.png"><img src="/figures/figure_303.png" alt=""></a>
 Figure 13: Toolbar with Text Edit tool (bottom)</h2>
 <p>The corrected footprint is shown in Figure 16.</p>
 <p>i)  Next, add the mechanical pad. Choose &ldquo;Layout &gt; Pins&rdquo; to switch to pin mode. Move the cursor over the &ldquo;Options&rdquo; tab and click on the &ldquo;&hellip;&rdquo; button next to Padstack. Select the custom padstack that you created for the mechanical pad. In this example, the custom padstack is called &ldquo;Lm2676_Mech&rdquo; (see Figure 14). Click OK and place the pad in the correct position inside of the rectangle.</p>
 <hr>
-<h2 id="figure-14-select-a-padstack-window-for-mechanical-pad"><a href="larger/image0109.png"><img src="figures/figure_293.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-14-select-a-padstack-window-for-mechanical-pad"><a href="/larger/image0109.png"><img src="/figures/figure_293.png" alt=""></a>
 Figure 14: Select a padstack window for mechanical pad</h2>
 <p>j)  Finally, you need to add a reference designator (RefDes) for the part number (in this example, LM2676) to the diagram. Click the Label Refdes tool (R1 button, second from the right in Figure 15) and add the part number above the footprint.</p>
 <hr>
-<h2 id="figure-15-label-refdes-tool-second-from-right"><a href="larger/image0110.png"><img src="figures/figure_294.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-15-label-refdes-tool-second-from-right"><a href="/larger/image0110.png"><img src="/figures/figure_294.png" alt=""></a>
 Figure 15: Label Refdes tool (second from right)</h2>
 <p>k)  Finally, choose &ldquo;File &gt; Save As&hellip;&rdquo; and save the footprint to your project folder. Do not use spaces in file names. Note that the Package Wizard creates two files: a DRA file (drawing of the package) and a PSM file (package symbol, footprint). The finished PCB footprint is shown in Figure 16.</p>
 <hr>
-<h2 id="figure-16-finished-pcb-footprint"><a href="larger/image0111.png"><img src="figures/figure_304.png" alt="">{class=&ldquo;img-fluid&rdquo;}</a>
+<h2 id="figure-16-finished-pcb-footprint"><a href="/larger/image0111.png"><img src="/figures/figure_304.png" alt=""></a>
 Figure 16: Finished PCB footprint</h2>
 <ul>
 <li></li>
