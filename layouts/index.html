@@ -2,7 +2,6 @@
 {{ partial "sidebar_notags.html" . }}
 {{ end }}
 
-
 {{ define "main" }}
 
 <!-- featured post -->
@@ -11,7 +10,7 @@
     <div class="row justify-content-center">
       <div class="col-10 featured-post-slider">
         <!-- slider item -->
-        {{ range ( where .Site.RegularPages "Type" "featured" )}}
+        {{ range ( where .Pages "Type" "featured" )}}
         {{ .Render "post_top" }}
         {{ end }}
       </div>
@@ -24,7 +23,7 @@
 <section>
   <div class="container">
     <div class="row">
-      {{ range first 3 ( where .Site.RegularPages "Type" "starred" )}}
+      {{ range first 3 ( where .Pages "Type" "starred" )}}
       {{ .Render "post_4" }}
       {{ end }}
     </div>

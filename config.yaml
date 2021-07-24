@@ -46,7 +46,7 @@ paginate: 6
 params:
   default_image: images/box.png
   default_icon: bi bi-box
-  author: Dan Aukes
+  author: ESD Faculty
   cookies:
     enable: false
     expire_days: 2

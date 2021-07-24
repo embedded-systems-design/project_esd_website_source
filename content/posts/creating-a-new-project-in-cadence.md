@@ -1,3 +1,7 @@
+---
+title: Creating a new project in Cadence
+---
+
 **Creating a new project in Cadence**
 
 1.  In Windows, open the Design Entry CIS program. This program allows you to edit schematics, and will be used to export a netlist describing your schematic into the PCB Editor.
