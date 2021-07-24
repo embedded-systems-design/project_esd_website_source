@@ -8,10 +8,10 @@
     <language>en-us</language><atom:link href="https://embedded-systems-design.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>All About Serial</title>
-      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/all-about-serial/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/all-about-serial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/all-about-serial/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/all-about-serial/</guid>
       <description>What are serial protocols? I2C, SPI, and UART are three of the most common protocols for serial data transmission.</description>
     </item>
     

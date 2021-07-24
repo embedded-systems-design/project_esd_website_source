@@ -8,21 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://embedded-systems-design.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://embedded-systems-design.github.io/posts/creating-a-new-project-in-cadence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://embedded-systems-design.github.io/posts/creating-a-new-project-in-cadence/</guid>
-      <description>Creating a new project in Cadence
-  In Windows, open the Design Entry CIS program.</description>
-    </item>
-    
-    <item>
       <title>About Bluetooth Communication (ABC)</title>
-      <link>https://embedded-systems-design.github.io/posts/about-bluetooth-communication-abc/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/wireless/about-bluetooth-communication-abc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/about-bluetooth-communication-abc/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/wireless/about-bluetooth-communication-abc/</guid>
       <description>What is Bluetooth Low Energy?  Intro to Bluetooth Low Energy video from Cypress Bluetooth Low Energy datasheets from Cypress Developing Bluetooth Smart Applications for Android tutorial from NewCircle Training provides a high-level explanation of how Bluetooth Low Energy works.</description>
     </item>
     
@@ -46,10 +36,10 @@
     
     <item>
       <title>All About Serial</title>
-      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/all-about-serial/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/all-about-serial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/all-about-serial/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/all-about-serial/</guid>
       <description>What are serial protocols? I2C, SPI, and UART are three of the most common protocols for serial data transmission.</description>
     </item>
     
@@ -308,6 +298,16 @@ Sometimes you need to globally change trace widths in your board after designing
     </item>
     
     <item>
+      <title>Creating a new project in Cadence</title>
+      <link>https://embedded-systems-design.github.io/posts/creating-a-new-project-in-cadence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://embedded-systems-design.github.io/posts/creating-a-new-project-in-cadence/</guid>
+      <description>Creating a new project in Cadence
+  In Windows, open the Design Entry CIS program.</description>
+    </item>
+    
+    <item>
       <title>Creating Custom Footprints</title>
       <link>https://embedded-systems-design.github.io/posts/creating-custom-footprints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -490,10 +490,10 @@ Sometimes you need to globally change trace widths in your board after designing
     
     <item>
       <title>Microchip AVR Microcontrollers</title>
-      <link>https://embedded-systems-design.github.io/posts/microchip-avr-microcontrollers/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/microchip-avr-microcontrollers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/microchip-avr-microcontrollers/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/microchip-avr-microcontrollers/</guid>
       <description>What microcontrollers does Atmel specialize in? Atmel was one of the top IC manufacturers that makes a number of 8-bit, 32-bit, and ARM microcontrollers, including the AVR microcontroller used in the Arduino.</description>
     </item>
     
