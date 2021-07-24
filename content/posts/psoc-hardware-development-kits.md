@@ -65,6 +65,6 @@ There are several [Cypress](http://www.cypress.com/) [Programmable System on a C
 As shown in the block diagram in Figure 1 (below), the PSoC® 4 Pioneer Kit has two PSoC® chips on it: a PSoC® 4 (where you download and run your code on) and a PSoC® 5LP (which is used to program the PSoC® 4). Your computer connects to the USB Mini B port, which communicates with the PSoC® 5LP, which programs the PSoC® 4. For more information on the Pioneer Kit architecture, see the Theory of Operation section in the [PSoC® 4 Pioneer Kit Guide](http://www.cypress.com/?docID=47035).
 
   -------------------------------------
-  ![](/figures/figure_345.jpg){class="img-fluid"}
+  ![](/figures/figure_345.jpg)
   Figure 1: Pioneer Kit Block Diagram
   -------------------------------------

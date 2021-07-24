@@ -18,12 +18,12 @@ A number of [basic Cadence tutorial videos](https://www.youtube.com/watch?v=Qyfy
 3.  Add parts to your schematic. First, check to see if the parts you need already exist in a library. For example, schematic symbols for header pins (which are useful for connecting to components external to your custom printed circuit board, like batteries, PSoC® boards, and sensors, see Figure 1) can be found by searching for "Header" in the Place Part dialog box (see Figure 2)
 
   ----------------------------------------------------
-   [![](/figures/figure_229.png){class="img-fluid"}](/larger/image0165.png)
+   [![](/figures/figure_229.png)](/larger/image0165.png)
                     Figure 1: Header
   ----------------------------------------------------
 
   -------------------------------------------------------
-   [![](/figures/Place_Part.png){class="img-fluid"}](/figures/Place_Part.png)
+   [![](/figures/Place_Part.png)](/figures/Place_Part.png)
               Figure 2: Place Part dialog box
   -------------------------------------------------------
 

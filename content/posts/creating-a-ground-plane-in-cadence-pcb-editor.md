@@ -28,7 +28,7 @@ A [ground plane](https://en.wikipedia.org/wiki/Ground_plane) is a large area of 
 1.  Start with a PCB layout that has a board layout, all components placed, and all traces routed **except** the ground traces (see example with ground traces in blue, Figure 1). As you can see, routing all of the ground traces in the example below would add a lot of complexity, so adding a ground plane is a good design option.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_191.png){class="img-fluid"}](/larger/image0136.PNG)
+   [![](/figures/figure_191.png)](/larger/image0136.PNG)
         Figure 1: Example PCB layout with un-routed ground traces in blue
   ------------------------------------------------------------------------------
 
@@ -36,23 +36,23 @@ A [ground plane](https://en.wikipedia.org/wiki/Ground_plane) is a large area of 
 
 ** **
 
-![](/figures/figure_187.png){class="img-fluid"}
+![](/figures/figure_187.png)
 
 **Figure 2: Add rectangle tool**
 
   ------------------------------------------------------
-   ![](/figures/figure_202.png){class="img-fluid"}
+   ![](/figures/figure_202.png)
      Figure 3: Options tab for the Add Rectangle tool
   ------------------------------------------------------
 
 3.  In the Options tab, click on the "..." button (see Figure 4) near "Assign net name" and choose your ground net (see Figure 5). Click OK to close the "Select a net" dialog box.
 
   -------------------------------------------------------
-   ![](/figures/figure_203.png){class="img-fluid"}
+   ![](/figures/figure_203.png)
      Figure 4: "..." button to assign ground net name
   -------------------------------------------------------
 
-![](/figures/figure_188.png){class="img-fluid"}
+![](/figures/figure_188.png)
 
   -------------------------------------
    Figure 5: "Select a net" dialog box
@@ -61,19 +61,19 @@ A [ground plane](https://en.wikipedia.org/wiki/Ground_plane) is a large area of 
 4.  Draw a rectangle around all of the placed components. If the above steps were completed correctly, the blue rats nest connections should disappear and ground pins electrically connected to the ground plane (see example, Figure 6).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_194.png){class="img-fluid"}](/larger/image0137.PNG)
+   [![](/figures/figure_194.png)](/larger/image0137.PNG)
                         Figure 6: Ground rectangle placed
   ------------------------------------------------------------------------------
 
 Figures 7 and 8 below show closeups "before ground plane" and "after ground plane" connections.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_195.png){class="img-fluid"}](/larger/image0138.PNG)
+   [![](/figures/figure_195.png)](/larger/image0138.PNG)
               Figure 7: Closeup of board design before ground plane
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_196.png){class="img-fluid"}](/larger/image0139.PNG)
+   [![](/figures/figure_196.png)](/larger/image0139.PNG)
                Figure 8: Closeup of board design after ground plane
   ------------------------------------------------------------------------------
 
@@ -81,7 +81,7 @@ As you can see in Figure 8 above, the connections between the ground pins and th
 
 5.  To increase the size of the connections between pins and the ground plane, choose Shape > Global Dynamic Params... (see Figure 9).
 
-![](/figures/figure_189.png){class="img-fluid"}
+![](/figures/figure_189.png)
 
   -------------------------------------------------
    Figure 9: Global Dynamic Parameters menu option
@@ -90,26 +90,26 @@ As you can see in Figure 8 above, the connections between the ground pins and th
 6.  Select the "Clearances" tab (see Figure 10) and update the oversize values to a larger number (20 mils or greater) to make the design easier to manufacture and test.
 
   ------------------------------------------------------------------
-        ![](/figures/figure_204.png){class="img-fluid"}
+        ![](/figures/figure_204.png)
    Figure 10: Clearances tab with updated oversize clearance values
   ------------------------------------------------------------------
 
 7.  Select the "Thermal relief connects" tab (see Figure 11) and update the thermal width to a larger number (20 mils, or greater for higher currents). Click "OK" to apply the changes.
 
   -------------------------------------------------------------------
-         ![](/figures/figure_205.png){class="img-fluid"}
+         ![](/figures/figure_205.png)
    Figure 11: Thermal relief connects tab with updated thermal width
   -------------------------------------------------------------------
 
 Figures 12 and 13 below show closeups before and after the changes to the global dynamic parameters. Note that changes are applied to the entire design, not just a single pad.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_197.png){class="img-fluid"}](/larger/image0140.PNG)
+   [![](/figures/figure_197.png)](/larger/image0140.PNG)
        Figure 12: Example pad before global dynamic parameters adjustments
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_198.png){class="img-fluid"}](/larger/image0141.PNG)
+   [![](/figures/figure_198.png)](/larger/image0141.PNG)
         Figure 13: Example pad after global dynamic parameters adjustments
   ------------------------------------------------------------------------------
 
@@ -118,21 +118,21 @@ Figures 12 and 13 below show closeups before and after the changes to the global
 A "ground island" is a section of a ground plane that is isolated from the rest of the circuit. Ground islands can often be discovered through careful examination of a design with a ground plane, noticing where a rats nest wire still exists (see example, Figure 14).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_199.jpg){class="img-fluid"}](/larger/image0142.jpg)
+   [![](/figures/figure_199.jpg)](/larger/image0142.jpg)
                         Figure 14: Example "ground island"
   ------------------------------------------------------------------------------
 
 A ground island can be fixed by adding a via between the ground island and the remainder of the ground plane (see example, Figure 15).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_200.png){class="img-fluid"}](/larger/image0143.PNG)
+   [![](/figures/figure_200.png)](/larger/image0143.PNG)
                         Figure 15: Repaired ground island
   ------------------------------------------------------------------------------
 
 -   
 
 -   ------------------------------------------------------------------------------
-       [![](/figures/figure_201.png){class="img-fluid"}](/larger/image0144.PNG)
+       [![](/figures/figure_201.png)](/larger/image0144.PNG)
                     Figure 16: Completed PCB design with ground plane
       ------------------------------------------------------------------------------
 
@@ -154,19 +154,19 @@ A void, rubout, or anti-etch is a place where the copper is fully removed from t
 
 2.  Choose Shape > Manual Void/Cavity and choose a shape of your liking (see Figure 17).
 
-![](/figures/figure_190.png){class="img-fluid"}
+![](/figures/figure_190.png)
 
 Figure 17: Anti-etch selection
 
 3.  Draw an anti-etch on the appropriate layer(s) in appropriate place(s) (e.g., underneath an antenna). If there are existing races or vias in the area of the anti-etch, you will need to move them. If you have ground (or power) planes on multiple layers, you should place an anti-etch on each of the copper layers (e.g., TOP and BOTTOM). See example in Figure 18.
 
-![](/figures/figure_192.png){class="img-fluid"}
+![](/figures/figure_192.png)
 
 Figure 18: Anti-etch example under a PSoC® 5 footprint
 
 4.  To delete an anti-etch, you need to use the special delete tool in the Manual Void/Cavity menu (see Figure 19).
 
-![](/figures/figure_193.png){class="img-fluid"}
+![](/figures/figure_193.png)
 
 Figure 19: Delete tool for manual void/cavity
 

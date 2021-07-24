@@ -26,7 +26,7 @@ Before sending a PCB to be manufactured, it is imperative to separate the layers
 5.  Repeat steps 3 - 5 for the remaining layers in your design (see example, Figure 1)
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_102.png){class="img-fluid"}](/larger/image0205.png)
+   [![](/figures/figure_102.png)](/larger/image0205.png)
                       Figure 1: Example of separated layers
   ------------------------------------------------------------------------------
 

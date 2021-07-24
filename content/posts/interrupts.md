@@ -9,7 +9,7 @@ title: Interrupts
 
 Consider the following knock-knock joke:
 
-[![](/figures/figure_160.jpg){class="img-fluid"}](/larger/image0171.jpg)
+[![](/figures/figure_160.jpg)](/larger/image0171.jpg)
 
 **Joker:** "Knock, knock"
 
@@ -42,7 +42,7 @@ Since interrupts can happen at nearly any time, there is a possibility that inte
 
 An example UML activity diagram for an interrupt-based system is shown in Figure 1 below.
 
-[![](/figures/figure_161.jpg){class="img-fluid"}](/larger/image0172.jpg)
+[![](/figures/figure_161.jpg)](/larger/image0172.jpg)
 
 For more information on UML, please see the [What is Unified Modeling Languageâ„¢ (UML®)?](software-design.html) blog post.
 

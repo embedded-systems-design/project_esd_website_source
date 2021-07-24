@@ -19,7 +19,7 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 When creating a new footprint drawing, the New Drawing dialog box will show the default path (see Figure 1 below). If the path in the dialog box is different than the path above, use the dialog box path for the remainder of this tutorial.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_218.png){class="img-fluid"}](/larger/image0050.png)
+   [![](/figures/figure_218.png)](/larger/image0050.png)
                          Figure 1: New Drawing dialog box
   ------------------------------------------------------------------------------
 
@@ -32,21 +32,21 @@ C:/Cadence/SPB_Data-Silent/cdssetup/OrCAD_Capture/17.2.0/Capture.ini
 or, if you made a custom HOME variable: %HOME%/cdssetup/OrCAD_Capture/17.2.0/Capture.ini
 
   -------------------------------------------------------------------------------------
-   [![](/figures/CaptureStart.png){class="img-fluid"}](/figures/CaptureStart.png)
+   [![](/figures/CaptureStart.png)](/figures/CaptureStart.png)
                           Figure 2: Design Entry CIS Start Page
   -------------------------------------------------------------------------------------
 
 3.  Copy (Control-C) the full path of the Capture.ini file. Open the File Explorer in Windows, paste the full path into the path bar (see Figure 3), and press return.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_220.png){class="img-fluid"}](/larger/image0052.png)
+   [![](/figures/figure_220.png)](/larger/image0052.png)
               Figure 3: Capture.ini file path in the File Explorer.
   ------------------------------------------------------------------------------
 
 4.  The Capture.ini file will open in Notepad. Under the [Allegro Footprints] section, add the full library search path from step 1 above if it is not already listed (see Figure 4). Note that you must increment the number after Dir for each path added (e.g., Dir0, Dir1, Dir2). **Do not delete any existing paths from the list.** ** **
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_221.png){class="img-fluid"}](/larger/image0053.png)
+   [![](/figures/figure_221.png)](/larger/image0053.png)
         Figure 4: Capture.ini file with several library search paths added
   ------------------------------------------------------------------------------
 

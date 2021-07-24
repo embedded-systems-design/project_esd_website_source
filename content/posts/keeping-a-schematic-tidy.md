@@ -9,7 +9,7 @@ title: Keeping a Schematic Tidy
 When drawing a schematic, crossing wires can make the schematic difficult to read and follow signals (see example, Figure 1). This tutorial shows several techniques for keeping your schematic tidy.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_085.png){class="img-fluid"}](/larger/image0173.png)
+   [![](/figures/figure_085.png)](/larger/image0173.png)
                 Figure 1: Example of difficult-to-follow schematic
   ------------------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ When drawing a schematic, crossing wires can make the schematic difficult to rea
 You can edit the pin layout of a schematic symbol to avoid crossing wires (see Figure 2).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_086.png){class="img-fluid"}](/larger/image0174.png)
+   [![](/figures/figure_086.png)](/larger/image0174.png)
             Figure 2: Schematic symbol edited to avoid crossing wires
   ------------------------------------------------------------------------------
 
@@ -28,12 +28,12 @@ You can edit the pin layout of a schematic symbol to avoid crossing wires (see F
 
 Net aliases let you make connections across the schematic without wires. Nets (wires) with the same name are electrically connected.
 
-[![](/figures/figure_084.png){class="img-fluid"}{height="320"}](/larger/image0175.png)
+[![](/figures/figure_084.png){height="320"}](/larger/image0175.png)
 
 Figure 3: Place net alias tool
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_087.png){class="img-fluid"}](/larger/image0176.png)
+   [![](/figures/figure_087.png)](/larger/image0176.png)
                       Figure 4: Schematic using net aliases
   ------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@ You can also create multi-page schematics and use off-page connectors (similar t
 An excellent way to help make your schematic more readable is to use the box tool and the text tool to section off and label different areas of the schematic. Also, make sure to complete your title block.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_088.png){class="img-fluid"}](/larger/image0177.png)
+   [![](/figures/figure_088.png)](/larger/image0177.png)
                Figure 5: Example schematic with sections and labels
   ------------------------------------------------------------------------------
 

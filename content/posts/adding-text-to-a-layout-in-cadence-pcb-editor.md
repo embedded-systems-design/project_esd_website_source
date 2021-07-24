@@ -18,12 +18,12 @@ Text is important on PCB layouts to identify the designers, project, version, co
 2.  Choose Setup > Design Parameters... and click the Text tab. Click the ... button next to Setup text sizes (see Figure 1). The Text Setup window will open (see Figure 2).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_097.png){class="img-fluid"}](/larger/image0000.png)
+   [![](/figures/figure_097.png)](/larger/image0000.png)
                     Figure 1: Design Parameter Editor Text tab
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_098.png){class="img-fluid"}](/larger/image0001.png)
+   [![](/figures/figure_098.png)](/larger/image0001.png)
                            Figure 2: Text Setup window
   ------------------------------------------------------------------------------
 
@@ -32,12 +32,12 @@ Text is important on PCB layouts to identify the designers, project, version, co
 3.  Click the abc+ button in the toolbar (see Figure 3) and click on the Options tab on the right hand of the screen (see Figure 4).
 
   ----------------------------------------------------
-   [![](/figures/figure_099.png){class="img-fluid"}](/larger/image0002.png)
+   [![](/figures/figure_099.png)](/larger/image0002.png)
                Figure 3: Add Text button
   ----------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_100.png){class="img-fluid"}](/larger/image0003.png)
+   [![](/figures/figure_100.png)](/larger/image0003.png)
              Figure 4: Options tab configured for the 4th text block
   ------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@ Text is important on PCB layouts to identify the designers, project, version, co
 5.  Click anywhere on the board and type the text that you wish to add (see example, Figure 5).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_101.png){class="img-fluid"}](/larger/image0004.png)
+   [![](/figures/figure_101.png)](/larger/image0004.png)
                         Figure 5: Example text on a layout
   ------------------------------------------------------------------------------
 

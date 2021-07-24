@@ -7,7 +7,7 @@ title: What is a printed circuit board?
 A [printed circuit board (PCB)](http://www.madehow.com/Volume-2/Printed-Circuit-Board.html) is a board made of both conducive and non-conductive materials onto which components can be soldered to create a circuit. The circuit connections are made via copper traces on the board. An example PCB is shown in Figure 1.
 
   ------------------------------------------------------
-   [![](/figures/figure_290.jpeg){class="img-fluid"}](/larger/image0261.jpeg)
+   [![](/figures/figure_290.jpeg)](/larger/image0261.jpeg)
              Figure 1: Printed circuit board
   ------------------------------------------------------
 

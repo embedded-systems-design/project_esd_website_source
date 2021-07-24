@@ -11,7 +11,7 @@ title: Choosing transistors for high-power digital switching
 Microcontrollers make wonderful "brains" for embedded systems, but are severely limited in the amount of current they can supply to an external device. In order to determine the amount of current a microcontroller can supply (or sink) with an output pin, open the data sheet and look for the section describing "Absolute Maximum Ratings". There, there should be a specification described as the maximum current for a single GPIO pin (see example, Figure 1).
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_344.jpg){class="img-fluid"}](/larger/image0062.jpg)
+   [![](/figures/figure_344.jpg)](/larger/image0062.jpg)
    Figure 1: Example Absolute Maximum Ratings table from a PSoC® 4200 datasheet
   ------------------------------------------------------------------------------
 

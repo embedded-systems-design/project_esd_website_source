@@ -10,7 +10,7 @@ title: Transferring a Cadence schematic to PCB Editor
 In order to create a PCB, you must first prepare the schematic and check for errors, export a *netlist* of the schematic, import the netlist into PCB editor, and design the PCB. A *[netlist](https://en.wikipedia.org/wiki/Netlist)* is a file that describes interconnections among components in a circuit. This tutorial describes the process of transferring a schematic to PCB Editor. It is assumed that you have a completed schematic (see example, Figure 1) before trying to migrate to PCB Editor.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_278.png){class="img-fluid"}](/larger/image0235.png)
+   [![](/figures/figure_278.png)](/larger/image0235.png)
            Figure 1: Example schematic ready for transfer to PCB Editor
   ------------------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ a)  In Windows, open your project in the Design Entry CIS program.
 b)  For complex designs (see example, Figure 2), you may have multiple folders with multiple schematic sheets in each folder in the project explorer. Right-click on the folder you want to prepare for transfer to PCB Editor and choose "Make Root". This will set Cadence to generate a netlist only for the schematics inside the root folder (which will have a / through the folder symbol). This feature can be useful when your team is working on multiple break-out boards simultaneously before integrating them into one full design.
 
   ------------------------------------------------------------------------------
-  [![](/figures/figure_279.png){class="img-fluid"}](/larger/image0236.png)
+  [![](/figures/figure_279.png)](/larger/image0236.png)
   Figure 2: Example folder hierarchy for complex schematic
   ------------------------------------------------------------------------------
 
@@ -36,12 +36,12 @@ b)  For complex designs (see example, Figure 2), you may have multiple folders w
 c)  Open the schematic and select all components on the page by choosing "Edit > Select All". Right-click and choose "Edit Properties..." (see Figure 3) to batch-edit the footprint information. The batch component property editing window will appear (see Figure 4). Click the Parts tab to show the parts in the schematic. Click the "Pivot" button to see the part information vertically instead of horizontally.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_280.png){class="img-fluid"}](/larger/image0237.png)
+   [![](/figures/figure_280.png)](/larger/image0237.png)
                     Figure 3: "Edit Properties..." menu option
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_281.png){class="img-fluid"}](/larger/image0238.png)
+   [![](/figures/figure_281.png)](/larger/image0238.png)
                 Figure 4: Batch component property editing window
   ------------------------------------------------------------------------------
 
@@ -52,41 +52,41 @@ d)  Enter footprint names (built-in or custom) for each component. For more info
 f)  In the project explorer window, left-click on your schematic (see Figure 7) and choose "PCB menu > Design Rules Check" (see Figure 8). *(If the Design Rules Check option is dimmed, then you have selected the wrong icon in the project explorer window). *Figure 8 shows the Design Rules Check window. Leave the default options selected and click OK to continue.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_287.png){class="img-fluid"}](/larger/image0239.png)
+   [![](/figures/figure_287.png)](/larger/image0239.png)
                         Figure 7: Schematic icon selected
   ------------------------------------------------------------------------------
 
-[![](/figures/figure_274.png){class="img-fluid"}{width="320"}](/larger/image0240.png)
+[![](/figures/figure_274.png){width="320"}](/larger/image0240.png)
 
 Figure 8: Design Rules Check... menu
 
-[![](/figures/figure_271.png){class="img-fluid"}{width="320"}](/larger/image0241.png)
+[![](/figures/figure_271.png){width="320"}](/larger/image0241.png)
 
 Figure 9: Design Rules Check window
 
 g)  From there, you will be prompted with the DRC main screen in Figure 9. Keep everything as it is on the main screen and be sure to checkmark all of the boxes in the "Rules Setup" and "Report Setup" (see Figures 10 and 11). Doing this will ensure the DRC will check for many possible errors on the schematic. Once you have checked all of the boxes, click "Run".
 
-[![](/figures/figure_272.png){class="img-fluid"}{width="320"}](/larger/image0242.png)
+[![](/figures/figure_272.png){width="320"}](/larger/image0242.png)
 
 Figure 10: Design Rules Check > Rules Setup pane
 
-[![](/figures/figure_273.png){class="img-fluid"}{width="320"}](/larger/image0243.png)
+[![](/figures/figure_273.png){width="320"}](/larger/image0243.png)
 
 Figure 11: Design Rules Check > Report Setup pane
 
 h)  After you press "Run", several alerts will appear. The first will be to notify you that once you proceed with the DRC, all actions already made cannot be undone (see Figure 12). Click "Yes". The second will ask to save all the changes made since the last save (see Figure 13). Click "OK".
 
-[![](/figures/figure_275.png){class="img-fluid"}{width="320"}](/larger/image0244.png)
+[![](/figures/figure_275.png){width="320"}](/larger/image0244.png)
 
 Figure 12: Undo Warning alert
 
-[![](/figures/figure_276.png){class="img-fluid"}{width="320"}](/larger/image0245.png)
+[![](/figures/figure_276.png){width="320"}](/larger/image0245.png)
 
 Figure 13: Save changes alert
 
 i)  In the command window, you will see a list of warnings or errors that the DRC has found. If the "DRCs" window is blank, you are ready to move on and create your PCB design. If not and an error is listed (see example, Figure 14), go back to your schematic and fix the errors. If you see warnings, read each one and consider making the recommended changes before continuing. **DO NOT SKIP THIS STEP.** Fix any errors identified by the Design Rules Check and repeat steps (f) - (i) until all errors are gone (or determined not to be real problems).
 
-[![](/figures/figure_277.png){class="img-fluid"}](/larger/image0246.png)
+[![](/figures/figure_277.png)](/larger/image0246.png)
 
 Figure 14: DRCs error listing
 
@@ -94,11 +94,11 @@ Figure 14: DRCs error listing
 
 h)  In the project explorer window, left-click on your schematic and choose "Tools > Create Netlist..." (see Figure 15). *(If the Create Netlist option is dimmed, then you have selected the wrong icon in the project explorer window). *Figure 16 shows the Create Netlist window. Set the checkboxes as shown below (file names and paths will be specific to your design) and click OK to generate a netlist as shown in Figure 16. The setlist will appear in the folder you save it to. You do not need to open the file after creating it.
 
-[![](/figures/figure_282.png){class="img-fluid"}{width="320"}](/larger/image0247.png)
+[![](/figures/figure_282.png){width="320"}](/larger/image0247.png)
 
 Figure 15: Tools > Create Netlist... menu
 
-[![](/figures/figure_283.png){class="img-fluid"}{width="320"}](/larger/image0248.png)
+[![](/figures/figure_283.png){width="320"}](/larger/image0248.png)
 
 Figure 16: Create Netlist dialog box
 
@@ -106,15 +106,15 @@ Figure 16: Create Netlist dialog box
 
 i)  In the Project Explorer window, left-click on your schematic and choose "PCB menu > New Layout". *(If the New Layout option is dimmed, then you have selected the wrong icon in the Project Explorer window).* Figure 17 shows the New Layout window. Select the folder path where you would like yo create your new PCB design next to the "Board" path and click OK (see Figure 18). To update a PCB design you have already made, select the path where your current board is saved for "Input Board File" as well as for "Board", and click OK (see Figure 19). Once you have clicked OK, the Allegro PCB Editor will automatically open. See the [Cadence PCB Tutorials page](getting-started-with-cadence-pcb-editor.html) for more information on creating a PCB.
 
-[![](/figures/figure_284.png){class="img-fluid"}{width="320"}](/larger/image0249.png)
+[![](/figures/figure_284.png){width="320"}](/larger/image0249.png)
 
 Figure 17: PCB > New Layout menu
 
-[![](/figures/figure_285.png){class="img-fluid"}{width="320"}](/larger/image0250.png)
+[![](/figures/figure_285.png){width="320"}](/larger/image0250.png)
 
 Figure 18: New Layout window configured to create a new PCB design
 
-[![](/figures/figure_286.png){class="img-fluid"}{width="320"}](/larger/image0251.png)
+[![](/figures/figure_286.png){width="320"}](/larger/image0251.png)
 
 Figure 19: New Layout window configured to update an existing PCB design
 
@@ -137,7 +137,7 @@ Sometimes, making significant edits to a schematic can result in multiple compon
 3.  Choose "Tools > Annotate" again, select "Incremental reference update", and click OK (see Figure 10). This will replace all ? marks with numbers to create unique reference designators.
 
   ------------------------------------------------------------------------------
-   [![](/figures/figure_288.png){class="img-fluid"}](/larger/image0252.png)
+   [![](/figures/figure_288.png)](/larger/image0252.png)
                             Figure 10: Annotate window
   ------------------------------------------------------------------------------
 
