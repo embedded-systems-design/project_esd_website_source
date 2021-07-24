@@ -44,6 +44,8 @@ outputs:
   - JSON
 paginate: 6
 params:
+  github_repo: "https://github.com/embedded-systems-design/embedded-systems-design.github.io"
+  github_edit_branch: hugo
   default_image: images/box.png
   default_icon: bi bi-box
   author: ESD Faculty
