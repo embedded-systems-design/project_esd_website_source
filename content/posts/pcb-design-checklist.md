@@ -26,7 +26,7 @@ Before exporting your PCB design for fabrication, you **must **verify the desi
 -   The top and bottom copper layers are labeled in text "top", "bottom", and "group name"
 
   ------------------------------------------------------
-   [![](figures/figure_289.jpeg){class="img-fluid"}](larger/image0193.jpeg)
+   [![](/figures/figure_289.jpeg){class="img-fluid"}](/larger/image0193.jpeg)
    Figure 1: Example of good bypass capacitor placement
   ------------------------------------------------------
 

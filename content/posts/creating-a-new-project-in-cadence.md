@@ -10,11 +10,11 @@ title: Creating a new project in Cadence
 
 *WARNING: Do not use spaces or non-alphanumeric characters in the file name for your project.*
 
-  ![](./ESD_Creating_a_New_Project_revised_media/media/image4.png){class="img-fluid"}
+  ![](/ESD_Creating_a_New_Project_revised_media/media/image4.png){class="img-fluid"}
   -----------------------------------------------------------------------------------------------------------------------------
   Figure 1: New Project menu
 
-  ![](./ESD_Creating_a_New_Project_revised_media/media/image1.png){class="img-fluid"}
+  ![](/ESD_Creating_a_New_Project_revised_media/media/image1.png){class="img-fluid"}
   ----------------------------------------------------------------------------------------------------------------------------
   Figure 2: Making a New Project
 
@@ -24,19 +24,19 @@ title: Creating a new project in Cadence
 
 First, click on the Add Part button (which looks like an integrated circuit with a green plus sign) on the toolbar (see Figure 3)
 
-  ![](./ESD_Creating_a_New_Project_revised_media/media/image2.png){class="img-fluid"}
+  ![](/ESD_Creating_a_New_Project_revised_media/media/image2.png){class="img-fluid"}
   ------------------------------------------------------------------------------------------------------------------------------
   Figure 3: Toolbar with Add Part button
 
 Second, click the Add Library button (which looks like a stack of books with a green plus sign on the bottom right hand corner) in the Place Part dialog box (see Figure 4)
 
-  ![](./ESD_Creating_a_New_Project_revised_media/media/image5.png){class="img-fluid"}
+  ![](/ESD_Creating_a_New_Project_revised_media/media/image5.png){class="img-fluid"}
   ------------------------------------------------------------------------------------------------------------------------------
   Figure 4: Place Part dialog box
 
 Finally, select all of the files in the library folder and click Open (see Figure 5)
 
-  ![](./ESD_Creating_a_New_Project_revised_media/media/image3.png){class="img-fluid"}
+  ![](/ESD_Creating_a_New_Project_revised_media/media/image3.png){class="img-fluid"}
   -----------------------------------------------------------------------------------------------------------------------------
   Figure 5: Browse File dialog box to add libraries
 

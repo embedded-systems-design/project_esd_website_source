@@ -16,7 +16,7 @@ This tutorial goes through how to package Cadence schematic and PCB files for su
 2.  In the "Microsoft Print to PDF Properties" window, click the Change Properties button and then click on the Ports tab (see Figure 1). Select the checkbox next to FILE: Print to File and click OK.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_116.png){class="img-fluid"}](larger/image0186.png)
+   [![](/figures/figure_116.png){class="img-fluid"}](/larger/image0186.png)
               Figure 1: Microsoft Print to PDF Properties, Ports tab
   ------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ Next, you will ZIP the folder with your schematic project files.
 5.  In Windows, find the project folder in which you created and saved your Cadence schematic design (see Figure 2).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_111.png){class="img-fluid"}](larger/image0187.png)
+   [![](/figures/figure_111.png){class="img-fluid"}](/larger/image0187.png)
             Figure 2: Example of finding the schematic project folder
   ------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@ Next, you will ZIP the folder with your schematic project files.
 -   .OLB - Cadence schematic library file (only exists if you have a custom library)
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_112.png){class="img-fluid"}](larger/image0188.png)
+   [![](/figures/figure_112.png){class="img-fluid"}](/larger/image0188.png)
                   Figure 3: Example of Cadence DSN and OPJ files
   ------------------------------------------------------------------------------
 
@@ -55,7 +55,7 @@ Next, you will ZIP the folder with your schematic project files.
 7.  In Windows, right-click on the project folder and choose Send to > Compressed (zipped) folder (see Figure 4).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_113.png){class="img-fluid"}](larger/image0189.png)
+   [![](/figures/figure_113.png){class="img-fluid"}](/larger/image0189.png)
                     Figure 4: Creating a .zip file in Windows
   ------------------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ Next, you will ZIP the folder with your PCB project files.
 3.  In Windows, find the project folder in which you created and saved your Cadence PCB design (see Figure 6).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_114.png){class="img-fluid"}](larger/image0190.png)
+   [![](/figures/figure_114.png){class="img-fluid"}](/larger/image0190.png)
                Figure 6: Example of finding the PCB project folder
   ------------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ Next, you will ZIP the folder with your PCB project files.
 -   .BRD - Cadence PCB editor design file
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_115.png){class="img-fluid"}](larger/image0191.png)
+   [![](/figures/figure_115.png){class="img-fluid"}](/larger/image0191.png)
                       Figure 7: Example of Cadence PCB files
   ------------------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ Next, you will ZIP the folder with your PCB project files.
 5.  In Windows, right-click on the project folder and choose Send to > Compressed (zipped) folder (see Figure 8).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_117.png){class="img-fluid"}](larger/image0192.png)
+   [![](/figures/figure_117.png){class="img-fluid"}](/larger/image0192.png)
                     Figure 8: Creating a .zip file in Windows
   ------------------------------------------------------------------------------
 

@@ -10,13 +10,13 @@ title: Manual Routing in Cadence PCB Editor
 Your design should have a board outline and components placed, and blue lines (the "rats nest") between the components (see example, Figure 1). These blue lines are not traces, but rather points that are connected on your schematic and should be converted to traces in your design.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_207.png){class="img-fluid"}](larger/image0178.png)
+   [![](/figures/figure_207.png){class="img-fluid"}](/larger/image0178.png)
                 Figure 1: Board outline, components, and rats nest
   ------------------------------------------------------------------------------
 
 1.  Click the "Add Connect" button in the toolbar (see Figure 2)
 
-[![](figures/figure_206.png){class="img-fluid"}](larger/image0179.png)
+[![](/figures/figure_206.png){class="img-fluid"}](/larger/image0179.png)
 
 Figure 2: Add Connect button
 
@@ -25,7 +25,7 @@ Figure 2: Add Connect button
 *Note: *Make sure that your power and ground traces meet the recommended minimums
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_208.png){class="img-fluid"}](larger/image0180.png)
+   [![](/figures/figure_208.png){class="img-fluid"}](/larger/image0180.png)
                       Figure 3: Options tab for Add Connect
   ------------------------------------------------------------------------------
 
@@ -34,12 +34,12 @@ Figure 2: Add Connect button
 *Note:* Avoid 90 degree angles when routing traces. They create electro-magnetic radiation that interferes with other circuits.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_209.png){class="img-fluid"}](larger/image0181.png)
+   [![](/figures/figure_209.png){class="img-fluid"}](/larger/image0181.png)
                       Figure 4: Left click to start a trace
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_210.png){class="img-fluid"}](larger/image0182.png)
+   [![](/figures/figure_210.png){class="img-fluid"}](/larger/image0182.png)
                        Figure 5: Left click to end a trace
   ------------------------------------------------------------------------------
 
@@ -48,14 +48,14 @@ Figure 2: Add Connect button
 *Note:* Vias reduce the reliability of a trace. It is recommended that you minimize the number of vias used in your design.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_211.png){class="img-fluid"}](larger/image0183.png)
+   [![](/figures/figure_211.png){class="img-fluid"}](/larger/image0183.png)
                      Figure 6: Double-left click to add a via
   ------------------------------------------------------------------------------
 
 5.  Continue the above process until all of the rats nest lines are routed (see example, Figure 7). Note that the power and ground traces are larger than the signal traces. This is important for having a fully-functioning design.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_212.png){class="img-fluid"}](larger/image0184.png)
+   [![](/figures/figure_212.png){class="img-fluid"}](/larger/image0184.png)
                       Figure 7: Example completed PCB design
   ------------------------------------------------------------------------------
 

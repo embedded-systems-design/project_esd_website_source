@@ -20,7 +20,7 @@ C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 When creating a new footprint drawing, the New Drawing dialog box will show the default path (see Figure 1 below). If the path in the dialog box is different than the path above, use the dialog box path for the remainder of this tutorial.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_218.png){class="img-fluid"}](larger/image0054.png)
+   [![](/figures/figure_218.png){class="img-fluid"}](/larger/image0054.png)
                          Figure 1: New Drawing dialog box
   ------------------------------------------------------------------------------
 
@@ -29,12 +29,12 @@ Also, note the exact name of the footprint. This will be needed later in order t
 2.  In PCB Editor, choose Setup > User Preferences... (see Figure 2). This will open the User Preferences Editor (see Figure 3).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_222.png){class="img-fluid"}](larger/image0055.png)
+   [![](/figures/figure_222.png){class="img-fluid"}](/larger/image0055.png)
                          Figure 2: User Preferences Menu
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_223.png){class="img-fluid"}](larger/image0056.png)
+   [![](/figures/figure_223.png){class="img-fluid"}](/larger/image0056.png)
                         Figure 3: User Preferences Editor
   ------------------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ The padpath and psmpath lists where Cadence will search for padstack (.pad) and 
 ** **
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_224.png){class="img-fluid"}](larger/image0057.png)
+   [![](/figures/figure_224.png){class="img-fluid"}](/larger/image0057.png)
                         Figure 4: psmpath Items Dialog Box
   ------------------------------------------------------------------------------
 
@@ -60,12 +60,12 @@ The padpath and psmpath lists where Cadence will search for padstack (.pad) and 
 7.  Finally, you need to confirm that the path was correctly updated to see your custom footprint. In PCB Editor, choose Place > Manually... (see Figure 5). This will open the Placement dialog box. Choose the Advanced Settings tab (see Figure 6).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_225.png){class="img-fluid"}](larger/image0058.png)
+   [![](/figures/figure_225.png){class="img-fluid"}](/larger/image0058.png)
                           Figure 5: Place Manually Menu
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_226.png){class="img-fluid"}](larger/image0059.png)
+   [![](/figures/figure_226.png){class="img-fluid"}](/larger/image0059.png)
                           Figure 6: Placement Dialog Box
   ------------------------------------------------------------------------------
 
@@ -74,14 +74,14 @@ The padpath and psmpath lists where Cadence will search for padstack (.pad) and 
 9.  In the Placement dialog box, choose the Placement List tab and select Package symbols from the drop-down menu (see Figure 7).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_227.png){class="img-fluid"}](larger/image0060.png)
+   [![](/figures/figure_227.png){class="img-fluid"}](/larger/image0060.png)
           Figure 7: Package symbols selected in the Placement dialog box
   ------------------------------------------------------------------------------
 
 10. If your custom footprint shows up in the Placement List (see Figure 8), you have successfully updated the library search path. If it **does not** show up in the Placement List, re-check the above steps.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_228.png){class="img-fluid"}](larger/image0061.png)
+   [![](/figures/figure_228.png){class="img-fluid"}](/larger/image0061.png)
               Figure 8: Footprints successfully linked to PCB Editor
   ------------------------------------------------------------------------------
 

@@ -32,7 +32,7 @@ pad(number1)(circle/square)(number2)d where
 -   "number2" is the diameter of the hole in the center of the pad (see Figure 1, red circle)
 
   ------------------------------------------------------------------------------------------------
-            [![](figures/figure_172.png){class="img-fluid"}](larger/image0164.png)
+            [![](/figures/figure_172.png){class="img-fluid"}](/larger/image0164.png)
    Figure 1: Example through-hole Padstack, where the blue ring is copper and the red is the hole
   ------------------------------------------------------------------------------------------------
 

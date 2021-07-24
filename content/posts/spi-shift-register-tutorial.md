@@ -75,9 +75,9 @@ Select the serial number of your Curiosity board and click **"Next >."**
       OE / SRCLR            GND / POWER          Enable / Clear all
       --------------------- -------------------- --------------------
 
-    The Hardware Setup for Lab 2.1 should look like this: ![](figures/figure_000.png){class="img-fluid"}
+    The Hardware Setup for Lab 2.1 should look like this: ![](/figures/figure_000.png){class="img-fluid"}
 
-![](figures/figure_001.png){class="img-fluid"}
+![](/figures/figure_001.png){class="img-fluid"}
 
 Figure 1: Hardware setup for SPI serial communication
 
@@ -85,7 +85,7 @@ Figure 1: Hardware setup for SPI serial communication
 
 As an example and an overview of the SPI function using the oscilloscope, each bit from a byte (8 bit) of the serial data is being sent with the clock signal toggling. (Shown in Figure 2) The goal of this SPI serial communication is to transmit a Byte of data and latch those bits into 8 parallel digital output using the 74HC595 shift register.
 
-![](figures/figure_002.png){class="img-fluid"}
+![](/figures/figure_002.png){class="img-fluid"}
 
 Figure 2: SPI signal displayed on Keysight Oscilloscope
 
@@ -97,13 +97,13 @@ Under the Pin Module, uncheck the analog option for all pins, and give a custom 
 
 The Code Configurator setup for Lab 2.1 should look like this:
 
-![](figures/figure_003.png){class="img-fluid"}
+![](/figures/figure_003.png){class="img-fluid"}
 
 Setting up the SCK, RCLK, and SDO pin
 
 Click on the MSSP1 under project resource, go to the Register tab, change the SSPEN of SSPCON1 to enabled, leave everything else as default settings.
 
-![](figures/figure_004.png){class="img-fluid"}
+![](/figures/figure_004.png){class="img-fluid"}
 
 2.1.3 MCC (Microchip Code Configurator) Generated Files and Main.c
 
@@ -113,7 +113,7 @@ Go back to Projects, you will see two subfolders called MCC Generated Files unde
 
 Click the spi1.c file, and Change SSPEN to 1 under the SPI1_Initialize to enable the serial communication.
 
-![](figures/figure_005.png){class="img-fluid"}
+![](/figures/figure_005.png){class="img-fluid"}
 
 After configuring the software, you can go ahead and write your own functions. We can double click the "spi1.h" and see all the macros that MCC generated for us.
 
@@ -131,19 +131,19 @@ __delay_ms(500); //delay
 
 Now your main function should look something like this:
 
-![](figures/figure_006.png){class="img-fluid"}
+![](/figures/figure_006.png){class="img-fluid"}
 
 Main.c for Lab 2.1
 
-Click the Hammer button (![](figures/figure_007.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](figures/figure_008.png){class="img-fluid"}.) 2.1.4 Practise exercise using different numeral systems.
+Click the Hammer button (![](/figures/figure_007.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_008.png){class="img-fluid"}.) 2.1.4 Practise exercise using different numeral systems.
 
-In the exercise above, we used the decimal system to represent an 8-bit data, which is more common for humans. Computers, however, only have on and off, called a binary digit (or, bit, for short). A binary number is just a string of zeros and ones: 11011011, which often written after "0b". [1](figures/figure_000.png) For example, 0b10100101 means 10100101 binary.
+In the exercise above, we used the decimal system to represent an 8-bit data, which is more common for humans. Computers, however, only have on and off, called a binary digit (or, bit, for short). A binary number is just a string of zeros and ones: 11011011, which often written after "0b". [1](/figures/figure_000.png) For example, 0b10100101 means 10100101 binary.
 
-As computers got bigger, it was more convenient to group bits by four, which can have 16 values (0000 to 1111, or 0 to 15). Hex = 6 and Decimal = 10, so it is called hexadecimal. In computer jargon, four bits make a nibble (sometimes spelled nybble). A nibble is one hexadecimal digit, written using a symbol 0-9 or A-F. Two nibbles make a [byte](https://draft.blogger.com/#) (8 bits). Most computer operations use the byte, or a multiple of the byte (16 bits, 24, 32, 64, etc.). Hexadecimal makes it easier to write these large binary numbers. [1](figures/figure_000.png)
+As computers got bigger, it was more convenient to group bits by four, which can have 16 values (0000 to 1111, or 0 to 15). Hex = 6 and Decimal = 10, so it is called hexadecimal. In computer jargon, four bits make a nibble (sometimes spelled nybble). A nibble is one hexadecimal digit, written using a symbol 0-9 or A-F. Two nibbles make a [byte](https://draft.blogger.com/#) (8 bits). Most computer operations use the byte, or a multiple of the byte (16 bits, 24, 32, 64, etc.). Hexadecimal makes it easier to write these large binary numbers. [1](/figures/figure_000.png)
 
-To avoid confusion with decimal, binary or other numbering systems, hexadecimal numbers are sometimes written after "0x". For example, 0x63 means 63 hexadecimal. [1](figures/figure_000.png)
+To avoid confusion with decimal, binary or other numbering systems, hexadecimal numbers are sometimes written after "0x". For example, 0x63 means 63 hexadecimal. [1](/figures/figure_000.png)
 
-Table 1: Numeral systems conversion [1](figures/figure_000.png)
+Table 1: Numeral systems conversion [1](/figures/figure_000.png)
 
   ------------- --- --- ---- ---- ----- ----- ----- -----
   Hexadecimal   0   1   2    3    4     5     6     7
@@ -157,7 +157,7 @@ Table 1: Numeral systems conversion [1](figures/figure_000.png)
   Decimal       8 9 1     0 11 12   13 14     15                      
   ------------- ------- --------- ------- ------ ------ ------ ------ ------
 
-Reference: [1](figures/figure_000.png) "Hexadecimal," Wikipedia, The Free Encyclopedia, Available: [https://simple.wikipedia.org/w/index.php?title=Hexadecimal&oldid=6838913](https://draft.blogger.com/#), Accessed March 7, 2020.
+Reference: [1](/figures/figure_000.png) "Hexadecimal," Wikipedia, The Free Encyclopedia, Available: [https://simple.wikipedia.org/w/index.php?title=Hexadecimal&oldid=6838913](https://draft.blogger.com/#), Accessed March 7, 2020.
 
 Now, can you write your functions using the hexadecimal system and binary system to control the LEDs with various patterns with SPI serial communication functions?
 
@@ -183,11 +183,11 @@ Try following code in your **Main.c** program:
 |         }                                                                            |
 +--------------------------------------------------------------------------------------+
 
-Click the Hammer button (![](figures/figure_007.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](figures/figure_008.png){class="img-fluid"}.)
+Click the Hammer button (![](/figures/figure_007.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_008.png){class="img-fluid"}.)
 
 Now your main function should look something like this:
 
-![](figures/figure_009.png){class="img-fluid"}
+![](/figures/figure_009.png){class="img-fluid"}
 
 What about using the binary system to control the pattern of 8 LEDs?
 
@@ -287,7 +287,7 @@ Try following code in your **Main.c** program:
 
 ------------------------------------------------------------------------
 
-Click the Hammer button (![](figures/figure_007.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](figures/figure_008.png){class="img-fluid"}.)
+Click the Hammer button (![](/figures/figure_007.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_008.png){class="img-fluid"}.)
 
 Tips:
 

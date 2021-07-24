@@ -23,7 +23,7 @@ CAPTURE.INI is the primary file in which Cadence stores all of the program setti
 1.  Open the Capture CIS application, which you will use to design schematics. When the "Cadence Product Choices" window (see Figure 4) appears, select Allegro PCB Design CIS L and click the checkbox next to Use as default. Click OK to continue.
 
   ----------------------------------------------------
-   [![](figures/figure_150.png){class="img-fluid"}](larger/image0063.png)
+   [![](/figures/figure_150.png){class="img-fluid"}](/larger/image0063.png)
         Figure 1: Cadence Product Choices window
   ----------------------------------------------------
 
@@ -71,12 +71,12 @@ or if you have defined your home directory differently according to the installa
 %HOME%/cdssetup/OrCAD_Capture/17.4.0/Capture.ini where %HOME% is the location you set as your home directory (typcically "c:/users/YOURUSERNAME")
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_152.png){class="img-fluid"}](larger/image0064.png)
+   [![](/figures/figure_152.png){class="img-fluid"}](/larger/image0064.png)
                   Figure 2: Original custom CAPTURE.INI template
   ------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_153.png){class="img-fluid"}](larger/image0065.png)
+   [![](/figures/figure_153.png){class="img-fluid"}](/larger/image0065.png)
                Figure 3: Example edited custom CAPTURE.INI template
   ------------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ or if you have defined your home directory differently according to the installa
 1.  Open the PCB Editor application, which you will use to create PCB designs. When the "17.4 Allegro PCB Designer Product Choices" window (see Figure 4) appears, select Allegro PCB Designer and click the checkbox next to Use as default. Click OK to continue.
 
   ---------------------------------------------------------------------
-           [![](figures/figure_151.png){class="img-fluid"}](larger/image0066.png)
+           [![](/figures/figure_151.png){class="img-fluid"}](/larger/image0066.png)
 
                Allegro PCB Designer Product Choices window
   ---------------------------------------------------------------------
@@ -93,42 +93,42 @@ or if you have defined your home directory differently according to the installa
 2.  Choose Setup > User Preferences... (see Figure 5).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_154.png){class="img-fluid"}](larger/image0067.png)
+   [![](/figures/figure_154.png){class="img-fluid"}](/larger/image0067.png)
                 Figure 5: Setup > User Preferences... menu option
   ------------------------------------------------------------------------------
 
 3.  Turn on autosave in PCB Editor to automatically back up your design in case of a system crash by selecting the File_management > Autosave category and changing the settings to match the configuration shown in Figure 6 below. *Note: By selecting the Favorite check box, PCB Editor will make it easier to access these settings in the future by saving them in the My_favorites folder at the top of the Categories list.*
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_155.png){class="img-fluid"}](larger/image0068.png)
+   [![](/figures/figure_155.png){class="img-fluid"}](/larger/image0068.png)
         Figure 6: User Preferences Editor Autosave category configuration
   ------------------------------------------------------------------------------
 
 4.  Configure the search paths in PCB Editor by selecting the Paths > Library category and selecting the Favorite checkboxes next to padpath, psmpath, and steppath (see Figure 7).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_156.png){class="img-fluid"}](larger/image0069.png)
+   [![](/figures/figure_156.png){class="img-fluid"}](/larger/image0069.png)
             Figure 7: User Preferences Editor Paths > Library window
   ------------------------------------------------------------------------------
 
 5.  Click the ... next to padpath and add the path to the symbols folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/symbols) (see Figure 8). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_157.png){class="img-fluid"}](larger/image0070.png)
+   [![](/figures/figure_157.png){class="img-fluid"}](/larger/image0070.png)
                      Figure 8: Adding to the padpath example
   ------------------------------------------------------------------------------
 
 6.  Click the ... next to psmpath and add the path to the symbols folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/symbols) (see Figure 9). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_158.png){class="img-fluid"}](larger/image0071.png)
+   [![](/figures/figure_158.png){class="img-fluid"}](/larger/image0071.png)
                      Figure 9: Adding to the psmpath example
   ------------------------------------------------------------------------------
 
 7.  Click the ... next to steppath and add the path to the step folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/step) (see Figure 10). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_159.png){class="img-fluid"}](larger/image0072.png)
+   [![](/figures/figure_159.png){class="img-fluid"}](/larger/image0072.png)
                     Figure 10: Adding to the steppath example
   ------------------------------------------------------------------------------
 

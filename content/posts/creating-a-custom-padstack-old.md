@@ -7,14 +7,14 @@ title: Creating a Custom Padstack (old)
 [](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)A [padstack](https://www.speedingedge.com/PDF-Files/anatomy%20of%20a%20plated%20hole.pdf) is a design for the exposed copper surface area for each hole or pad on the board where the component is mounted and soldered (see example, Figure 1). You may need to create a custom padstack when creating custom parts to ensure that the pad and hole are big enough to be reliable. This tutorial describes the manual creation of custom padstacks using the Pad Designer application.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_065.jpg){class="img-fluid"}](larger/image0091.jpg)
+   [![](/figures/figure_065.jpg){class="img-fluid"}](/larger/image0091.jpg)
       Figure 1: Padstack examples for through-hole and surface mount devies
   ------------------------------------------------------------------------------
 
 The example custom padstacks created in this tutorial will be for [TI LM2676 SIMPLE SWITCHER® 8V to 40V, 3A Low Component Count Step-Down Regulator](http://www.ti.com/product/lm2676) (see Figure 2).
 
   ----------------------------------------------------
-  [![](figures/figure_066.jpg){class="img-fluid"}](larger/image0092.jpg)
+  [![](/figures/figure_066.jpg){class="img-fluid"}](/larger/image0092.jpg)
   Figure 2: LM2676 Switching Power Supply IC
   ----------------------------------------------------
 
@@ -23,7 +23,7 @@ The example custom padstacks created in this tutorial will be for [TI LM2676 SI
 In order to build a custom padstack, you first need to find the footprint (sometimes called "land pattern" specifications in the datasheet for the component. Figure 2 shows the land pattern of the IC package from page 34 of the [LM2676 datasheet](http://www.ti.com/lit/ds/symlink/lm2676.pdf).
 
   ------------------------------------------------------------------------------------------------
-  [![](figures/figure_067.png){class="img-fluid"}](larger/image0093.png)
+  [![](/figures/figure_067.png){class="img-fluid"}](/larger/image0093.png)
   Figure 3: Land pattern from the LM2676 datasheet. Dimensions are in mils, with brackets in mm.
   ------------------------------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ Mechanical/Thermal Un-Plated Pad* (underneath the body of the chip)*
 a)  In Windows, open the "Pad Designer" application. The Pad Designer window shown in Figure 4 will appear and default to editing the parameters for a new unnamed padstack. For a surface mount padstack, the options on the Parameters tab can be left at their defaults.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_063.png){class="img-fluid"}](larger/image0094.png)
+   [![](/figures/figure_063.png){class="img-fluid"}](/larger/image0094.png)
                   Figure 4: Pad Designer window, Parameters tab
   ------------------------------------------------------------------------------
 
@@ -89,7 +89,7 @@ The *Drill/Slot symbol* box allows for the creation of silkscreen shapes aroun
 The Top view box shows the padstack under design.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_064.png){class="img-fluid"}](larger/image0095.png)
+   [![](/figures/figure_064.png){class="img-fluid"}](/larger/image0095.png)
                     Figure 5: Pad Designer window, Layers tab 
   ------------------------------------------------------------------------------
 

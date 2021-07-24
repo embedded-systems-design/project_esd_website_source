@@ -14,14 +14,14 @@ This tutorial will walk through the creation of a custom surface-mount device (S
 1.  First, find the soldering footprint (sometimes named slightly differently, depending on manufacturer) in the [component datasheet](http://www.onsemi.com/pub_link/Collateral/MCH3382-D.PDF) (see Figure 1).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_162.png){class="img-fluid"}](larger/image0130.png)
+   [![](/figures/figure_162.png){class="img-fluid"}](/larger/image0130.png)
         Figure 1: Recommended soldering footprint for MCH3382 Power MOSFET
   ------------------------------------------------------------------------------
 
 2.  In Windows, open Pad Editor in the Cadence folder in the Start Menu. The Pad Editor window will appear (see Figure 2). The pad editor will allow you to create a padstack for the three individual pads in the footprint. Select "SMD Pin" under "Select padstack usage:" and select "Rectangle" under "Select the default pad geometry".
 
   -------------------------------------------------------
-   ![](figures/figure_163.jpg){class="img-fluid"}
+   ![](/figures/figure_163.jpg){class="img-fluid"}
              Figure 2: Pad Editor main window
   -------------------------------------------------------
 
@@ -30,7 +30,7 @@ This tutorial will walk through the creation of a custom surface-mount device (S
 4.  Click the Design Layers tab and select the BEGIN LAYER (see Figure 3). Choose a Geometry of Rectangle and enter the width and height (found in the component data sheet) of a single pad.
 
   ------------------------------------------------------------------
-        ![](figures/figure_164.jpg){class="img-fluid"}
+        ![](/figures/figure_164.jpg){class="img-fluid"}
    Figure 3: Layers tab with BEGIN LAYER and Rectangle Pad selected
   ------------------------------------------------------------------
 
@@ -45,14 +45,14 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 1.  Open PCB Editor and create a "New Drawing". Name the drawing after the package name, and set the "Drawing Type" to Package symbol (see Figure 4). Click OK.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_165.png){class="img-fluid"}](larger/image0131.png)
+   [![](/figures/figure_165.png){class="img-fluid"}](/larger/image0131.png)
                          Figure 4: New Drawing dialog box
   ------------------------------------------------------------------------------
 
 2.  Select the Color Picker to adjust the footprint colors to contrast against the black background (see Figure 5).
 
   -----------------------------------------------------------------------------
-              ![](figures/figure_166.jpg){class="img-fluid"}
+              ![](/figures/figure_166.jpg){class="img-fluid"}
    Figure 5: Color Dialog with all subclasses set to white for better contrast
   -----------------------------------------------------------------------------
 
@@ -61,7 +61,7 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 4.  Choose Setup > Grids... to adjust the grid layout and spacing. In the Define Grid dialog, check the "Grids On" checkbox, enter 0.1 for the Spacing in both the x and y dimensions, and click OK (see Figure 6).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_167.png){class="img-fluid"}](larger/image0132.png)
+   [![](/figures/figure_167.png){class="img-fluid"}](/larger/image0132.png)
                            Figure 6: Define Grid dialog
   ------------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 6.  Choose Layout > Pins and click on the "Options" tab on the right side of the screen (see Figure 7).
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_168.png){class="img-fluid"}](larger/image0133.png)
+   [![](/figures/figure_168.png){class="img-fluid"}](/larger/image0133.png)
                   Figure 7: Options tab for the Pin layout tool
   ------------------------------------------------------------------------------
 
@@ -79,7 +79,7 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 8.  Determine an origin for your footprint based on the measurements in the datasheet. For the MCH3382, the origin will be where the vertical and horizontal measurement lines intersect in the bottom center of the footprint (see Figure 8).
 
   ------------------------------------------------------------------------------
-  [![](figures/figure_171.png){class="img-fluid"}](larger/image0130.png)
+  [![](/figures/figure_171.png){class="img-fluid"}](/larger/image0130.png)
   Figure 8: Recommended soldering footprint for MCH3382 Power MOSFET
   ------------------------------------------------------------------------------
 
@@ -90,14 +90,14 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 11. In the Command window at the bottom of the screen, type x -80 0 and press return to place the left corner of the box. Then, type x 80 210 to place the top right corner of the box. Right-click and select "Done". The footprint should now look like Figure 9.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_169.png){class="img-fluid"}](larger/image0134.png)
+   [![](/figures/figure_169.png){class="img-fluid"}](/larger/image0134.png)
                       Figure 9: Footprint after adding pads
   ------------------------------------------------------------------------------
 
 12. Next, we need to add a reference designator that will be visible in the PCB layout. Choose Layout > Labels > RefDes. Select the center of the component and type "U?". Right-click and select "Done". The footprint should now look like Figure 10.
 
   ------------------------------------------------------------------------------
-   [![](figures/figure_170.png){class="img-fluid"}](larger/image0135.png)
+   [![](/figures/figure_170.png){class="img-fluid"}](/larger/image0135.png)
               Figure 10: Footprint after adding reference designator
   ------------------------------------------------------------------------------
 

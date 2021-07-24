@@ -24,25 +24,25 @@ Getting familiar with UART on both PIC and Particle platforms. In this tutorial,
 
 First you need to create a new project and set it up for your device and how you plan on programming it. For the Curiosity Nano, it will be a PIC16f18446 programmed with the XC8 compiler and the curiosity nano hardware tool.
 
-Hopefully MCC opens automatically and brings you to the System Module page by default. If not, click the MCC button (![](figures/figure_010.png){class="img-fluid"}) at the top to initialize it.![](figures/figure_011.png){class="img-fluid"}
+Hopefully MCC opens automatically and brings you to the System Module page by default. If not, click the MCC button (![](/figures/figure_010.png){class="img-fluid"}) at the top to initialize it.![](/figures/figure_011.png){class="img-fluid"}
 
 On the left side of the screen, find the Device Resources and select EUSART1 to add it to the project.
 
-![](figures/figure_012.png){class="img-fluid"}
+![](/figures/figure_012.png){class="img-fluid"}
 
 For most applications, default settings should be fine. For convenience, I will move the RX and TX pins to RB6 and RB4 respectively.
 
-![](figures/figure_013.png){class="img-fluid"}
+![](/figures/figure_013.png){class="img-fluid"}
 
-Click Generate at the top left by Project Resources.![](figures/figure_014.png){class="img-fluid"}
+Click Generate at the top left by Project Resources.![](/figures/figure_014.png){class="img-fluid"}
 
-Open up the EUSART1.h header file under the project files. This will have all of the MCC generated functions that can be called to do whatever is needed.![](figures/figure_015.png){class="img-fluid"}
+Open up the EUSART1.h header file under the project files. This will have all of the MCC generated functions that can be called to do whatever is needed.![](/figures/figure_015.png){class="img-fluid"}
 
 You will want to make sure to call the initialize function first. As a general rule of thumb, you will want to check if RX is ready before you read data and check if TX is ready before you send data. For this tutorial, I will say that if the PIC receives the character â€˜a', it will respond with a 1. If the PIC receives a â€˜b', it will respond with a 2. For all other inputs, it will not respond. Take this as an opportunity to try to read some of the provided documentation and see if you can figure out a solution before continuing on.
 
-This is the code that I created for this project:![](figures/figure_016.png){class="img-fluid"}
+This is the code that I created for this project:![](/figures/figure_016.png){class="img-fluid"}
 
-Click the Hammer button (![](figures/figure_017.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](figures/figure_018.png){class="img-fluid"}.)
+Click the Hammer button (![](/figures/figure_017.png){class="img-fluid"}) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_018.png){class="img-fluid"}.)
 
 2.  Configure the Particle Device
 
@@ -54,9 +54,9 @@ The particle device should be programmed to send out a character and see what re
 
 Here is the code that I created: It's not great but it achieves the needed goals. Generally, delays should be avoided as they lock up the processor from doing other things for the duration.
 
-![](figures/figure_019.png){class="img-fluid"}
+![](/figures/figure_019.png){class="img-fluid"}
 
-This code can then be flashed to the Particle device using the Flash (![](figures/figure_020.png){class="img-fluid"}) button.
+This code can then be flashed to the Particle device using the Flash (![](/figures/figure_020.png){class="img-fluid"}) button.
 
 3.  Connecting the Devices.
 
@@ -68,6 +68,6 @@ The Particle device should be connected to a computer via USB.
 
 Open a PuTTY terminal to the Serial port of the Particle device. You could also use the Serial Monitor of the Arduino IDE as both will do the same thing. Here you should be able to see the characters being printed by the Argon. After each â€˜a', a 1 is received and after each â€˜b', a 2 is received. This shows the devices are communicating properly.
 
-![](figures/figure_021.png){class="img-fluid"}
+![](/figures/figure_021.png){class="img-fluid"}
 
 Tutorial written by Mykol Reklaitis, March 2020

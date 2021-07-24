@@ -13,31 +13,31 @@ A board outline is the outermost boundary of a printed circuit board design. It 
 
 1.  In PCB Editor, select the rectangle tool in the toolbar (see Figure 1).
 
-[![](figures/figure_213.png){class="img-fluid"}{width="320"}](larger/image0074.png)
+[![](/figures/figure_213.png){class="img-fluid"}{width="320"}](/larger/image0074.png)
 
 Figure 1: Rectangle tool
 
 2.  In the "Options" tab on the right side of the screen, make sure "Active Class and Subclass" is set to Board Geometry and Design_Outline (see Figure 2).
 
-[![](figures/figure_214.png){class="img-fluid"}](larger/image0075.png)
+[![](/figures/figure_214.png){class="img-fluid"}](/larger/image0075.png)
 
 Figure 2: Active Class and Subclass options
 
 3.  If you would like to change the type of corners on the board, you can change them in the Corners section of the Options tab (see Figure 3). Options include *orthogonal* (90 degree), *chamfer* (sloping edge), and *round* (curved).
 
-[![](figures/figure_215.png){class="img-fluid"}](larger/image0076.png)
+[![](/figures/figure_215.png){class="img-fluid"}](/larger/image0076.png)
 
 Figure 3: Corners options
 
 4.  In the Shape Creation section of the Options tab, choose "Place Rectangle" and enter the width and height for the board outline in *mils* (1 mil = 0.001"; 2000 mil = 2") (see Figure 4).
 
-[![](figures/figure_216.png){class="img-fluid"}](larger/image0077.png)
+[![](/figures/figure_216.png){class="img-fluid"}](/larger/image0077.png)
 
 Figure 4: Shape Creation options
 
 5.  Place the rectangle on the board design (see Figure 5).
 
-[![](figures/figure_217.png){class="img-fluid"}](larger/image0078.png)
+[![](/figures/figure_217.png){class="img-fluid"}](/larger/image0078.png)
 
 Figure 5: Board Outline Placed
 
