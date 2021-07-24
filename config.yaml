@@ -97,7 +97,7 @@ params:
 #    title: instagram
   - icon: ti-github
     link: 'https://github.com/embedded-systems-design'
-    title: personal github
+    title: github
 #  - icon: ti-linkedin
 #    link: 'https://www.linkedin.com/in/dan-aukes-502995212/'
 #    title: linkedin
