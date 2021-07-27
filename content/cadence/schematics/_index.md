@@ -1,0 +1,4 @@
+---
+title: Schematics
+type: starred
+---

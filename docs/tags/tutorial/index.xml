@@ -17,28 +17,28 @@
     
     <item>
       <title>Creating a custom library in Cadence</title>
-      <link>https://embedded-systems-design.github.io/posts/creating-a-custom-library-in-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/schematics/creating-a-custom-library-in-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/creating-a-custom-library-in-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/schematics/creating-a-custom-library-in-cadence/</guid>
       <description>In order to use schematic symbols imported from the web or custom created for your project (very common), you must create a custom symbol library in which to save them.</description>
     </item>
     
     <item>
       <title>Exporting Gerber files from Cadence PCB Editor</title>
-      <link>https://embedded-systems-design.github.io/posts/exporting-gerber-files-from-cadence-pcb-editor/</link>
+      <link>https://embedded-systems-design.github.io/cadence/manufacturing-pcbs/exporting-gerber-files-from-cadence-pcb-editor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/exporting-gerber-files-from-cadence-pcb-editor/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/manufacturing-pcbs/exporting-gerber-files-from-cadence-pcb-editor/</guid>
       <description>What is a Gerber file? A Gerber file (also known as artwork) is a 2-D graphical representation of a single layer of a PCB.</description>
     </item>
     
     <item>
       <title>Getting Started with Cadence</title>
-      <link>https://embedded-systems-design.github.io/posts/getting-started-with-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/getting_started/getting-started-with-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/getting-started-with-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/getting_started/getting-started-with-cadence/</guid>
       <description>Introduction A number of basic Cadence tutorial videos are available on YouTube.</description>
     </item>
     
@@ -53,10 +53,10 @@
     
     <item>
       <title>Particle Argon Wifi Board</title>
-      <link>https://embedded-systems-design.github.io/posts/particle-argon-wifi-board/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/wireless/particle-argon-wifi-board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/particle-argon-wifi-board/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/wireless/particle-argon-wifi-board/</guid>
       <description>What is the Particle Argon? What does it do? The Particle Argon is a &amp;ldquo;wi-fi for everything&amp;rdquo; development kit that includes a microcontroller, wi-fi hardware, and easy-to-use web-based IDE (Integrated Development Environment).</description>
     </item>
     
@@ -71,10 +71,10 @@
     
     <item>
       <title>Soldering and Desoldering Tips and Tricks</title>
-      <link>https://embedded-systems-design.github.io/posts/soldering-and-desoldering-tips-and-tricks/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/soldering-and-desoldering-tips-and-tricks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/soldering-and-desoldering-tips-and-tricks/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/soldering-and-desoldering-tips-and-tricks/</guid>
       <description>Video Walkthrough How do I turn on the soldering irons in PRLTA 103?</description>
     </item>
     

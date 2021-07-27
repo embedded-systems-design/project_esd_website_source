@@ -8,10 +8,10 @@
     <language>en-us</language><atom:link href="https://embedded-systems-design.github.io/tags/ecad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Altering Trace Widths</title>
-      <link>https://embedded-systems-design.github.io/posts/altering-trace-widths/</link>
+      <link>https://embedded-systems-design.github.io/cadence/designing-pcbs/altering-trace-widths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/altering-trace-widths/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/designing-pcbs/altering-trace-widths/</guid>
       <description>Altering Trace Widths
 
 Sometimes you need to globally change trace widths in your board after designing it.</description>
@@ -46,10 +46,10 @@ Sometimes you need to globally change trace widths in your board after designing
     
     <item>
       <title>Updating a Part in your Library</title>
-      <link>https://embedded-systems-design.github.io/posts/updating-a-part-in-your-library/</link>
+      <link>https://embedded-systems-design.github.io/cadence/schematics/updating-a-part-in-your-library/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/updating-a-part-in-your-library/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/schematics/updating-a-part-in-your-library/</guid>
       <description>Updating a Part in your Library  Sometimes its necessary to make small changes to your parts as you learn more about them or need to define them better in order to identify more design mistakes during the design process.</description>
     </item>
     

@@ -17,28 +17,28 @@
     
     <item>
       <title>Interrupts on PSoC</title>
-      <link>https://embedded-systems-design.github.io/posts/interrupts-on-psoc/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/interrupts-on-psoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/interrupts-on-psoc/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/interrupts-on-psoc/</guid>
       <description>An interrupt is a signal received by a microcontroller and emitted by hardware or software that is signaling a system event that needs immediate attention.</description>
     </item>
     
     <item>
       <title>PSoC 4 Hardware Development Kits</title>
-      <link>https://embedded-systems-design.github.io/posts/psoc-hardware-development-kits/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/psoc-hardware-development-kits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/psoc-hardware-development-kits/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/psoc-hardware-development-kits/</guid>
       <description>There are several Cypress Programmable System on a Chip (PSoC®) hardware development kits available for use in designs.</description>
     </item>
     
     <item>
       <title>What is PSoC?</title>
-      <link>https://embedded-systems-design.github.io/posts/what-is-psoc/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/what-is-psoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/what-is-psoc/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/what-is-psoc/</guid>
       <description>The Cypress Programmable System on a Chip (PSoC®) is a mixed-signal electronic hardware platform that integrates a microcontroller core, programmable analog signal processing blocks, programmable digital hardware blocks, and capacitive touch sensing.</description>
     </item>
     

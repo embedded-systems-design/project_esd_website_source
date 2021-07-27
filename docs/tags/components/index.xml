@@ -16,20 +16,11 @@
     </item>
     
     <item>
-      <title>Bypass capacitor basics</title>
-      <link>https://embedded-systems-design.github.io/posts/bypass-capacitor-basics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://embedded-systems-design.github.io/posts/bypass-capacitor-basics/</guid>
-      <description>A bypass capacitor (aka &amp;ldquo;filter cap&amp;rdquo;) is a small capacitor that dampens electrical noise moving toward an IC.</description>
-    </item>
-    
-    <item>
       <title>Connectors 101</title>
-      <link>https://embedded-systems-design.github.io/posts/connectors-101/</link>
+      <link>https://embedded-systems-design.github.io/circuit-design/connectors-101/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/connectors-101/</guid>
+      <guid>https://embedded-systems-design.github.io/circuit-design/connectors-101/</guid>
       <description>What is a connector? A connector is an electrical component that links two or more components together.</description>
     </item>
     
@@ -44,28 +35,28 @@
     
     <item>
       <title>Fuses 101</title>
-      <link>https://embedded-systems-design.github.io/posts/fuses-101/</link>
+      <link>https://embedded-systems-design.github.io/circuit-design/fuses-101/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/fuses-101/</guid>
+      <guid>https://embedded-systems-design.github.io/circuit-design/fuses-101/</guid>
       <description>What are fuses and when do I need them? A fuse is an electronic component that protects a circuit by creating an open circuit if it draws too much current.</description>
     </item>
     
     <item>
       <title>Sources for Electrical and Electromechanical Components</title>
-      <link>https://embedded-systems-design.github.io/posts/sources-for-electrical-and-electromechanical-components/</link>
+      <link>https://embedded-systems-design.github.io/parts/sources-for-electrical-and-electromechanical-components/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/sources-for-electrical-and-electromechanical-components/</guid>
+      <guid>https://embedded-systems-design.github.io/parts/sources-for-electrical-and-electromechanical-components/</guid>
       <description>Professional Distributors These distributors are often used by professionals in industry, and provide the most complete selection of different parts.</description>
     </item>
     
     <item>
       <title>Sources for Mechanical Components</title>
-      <link>https://embedded-systems-design.github.io/posts/sources-for-mechanical-components/</link>
+      <link>https://embedded-systems-design.github.io/parts/sources-for-mechanical-components/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/sources-for-mechanical-components/</guid>
+      <guid>https://embedded-systems-design.github.io/parts/sources-for-mechanical-components/</guid>
       <description>General  Berg Grainger (* ASU Preferred Supplier) McMaster-Carr Miki Pulley MSC Industrial (* ASU Preferred Supplier) Motor System Parts from Radical RC Stock Drive Products  Bearings  igus - plastic bushings, bearings, linear guides, and cable carriers.</description>
     </item>
     

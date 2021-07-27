@@ -26,28 +26,28 @@
     
     <item>
       <title>Installing Cadence</title>
-      <link>https://embedded-systems-design.github.io/posts/installing-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/getting_started/installing-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/installing-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/getting_started/installing-cadence/</guid>
       <description>Installation System Requirements  PC: Windows 7, 8, 8.1, 10, or greater (Hardware and Software Requirements) Mac: Windows 7, 8, 8.</description>
     </item>
     
     <item>
       <title>Integrated Development Environments for PSoC</title>
-      <link>https://embedded-systems-design.github.io/posts/integrated-development-environments-for-psoc/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/integrated-development-environments-for-psoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/integrated-development-environments-for-psoc/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/cypress/integrated-development-environments-for-psoc/</guid>
       <description>In order to program a Cypress Programmable System on a Chip (PSoC®), you first need to install Integrated Development Environment (IDE) software on your computer.</description>
     </item>
     
     <item>
       <title>Interrupts</title>
-      <link>https://embedded-systems-design.github.io/posts/interrupts/</link>
+      <link>https://embedded-systems-design.github.io/tutorials/microcontrollers/interrupts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/interrupts/</guid>
+      <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/interrupts/</guid>
       <description>What is an interrupt? Consider the following knock-knock joke:</description>
     </item>
     
@@ -71,10 +71,10 @@
     
     <item>
       <title>What is Cadence?</title>
-      <link>https://embedded-systems-design.github.io/cadence/what-is-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/getting_started/what-is-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/cadence/what-is-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/getting_started/what-is-cadence/</guid>
       <description>Cadence is an electronic computer-aided drafting (ECAD) program commonly used in industry for the design and simulation of electronic circuits and printed circuit boards.</description>
     </item>
     

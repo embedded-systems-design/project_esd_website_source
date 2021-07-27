@@ -8,19 +8,19 @@
     <language>en-us</language><atom:link href="https://embedded-systems-design.github.io/tags/asu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASU PCB Fabrication Process</title>
-      <link>https://embedded-systems-design.github.io/posts/asu-pcb-fabrication-process/</link>
+      <link>https://embedded-systems-design.github.io/cadence/manufacturing-pcbs/asu-pcb-fabrication-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/asu-pcb-fabrication-process/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/manufacturing-pcbs/asu-pcb-fabrication-process/</guid>
       <description>How are PCBs fabricated at ASU? The following video shows our PCB manufacturing process.</description>
     </item>
     
     <item>
       <title>Changing the Default Via Padstack in Cadence PCB Editor</title>
-      <link>https://embedded-systems-design.github.io/posts/changing-the-default-via-padstack-in-cadence-pcb-editor/</link>
+      <link>https://embedded-systems-design.github.io/cadence/designing-pcbs/changing-the-default-via-padstack-in-cadence-pcb-editor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/changing-the-default-via-padstack-in-cadence-pcb-editor/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/designing-pcbs/changing-the-default-via-padstack-in-cadence-pcb-editor/</guid>
       <description>Introduction A via is an electrical interconnection that connects one layer of a PCB to another layer of a PCB.</description>
     </item>
     
@@ -44,10 +44,10 @@
     
     <item>
       <title>Installing Cadence</title>
-      <link>https://embedded-systems-design.github.io/posts/installing-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/getting_started/installing-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/installing-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/getting_started/installing-cadence/</guid>
       <description>Installation System Requirements  PC: Windows 7, 8, 8.1, 10, or greater (Hardware and Software Requirements) Mac: Windows 7, 8, 8.</description>
     </item>
     
@@ -71,10 +71,10 @@
     
     <item>
       <title>Running a Design for Manufacturing Check in DFM Now</title>
-      <link>https://embedded-systems-design.github.io/posts/running-a-design-for-manufacturing-check-in-dfm-now/</link>
+      <link>https://embedded-systems-design.github.io/cadence/manufacturing-pcbs/running-a-design-for-manufacturing-check-in-dfm-now/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/posts/running-a-design-for-manufacturing-check-in-dfm-now/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/manufacturing-pcbs/running-a-design-for-manufacturing-check-in-dfm-now/</guid>
       <description>Introduction Designs created in an ECAD program may be electrically correct on the screen, but are ultimately constrained by the capabilities of your fabrication equipment.</description>
     </item>
     
