@@ -42,7 +42,7 @@ Since interrupts can happen at nearly any time, there is a possibility that inte
 
 An example UML activity diagram for an interrupt-based system is shown in Figure 1 below.
 
-![](/larger/image0172.jpg)
+![Figure](/larger/image0172.jpg)
 
 For more information on UML, please see the [What is Unified Modeling Languageâ„¢ (UML®)?](software-design.html) blog post.
 

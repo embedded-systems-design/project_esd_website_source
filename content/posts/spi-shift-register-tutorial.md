@@ -172,7 +172,7 @@ Click the Hammer button (![](/figures/figure_007.png)) to compile the project. I
 
 Now your main function should look something like this:
 
-![](/figures/figure_009.png)
+![Figure](/figures/figure_009.png)
 
 What about using the binary system to control the pattern of 8 LEDs?
 

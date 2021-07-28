@@ -7,7 +7,9 @@ title: Updating a Part in your Library
 
 ## Updating a Part in your Library
 
-![](/larger/image0253.png) Sometimes its necessary to make small changes to your parts as you learn more about them or need to define them better in order to identify more design mistakes during the design process. But it's difficult to know how to propagate these changes to a given schematic. Let's say you have made a part but forgot to add a part outline, but you already connected it up in your schematic.
+![Figure: Typical Schematic](/larger/image0253.png) 
+
+Sometimes its necessary to make small changes to your parts as you learn more about them or need to define them better in order to identify more design mistakes during the design process. But it's difficult to know how to propagate these changes to a given schematic. Let's say you have made a part but forgot to add a part outline, but you already connected it up in your schematic.
 
 ## Steps
 
