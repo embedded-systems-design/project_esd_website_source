@@ -91,7 +91,7 @@ For each different type of pin/pad, you need to create a custom padstack. For mo
   
 1.  Configure the rest of the Options window as shown in Figure 9 and click to place the first pin in the correct position inside the rectangle. The result (top view) should look like Figure 10.
 
-    ![ Figure 9: Options for adding 7 custom pads](/larger/image0104.png)
+    ![Figure 9: Options for adding 7 custom pads](/larger/image0104.png)
 
     ![Figure 10: Pins added to footprint](/larger/image0105.png)
                     

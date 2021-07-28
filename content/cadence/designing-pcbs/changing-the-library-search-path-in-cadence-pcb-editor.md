@@ -37,7 +37,7 @@ The padpath and psmpath lists where Cadence will search for padstack (.pad) and 
 
 4.  Click on the "..." button next to the padpath preference. A window similar to Figure 4 will appear.
 
-    ![  Figure 4: psmpath Items Dialog Box](/larger/image0057.png)
+    ![Figure 4: psmpath Items Dialog Box](/larger/image0057.png)
                       
   
 5.  Make sure the library search path from step 1 above is in the list. If it is not, click the new item button (circled in red in Figure 4) and add the full path to your footprint to the list. **Do not delete any existing directories from the list.** Click OK when finished.
@@ -55,12 +55,12 @@ The padpath and psmpath lists where Cadence will search for padstack (.pad) and 
 
 9.  In the Placement dialog box, choose the Placement List tab and select Package symbols from the drop-down menu (see Figure 7).
 
-    ![  Figure 7: Package symbols selected in the Placement dialog box](/larger/image0060.png)
+    ![Figure 7: Package symbols selected in the Placement dialog box](/larger/image0060.png)
         
   
 10. If your custom footprint shows up in the Placement List (see Figure 8), you have successfully updated the library search path. If it **does not** show up in the Placement List, re-check the above steps.
 
-    ![  Figure 8: Footprints successfully linked to PCB Editor](/larger/image0061.png)
+    ![Figure 8: Footprints successfully linked to PCB Editor](/larger/image0061.png)
             
   
 *Based on a tutorial written by Seana O'Reilly.*

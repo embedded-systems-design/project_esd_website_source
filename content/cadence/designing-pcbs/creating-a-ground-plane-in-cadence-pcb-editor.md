@@ -84,13 +84,13 @@ As you can see in Figure 8 above, the connections between the ground pins and th
 
 A "ground island" is a section of a ground plane that is isolated from the rest of the circuit. Ground islands can often be discovered through careful examination of a design with a ground plane, noticing where a rats nest wire still exists (see example, Figure 14).
 
-![  Figure 14: Example "ground island"](/larger/image0142.jpg)
+![Figure 14: Example "ground island"](/larger/image0142.jpg)
   
 A ground island can be fixed by adding a via between the ground island and the remainder of the ground plane (see example, Figure 15).
 
 ![Figure 15: Repaired ground island](/larger/image0143.PNG)
 
-![  Figure 16: Completed PCB design with ground plane](/larger/image0144.PNG)
+![Figure 16: Completed PCB design with ground plane](/larger/image0144.PNG)
                   
 
 ## What is a void, rubout, or anti-etch and when do I use one?

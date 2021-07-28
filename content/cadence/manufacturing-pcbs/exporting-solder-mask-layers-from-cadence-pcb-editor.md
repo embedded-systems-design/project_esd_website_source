@@ -15,9 +15,9 @@ title: Exporting Solder Mask Layers from Cadence PCB Editor
 
 2.  In PCB Editor, open your completed design and choose Manufacture > Artwork... (see Figure 1). The "Artwork Control Form" will open (see Figure 2).
 
-    ![  Figure 1: Manufacture > Artwork... menu option](/solder_mask_figures/figure-01.png)
+    ![Figure 1: Manufacture > Artwork... menu option](/solder_mask_figures/figure-01.png)
 
-    ![    Figure 2: Artwork Control Form](/solder_mask_figures/figure-02.png)
+    ![Figure 2: Artwork Control Form](/solder_mask_figures/figure-02.png)
 
 3.  Right-click on any of the folders in the "Available films" section and select "Add Manual" (see Figure 3). The film naming dialog box will appear (see Figure 4).
 
@@ -26,19 +26,19 @@ title: Exporting Solder Mask Layers from Cadence PCB Editor
   
 4.  In the film naming dialog box, name the new film name SoldermaskTop (or something similar, see Figure 4) and click OK. The "Subclass Selection" dialog box will appear (see Figures 5, 6, and 7).
 
-    ![ Figure 4: Film naming dialog box](/solder_mask_figures/figure-04.png)
+    ![Figure 4: Film naming dialog box](/solder_mask_figures/figure-04.png)
 
 5.  In the "Subclass Selection" dialog box, expand the DRC ERROR CLASS, PIN, and VIA CLASS folders and check the box next to SOLDERMASK_TOP in each folder (See Figures 5, 6, and 7). Click OK.
 
-    ![ Figure 5: DRC ERROR CLASS](/solder_mask_figures/figure-05.png)
+    ![Figure 5: DRC ERROR CLASS](/solder_mask_figures/figure-05.png)
 
     ![Figure 6: PIN](/solder_mask_figures/figure-06.png)
 
-    ![  Figure 7: VIA CLASS](/solder_mask_figures/figure-07.png)
+    ![Figure 7: VIA CLASS](/solder_mask_figures/figure-07.png)
 
 6.  In "Artwork Control Form", ensure that "Film name" is SoldermaskTop and "Undefined line width" is 0.01 (see Figure 8).
 
-    ![ Figure 8: Film name and undefined line width options](/solder_mask_figures/figure-08.png)
+    ![Figure 8: Film name and undefined line width options](/solder_mask_figures/figure-08.png)
                           
   
 7.  Repeat steps 3 - 6 to create a solder mask for the bottom layer, if desired.

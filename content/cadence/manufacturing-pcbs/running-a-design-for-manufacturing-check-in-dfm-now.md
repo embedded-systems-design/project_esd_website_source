@@ -38,7 +38,7 @@ The following video shows the process described in this tutorial from start to f
     -   Soldermask Bottom = Mask Bottom
     -   Drill = Drill ThruHole
 
-    ![  Figure 3: File Description window](/larger/image0224.JPG)
+    ![Figure 3: File Description window](/larger/image0224.JPG)
                       
 4.  Click Next and Finish.
 5.  Review your design and make sure all of the layers were loaded properly.
@@ -46,7 +46,7 @@ The following video shows the process described in this tutorial from start to f
 
     ![Figure 4: DFM Rules Management menu selection](/larger/image0225.JPG)
 
-    ![ Figure 5: Default DFM Check Settings window](/larger/image0226.JPG)
+    ![Figure 5: Default DFM Check Settings window](/larger/image0226.JPG)
 
 7.  In the DFM Rules Settings window under Rules File Management, click Open... and choose the [Peralta Mill Spec.drf](https://drive.google.com/open?id=0ByRWb7dgVD-rYlRJMWZZM0V4QXc) file that is saved to your hard drive. Under Rules File Management, click Save As... and save the rules so they are available next time you open the program. New DFM settings will appear in the Signal tab (see Figure 6). Click Finish.
 
@@ -62,7 +62,7 @@ The following video shows the process described in this tutorial from start to f
 
 10. Once you have corrected all of the errors, you will receive a green checkmark. Success! (see Figure 8)
 
-    ![ Figure 8: Example errors and success](/larger/image0229.png)
+    ![Figure 8: Example errors and success](/larger/image0229.png)
                       
   
 11. Bring your computer to a TA or professor during office hours and show them the results of your DFM check to receive approval for submitting your PCB design to Peralta for milling.

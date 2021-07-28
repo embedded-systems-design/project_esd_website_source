@@ -76,7 +76,7 @@ The *Drill/Slot symbol* box allows for the creation of silkscreen shapes aroun
 
 The Top view box shows the padstack under design.
 
-![  Figure 5: Pad Designer window, Layers tab ](/larger/image0095.png)
+![Figure 5: Pad Designer window, Layers tab ](/larger/image0095.png)
 
 The Layers tab is shown in Figure 5.
 

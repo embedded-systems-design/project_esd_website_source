@@ -23,7 +23,7 @@ You need **both** Gerber files for each layer **and** a single drill file in o
 
 2.  Choose "Manufacture > Artwork..." The Artwork Control Form window (see Figure 1) appears.
 
-    ![  Figure 1: Artwork window](/exporting_gerber_files/2.png)
+    ![Figure 1: Artwork window](/exporting_gerber_files/2.png)
 
   
 3.  Next, a board outline must be added. Right-click on the TOP folder and choose "Add Manual" (see Figure 2).
@@ -70,7 +70,7 @@ See the [Exporting Solder Mask Layers from Cadence PCB Editor](exporting-solder-
 1.  Open your PCB layout in Allegro PCB Designer
 2.  Choose "Manufacture > NC > NC Drill..." The NC Drill window (see Figure 6) appears.
 
-    ![  Figure 6: NC Drill window](/exporting_gerber_files/8.png)
+    ![Figure 6: NC Drill window](/exporting_gerber_files/8.png)
 
 3.  Click "Parameters..." The Parameters window (see Figure 7) appears.
 

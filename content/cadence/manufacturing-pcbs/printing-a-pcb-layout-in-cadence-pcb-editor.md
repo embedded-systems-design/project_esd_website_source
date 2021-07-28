@@ -23,7 +23,7 @@ Before sending a PCB to be manufactured, it is imperative to separate the layers
 
 2.  In the "Plot Setup" dialog box, choose a "Scaling factor" of 1.00, "Auto center" checked and "Plot method" matching your printer's capabilities (color or black and white), and click OK (see Figure 2).
 
-    ![ Figure 2: Plot Setup dialog box](/larger/image0207.png)
+    ![Figure 2: Plot Setup dialog box](/larger/image0207.png)
 
 3.  On the right side of the screen, select the Options tab. Set the "Active Class and Subclass" to Etch and the Subclass to Bottom (See Figure 3). This will show the most important details in the printout.
 
@@ -31,7 +31,7 @@ Before sending a PCB to be manufactured, it is imperative to separate the layers
 
 4.  Choose File > Plot... (see Figure 4). The "Print" dialog box will appear (see Figure 5).
 
-    ![  Figure 4: Plot menu option](/larger/image0209.png)
+    ![Figure 4: Plot menu option](/larger/image0209.png)
 
 5.  In the "Print" dialog box, click "Setup..." (see Figure 5) and select the printer, paper size, and orientation in the "Print Setup" dialog box (see Figure 6).
 

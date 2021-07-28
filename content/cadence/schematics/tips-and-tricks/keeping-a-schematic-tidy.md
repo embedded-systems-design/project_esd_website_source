@@ -16,7 +16,7 @@ When drawing a schematic, crossing wires can make the schematic difficult to rea
 
 You can edit the pin layout of a schematic symbol to avoid crossing wires (see Figure 2).
 
-    ![  Figure 2: Schematic symbol edited to avoid crossing wires](/larger/image0174.png)
+    ![Figure 2: Schematic symbol edited to avoid crossing wires](/larger/image0174.png)
 
 ### Technique 2: Use Net Aliases
 

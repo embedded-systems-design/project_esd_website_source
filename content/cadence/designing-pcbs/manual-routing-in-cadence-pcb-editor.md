@@ -27,7 +27,7 @@ Your design should have a board outline and components placed, and blue lines (t
 
     *Note:* Avoid 90 degree angles when routing traces. They create electro-magnetic radiation that interferes with other circuits.
 
-    ![  Figure 4: Left click to start a trace](/larger/image0181.png)
+    ![Figure 4: Left click to start a trace](/larger/image0181.png)
                   
 
     ![Figure 5: Left click to end a trace](/larger/image0182.png)

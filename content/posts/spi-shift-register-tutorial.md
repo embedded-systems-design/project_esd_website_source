@@ -66,28 +66,23 @@ Select the serial number of your Curiosity board and click **"Next >."**
 
 -   For the pin assignment, please refer to the following table and Figure 1.
 
-      --------------------- -------------------- --------------------
-      Shift Register pins   **Connection**       **Function**
-      QA - QH               LED 1 - LED 8 Digi   tal output
-      SER                   Nano - SDO1 Seri     al data output
-      RCLK                  Nano - digital out   Read & Latch data
-      SRCLK                 Nano - SCK           SPI Clock signal
-      OE / SRCLR            GND / POWER          Enable / Clear all
-      --------------------- -------------------- --------------------
+| Shift Register pins | Connection         | Function           |
+|:--------------------|:-------------------|:-------------------|
+| QA - QH             | LED 1 - LED 8      | Digital output     |
+| SER                 | Nano - SDO1        | Serial data output |
+| RCLK                | Nano - digital out | Read & Latch data  |
+| SRCLK               | Nano - SCK         | SPI Clock signal   |
+| OE / SRCLR          | GND / POWER        | Enable / Clear all |
 
-    The Hardware Setup for Lab 2.1 should look like this: ![](/figures/figure_000.png)
+![The Hardware Setup for Lab 2.1 should look like this](/figures/figure_000.png)
 
-![](/figures/figure_001.png)
-
-Figure 1: Hardware setup for SPI serial communication
+![Figure 1: Hardware setup for SPI serial communication](/figures/figure_001.png)
 
 2.1.2 Software Configuration
 
 As an example and an overview of the SPI function using the oscilloscope, each bit from a byte (8 bit) of the serial data is being sent with the clock signal toggling. (Shown in Figure 2) The goal of this SPI serial communication is to transmit a Byte of data and latch those bits into 8 parallel digital output using the 74HC595 shift register.
 
-![](/figures/figure_002.png)
-
-Figure 2: SPI signal displayed on Keysight Oscilloscope
+![Figure 2: SPI signal displayed on Keysight Oscilloscope](/figures/figure_002.png)
 
 Double click on an MSSP choice to add an MSSP block to the MCC under Device Resource
 
@@ -97,13 +92,13 @@ Under the Pin Module, uncheck the analog option for all pins, and give a custom 
 
 The Code Configurator setup for Lab 2.1 should look like this:
 
-![](/figures/figure_003.png)
+![Figure 3](/figures/figure_003.png)
 
 Setting up the SCK, RCLK, and SDO pin
 
 Click on the MSSP1 under project resource, go to the Register tab, change the SSPEN of SSPCON1 to enabled, leave everything else as default settings.
 
-![](/figures/figure_004.png)
+![Figure 4](/figures/figure_004.png)
 
 2.1.3 MCC (Microchip Code Configurator) Generated Files and Main.c
 
@@ -113,27 +108,24 @@ Go back to Projects, you will see two subfolders called MCC Generated Files unde
 
 Click the spi1.c file, and Change SSPEN to 1 under the SPI1_Initialize to enable the serial communication.
 
-![](/figures/figure_005.png)
+![Figure 5](/figures/figure_005.png)
 
 After configuring the software, you can go ahead and write your own functions. We can double click the "spi1.h" and see all the macros that MCC generated for us.
 
 Since we are sending 8-bit information to the shift register, go back to the "main.c" and use the macros inside the main function. You can also add a delay function in order to see the on and off transition of the LED.
 
+
+``` c
 RCLK_SetLow(); // Select/Latch the shift register (Active low)
-
 SPI1_WriteByte(255); //Send a Byte to Slave
-
 __delay_ms(0.05); //delay for data transition to finish
-
 RCLK_SetHigh(); // Deselect/Unlatch the shift register
-
 __delay_ms(500); //delay
+```
 
 Now your main function should look something like this:
 
-![](/figures/figure_006.png)
-
-Main.c for Lab 2.1
+![Main.c for Lab 2.1](/figures/figure_006.png)
 
 Click the Hammer button (![](/figures/figure_007.png)) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_008.png).) 2.1.4 Practise exercise using different numeral systems.
 
@@ -145,17 +137,16 @@ To avoid confusion with decimal, binary or other numbering systems, hexadecimal 
 
 Table 1: Numeral systems conversion [1](/figures/figure_000.png)
 
-  ------------- --- --- ---- ---- ----- ----- ----- -----
-  Hexadecimal   0   1   2    3    4     5     6     7
-  Binary        0   1   10   11   100   101   110   111
-  Decimal       0   1   2    3    4     5     6     7
-  ------------- --- --- ---- ---- ----- ----- ----- -----
+  
+| Hexadecimal | 0 | 1 | 2  | 3  | 4   | 5   | 6   | 7   |
+|:------------|:--|:--|:---|:---|:----|:----|:----|:----|
+| Binary      | 0 | 1 | 10 | 11 | 100 | 101 | 110 | 111 |
+| Decimal     | 0 | 1 | 2  | 3  | 4   | 5   | 6   | 7   |
 
-  ------------- ------- --------- ------- ------ ------ ------ ------ ------
-  Hexadecimal   8 9 A           B       C      D      E      F        
-  Binary        1000         1001    1010   1011   1100   1101 1110   1111
-  Decimal       8 9 1     0 11 12   13 14     15                      
-  ------------- ------- --------- ------- ------ ------ ------ ------ ------
+| Hexadecimal | 8    | 9    | A    | B    | C    | D    | E    | F    |
+|:------------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| Binary      | 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 | 1111 |
+| Decimal     | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
 
 Reference: [1](/figures/figure_000.png) "Hexadecimal," Wikipedia, The Free Encyclopedia, Available: [https://simple.wikipedia.org/w/index.php?title=Hexadecimal&oldid=6838913](https://draft.blogger.com/#), Accessed March 7, 2020.
 
@@ -165,23 +156,17 @@ Go back to the Main.c file and modify the code to add up and display the hexadec
 
 Try following code in your **Main.c** program:
 
-+--------------------------------------------------------------------------------------+
-|         for (data = 0; data<0xFF; data++) // display 8 LEDs to show value adding up  |
-|                                                                                      |
-|         {                                                                            |
-|                                                                                      |
-|             RCLK_SetLow();           // Select/Latch the shift register (Active low) |
-|                                                                                      |
-|             SPI1_WriteByte(data);    //Send a Byte to Slave                          |
-|                                                                                      |
-|             __delay_ms(0.05);        //delay for data transition to finish           |
-|                                                                                      |
-|             RCLK_SetHigh();          // Deselect/Unlatch the shift register          |
-|                                                                                      |
-|             __delay_ms(500);         //delay                                         |
-|                                                                                      |
-|         }                                                                            |
-+--------------------------------------------------------------------------------------+
+```c
+for (data = 0; data<0xFF; data++) // display 8 LEDs to show value adding up  
+{                                                                            
+                                                                            
+    RCLK_SetLow();           // Select/Latch the shift register (Active low) 
+    SPI1_WriteByte(data);    //Send a Byte to Slave                          
+    __delay_ms(0.05);        //delay for data transition to finish           
+    RCLK_SetHigh();          // Deselect/Unlatch the shift register          
+    __delay_ms(500);         //delay                                         
+}                                                                            
+```
 
 Click the Hammer button (![](/figures/figure_007.png)) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_008.png).)
 
@@ -195,97 +180,52 @@ Go back to the Main.c file and modify the code to display the 8 LEDs with some p
 
 Try following code in your **Main.c** program:
 
-+-------------------------------------------------------------------------------------+
-|         for (int i = 0; i<9; i++) // switch to different case to generate a pattern |
-|                                                                                     |
-|         {                                                                           |
-|                                                                                     |
-|             switch(i)                                                               |
-|                                                                                     |
-|             {                                                                       |
-|                                                                                     |
-|                 case 8: data = 0b00000000; break;        //  ALL LED OFF            |
-|                                                                                     |
-|                 case 7: data = 0b00000001; break;        //  1 LED ON               |
-|                                                                                     |
-|                 case 6: data = 0b00000011; break;        //  2 LED ON               |
-|                                                                                     |
-|                 case 5: data = 0b00000111; break;        //  3 LED ON               |
-|                                                                                     |
-|                 case 4: data = 0b00001111; break;        //  4 LED ON               |
-|                                                                                     |
-|                 case 3: data = 0b00011111; break;        //  5 LED ON               |
-|                                                                                     |
-|                 case 2: data = 0b00111111; break;        //  6 LED ON               |
-|                                                                                     |
-|                 case 1: data = 0b01111111; break;        //  7 LED ON               |
-|                                                                                     |
-|                 case 0: data = 0b11111111; break;        //  ALL LED ON             |
-|                                                                                     |
-|             }                                                                       |
-|                                                                                     |
-|             RCLK_SetLow(); // Select/Latch the shift register (Active low)          |
-|                                                                                     |
-|             SPI1_WriteByte(data); //Send a Byte to Slave                            |
-|                                                                                     |
-|             __delay_ms(0.05); //delay for data transition to finish                 |
-|                                                                                     |
-|             RCLK_SetHigh(); // Deselect/Unlatch the shift register                  |
-|                                                                                     |
-|             __delay_ms(500); //delay                                                |
-|                                                                                     |
-|         }                                                                           |
-|                                                                                     |
-|                                                                                     |
-|                                                                                     |
-|         for (int i = 0; i<9; i++) // increase duty cycle to 100%                    |
-|                                                                                     |
-|         {                                                                           |
-|                                                                                     |
-|             switch(i)                                                               |
-|                                                                                     |
-|             {                                                                       |
-|                                                                                     |
-|                 case 0: data = 0b00000000; break;                                   |
-|                                                                                     |
-|                 case 1: data = 0b00000001; break;                                   |
-|                                                                                     |
-|                 case 2: data = 0b00000011; break;                                   |
-|                                                                                     |
-|                 case 3: data = 0b00000111; break;                                   |
-|                                                                                     |
-|                 case 4: data = 0b00001111; break;                                   |
-|                                                                                     |
-|                 case 5: data = 0b00011111; break;                                   |
-|                                                                                     |
-|                 case 6: data = 0b00111111; break;                                   |
-|                                                                                     |
-|                 case 7: data = 0b01111111; break;                                   |
-|                                                                                     |
-|                 case 8: data = 0b11111111; break;                                   |
-|                                                                                     |
-|                                                                                     |
-|                                                                                     |
-|             }                                                                       |
-|                                                                                     |
-|             RCLK_SetLow(); // Select/Latch the shift register (Active low)          |
-|                                                                                     |
-|             SPI1_WriteByte(data); //Send a Byte to Slave                            |
-|                                                                                     |
-|             __delay_ms(0.05); //delay for data transition to finish                 |
-|                                                                                     |
-|             RCLK_SetHigh(); // Deselect/Unlatch the shift register                  |
-|                                                                                     |
-|             __delay_ms(500); //delay                                                |
-|                                                                                     |
-|         }                                                                           |
-|                                                                                     |
-|     }                                                                               |
-+-------------------------------------------------------------------------------------+
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+```c
+for (int i = 0; i<9; i++) // switch to different case to generate a pattern 
+{                                                                           
+    switch(i)                                                               
+    {                                                                       
+        case 8: data = 0b00000000; break;        //  ALL LED OFF            
+        case 7: data = 0b00000001; break;        //  1 LED ON               
+        case 6: data = 0b00000011; break;        //  2 LED ON               
+        case 5: data = 0b00000111; break;        //  3 LED ON               
+        case 4: data = 0b00001111; break;        //  4 LED ON               
+        case 3: data = 0b00011111; break;        //  5 LED ON               
+        case 2: data = 0b00111111; break;        //  6 LED ON               
+        case 1: data = 0b01111111; break;        //  7 LED ON               
+        case 0: data = 0b11111111; break;        //  ALL LED ON             
+    }                                                                       
+                                                               
+    RCLK_SetLow(); // Select/Latch the shift register (Active low)          
+    SPI1_WriteByte(data); //Send a Byte to Slave                            
+    __delay_ms(0.05); //delay for data transition to finish                 
+    RCLK_SetHigh(); // Deselect/Unlatch the shift register                  
+    __delay_ms(500); //delay                                                
+    }                                                                           
+                                                               
+    for (int i = 0; i<9; i++) // increase duty cycle to 100%                    
+    {                                                                           
+        switch(i)                                                               
+        {                                                                       
+            case 0: data = 0b00000000; break;                                   
+            case 1: data = 0b00000001; break;                                   
+            case 2: data = 0b00000011; break;                                   
+            case 3: data = 0b00000111; break;                                   
+            case 4: data = 0b00001111; break;                                   
+            case 5: data = 0b00011111; break;                                   
+            case 6: data = 0b00111111; break;                                   
+            case 7: data = 0b01111111; break;                                   
+            case 8: data = 0b11111111; break;                                   
+        }                                                                       
+                                                                   
+        RCLK_SetLow(); // Select/Latch the shift register (Active low)          
+        SPI1_WriteByte(data); //Send a Byte to Slave                            
+        __delay_ms(0.05); //delay for data transition to finish                 
+        RCLK_SetHigh(); // Deselect/Unlatch the shift register                  
+        __delay_ms(500); //delay                                                
+    }                                                                           
+}                                                                               
+```
 
 Click the Hammer button (![](/figures/figure_007.png)) to compile the project. If you see "Build Successful", then you can flash the program to the microcontroller by clicking the Run main project button (![](/figures/figure_008.png).)
 

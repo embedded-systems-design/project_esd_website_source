@@ -35,12 +35,12 @@ Using this drawing and a pair of calipers to fill in missing information, the fi
 
 1.  Choose "File > New...". The New Drawing window shown in Figure 3 will appear.
 
-    ![ Figure 3: New Drawing window](/larger/image0114.png)
+    ![Figure 3: New Drawing window](/larger/image0114.png)
                           
   
 1.  Name your drawing (do not use spaces in drawing names), select "Package symbol (wizard)" and click OK. The Package Symbol Wizard window shown in Figure 4 will appear.
 
-    ![  Figure 4: Package Symbol Wizard window](/larger/image0115.png)
+    ![Figure 4: Package Symbol Wizard window](/larger/image0115.png)
                     
 1.  Select the Package Type closest to the footprint that you are trying to make and click "Next >". The Package Symbol Wizard - Template window shown in Figure 5 will appear. For more information on package types, see the [IC Packages tutorial on Sparkfun](https://learn.sparkfun.com/tutorials/integrated-circuits/ic-packages). In this tutorial, the PSoC® footprint is closest to a Dual In-line Package (DIP), which is a common through-hole package.
 

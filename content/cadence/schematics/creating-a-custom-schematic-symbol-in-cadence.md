@@ -61,6 +61,6 @@ If you need to edit a custom schematic symbol, save the symbol first. Then, open
 
 ![Figure 8: Design Cache folder](/larger/image0125.png)
 
-![  Figure 9: Right-click menu options](/larger/image0126.png)
+![Figure 9: Right-click menu options](/larger/image0126.png)
 
 *Based on tutorials by Josh Carroll, Cody Van Cleve, and Robert Goby*

@@ -84,7 +84,7 @@ or if you have defined your home directory differently according to the installa
   
 2.  Choose Setup > User Preferences... (see Figure 5).
 
-    ![  Figure 5: Setup > User Preferences... menu option](/larger/image0067.png)
+    ![Figure 5: Setup > User Preferences... menu option](/larger/image0067.png)
               
   
 3.  Turn on autosave in PCB Editor to automatically back up your design in case of a system crash by selecting the File_management > Autosave category and changing the settings to match the configuration shown in Figure 6 below. *Note: By selecting the Favorite check box, PCB Editor will make it easier to access these settings in the future by saving them in the My_favorites folder at the top of the Categories list.*
@@ -99,7 +99,7 @@ or if you have defined your home directory differently according to the installa
   
 5.  Click the ... next to padpath and add the path to the symbols folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/symbols) (see Figure 8). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
-    ![ Figure 8: Adding to the padpath example](/larger/image0070.png)
+    ![Figure 8: Adding to the padpath example](/larger/image0070.png)
                     
   
 6.  Click the ... next to psmpath and add the path to the symbols folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/symbols) (see Figure 9). Click the up button to give your library priority over the default location(s). Click OK to save changes.

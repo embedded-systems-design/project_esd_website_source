@@ -23,13 +23,13 @@ Command > x 0 0 will place the component at the origin (0,0)
 
 3.  Press *Enter* to place the component at the desired coordinates (see Figure 3).
 
-    ![  Figure 3: Component placed at origin (0,0)](/larger/image0196.png)
+    ![Figure 3: Component placed at origin (0,0)](/larger/image0196.png)
 
 ## How do you determine the current coordinates of a component?
 
 1.  Choose Display > Element (see Figure 4) and click on the component you would like to examine. The Show Element dialog box will appear and show the current coordinates of the component (see Figure 5).
 
-    ![  Figure 4: Display > Element menu option](/larger/image0197.png)
+    ![Figure 4: Display > Element menu option](/larger/image0197.png)
 
     ![Figure 5: Coordinates of a placed component](/larger/image0198.png)
   
