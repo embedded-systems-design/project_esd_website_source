@@ -37,7 +37,7 @@ Right-click on your custom library and choose "New Part" (see Figure 2). The N
   -------------------------------------------------------------------------------
 
   --------------------------------------------------------------
-   ![](/figures2/figure_109.jpg){width="518px;" height="314px;"}
+   ![](/figures2/figure_109.jpg)
               Figure 3: New Part Properties window.
   --------------------------------------------------------------
 
@@ -45,22 +45,21 @@ Name your part with the part number from the component datasheet. If you have no
 
 Next, use the Place Rectangle tool in the toolbar (see Figure 4) to make an outline for your part within the dashed lines. If the area enclosed by the dashed lines is not big enough, you can enlarge it with the arrow tool. IEEE schematic formatting standards dictate that schematic symbols are usually rectangular.
 
-  -------------------------------------------------------------
-   ![](/figures2/figure_233.jpg){width="624px;" height="44px;"}
-                 Figure 4: Place rectangle tool
-  -------------------------------------------------------------
+  ![](/figures2/place_rectangle_vertical.png)
+
+  Figure 4: Place rectangle tool
 
 Once your rectangle is complete, you can begin placing pins using the Place Pin tool in the toolbar (see Figure 5). It is a good idea to place pins on the same sides of the chip as its physical layout (see the data sheet) to make circuit debugging easier. In the case of the CC2541, there are 10 pins on each side for a total of 40 pins.
 
   -------------------------------------------------------------
-   ![](/figures2/figure_128.jpg){width="624px;" height="49px;"}
+   ![](/figures2/place_pin_vertical.png)
                     Figure 5: Place pin tool
   -------------------------------------------------------------
 
 Upon clicking the Place Pin tool, a window will appear (see Figure 6). The name should be the same as the pin name in the data sheet but different than all other pins on the chip. If there are multiple pins with the same name in the data sheet, add a number to each one to differentiate (e.g., GND1, GND2). The pin number should be the pin number on the chip package, which can also be found in the data sheet. The shape can be a line (common) or other shape depending on the function of the pin. The pin type can be passive, but setting the pin type correctly will help the Electrical Rules Check (ERC) find errors in your design more easily. When you are finished configuring the pin, click OK.
 
   --------------------------------------------------------------
-   ![](/figures2/figure_202.jpg){width="389px;" height="232px;"}
+   ![](/figures2/place_pin_menu.png)
                     Figure 6: Place Pin window
   --------------------------------------------------------------
 

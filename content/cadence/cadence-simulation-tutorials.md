@@ -10,10 +10,10 @@ This page lists tutorials for doing circuit simulations in Cadence.
 ## Getting Started
 
 -   [Cadence Circuit Simulations (the basics)](https://www.youtube.com/watch?v=k1GNfZTJuEc) video from Casey Petersen
+
+## iEngineered Series
+
 -   [Part 12: Altering Schematic for Simulation Purpose](https://www.youtube.com/watch?v=OBrWdoTvHiI) video from iEngineered
-
-## Techniques
-
 -   [Part 13: PSpice Biaspoint Analysis](https://www.youtube.com/watch?v=7RJ9t3wFaR4) video from iEngineered
 -   [Part 14: PSpice Transient Analysis](https://www.youtube.com/watch?v=KaD0BNtA9tk) video from iEngineered
 -   [Part 15: Basic DC Sweep](https://www.youtube.com/watch?v=BhI5CW_bRlU) video from iEngineered

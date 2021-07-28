@@ -28,7 +28,7 @@ Hopefully MCC opens automatically and brings you to the System Module page by de
 
 On the left side of the screen, find the Device Resources and select EUSART1 to add it to the project.
 
-![](/figures/figure_012.png)
+![MCC View](/figures/figure_012.png)
 
 For most applications, default settings should be fine. For convenience, I will move the RX and TX pins to RB6 and RB4 respectively.
 
@@ -70,4 +70,4 @@ Open a PuTTY terminal to the Serial port of the Particle device. You could also 
 
 ![](/figures/figure_021.png)
 
-Tutorial written by Mykol Reklaitis, March 2020
+_Tutorial written by Mykol Reklaitis, March 2020_

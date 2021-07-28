@@ -112,33 +112,9 @@ A design can span over multiple pages as long as the necessary signal nets are c
 
 Designs can also be organized to use hierarchical blocks, which are similar to blocks on a block diagram. Descending into a hierarchical block will open a sub-schematic with the circuitry that is part of the block (e.g., the power supply).
 
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
-
 -   [Part 9: Creating Hierarchical Blocks](https://www.youtube.com/watch?v=Szi9mB9V5rM) from iEngineered
 
 ## Working With Part Libraries
-
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
 
 -   How to create and add a new custom library to your project: <working-with-libraries.html>
 -   How to update your design cache if you update a part in your library: <updating-part-in-your-library.html>
