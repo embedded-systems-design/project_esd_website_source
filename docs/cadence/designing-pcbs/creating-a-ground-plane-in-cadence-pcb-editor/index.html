@@ -167,96 +167,227 @@
 <ol>
 <li>Start with a PCB layout that has a board layout, all components placed, and all traces routed <strong>except</strong> the ground traces (see example with ground traces in blue, Figure 1). As you can see, routing all of the ground traces in the example below would add a lot of complexity, so adding a ground plane is a good design option.</li>
 </ol>
-<hr>
-<h2 id="figure-1-example-pcb-layout-with-un-routed-ground-traces-in-blue"><a href="/larger/image0136.PNG"><img src="/figures/figure_191.png" alt=""></a>
-Figure 1: Example PCB layout with un-routed ground traces in blue</h2>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0136.PNG"><img src="/larger/image0136.PNG" alt="Figure 1: Example PCB layout with un-routed ground traces in blue"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 1: Example PCB layout with un-routed ground traces in blue</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <ol start="2">
-<li>In the toolbar, click on the Add Rectangle tool (see Figure 2) and select the &ldquo;Options&rdquo; tab on the right side of the screen (see Figure 3). <strong>Do not draw a rectangle yet.</strong></li>
-</ol>
-<hr>
-<p><img src="/figures/figure_187.png" alt=""></p>
-<p><strong>Figure 2: Add rectangle tool</strong></p>
-<hr>
-<h2 id="figure-3-options-tab-for-the-add-rectangle-tool"><img src="/figures/figure_202.png" alt="">
-Figure 3: Options tab for the Add Rectangle tool</h2>
-<ol start="3">
-<li>In the Options tab, click on the &ldquo;&hellip;&rdquo; button (see Figure 4) near &ldquo;Assign net name&rdquo; and choose your ground net (see Figure 5). Click OK to close the &ldquo;Select a net&rdquo; dialog box.</li>
-</ol>
-<hr>
-<h2 id="figure-4--button-to-assign-ground-net-name"><img src="/figures/figure_203.png" alt="">
-Figure 4: &ldquo;&hellip;&rdquo; button to assign ground net name</h2>
-<p><img src="/figures/figure_188.png" alt=""></p>
-<hr>
-<h2 id="figure-5-select-a-net-dialog-box">Figure 5: &ldquo;Select a net&rdquo; dialog box</h2>
-<ol start="4">
-<li>Draw a rectangle around all of the placed components. If the above steps were completed correctly, the blue rats nest connections should disappear and ground pins electrically connected to the ground plane (see example, Figure 6).</li>
-</ol>
-<hr>
-<h2 id="figure-6-ground-rectangle-placed"><a href="/larger/image0137.PNG"><img src="/figures/figure_194.png" alt=""></a>
-Figure 6: Ground rectangle placed</h2>
+<li>
+<p>In the toolbar, click on the Add Rectangle tool (see Figure 2) and select the &ldquo;Options&rdquo; tab on the right side of the screen (see Figure 3). <strong>Do not draw a rectangle yet.</strong></p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_187.png"><img src="/figures/figure_187.png" alt="Figure 2: Add rectangle tool"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 2: Add rectangle tool</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_202.png"><img src="/figures/figure_202.png" alt="Figure 3: Options tab for the Add Rectangle tool"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 3: Options tab for the Add Rectangle tool</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+<li>
+<p>In the Options tab, click on the &ldquo;&hellip;&rdquo; button (see Figure 4) near &ldquo;Assign net name&rdquo; and choose your ground net (see Figure 5). Click OK to close the &ldquo;Select a net&rdquo; dialog box.</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_203.png"><img src="/figures/figure_203.png" alt="Figure 4: ... button to assign ground net name"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 4: ... button to assign ground net name</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_188.png"><img src="/figures/figure_188.png" alt="Figure 5: &amp;ldquo;Select a net&amp;rdquo; dialog box"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 5: &amp;ldquo;Select a net&amp;rdquo; dialog box</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+<li>
+<p>Draw a rectangle around all of the placed components. If the above steps were completed correctly, the blue rats nest connections should disappear and ground pins electrically connected to the ground plane (see example, Figure 6).</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0137.PNG"><img src="/larger/image0137.PNG" alt="Figure 6: Ground rectangle placed"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 6: Ground rectangle placed</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>Figures 7 and 8 below show closeups &ldquo;before ground plane&rdquo; and &ldquo;after ground plane&rdquo; connections.</p>
-<hr>
-<h2 id="figure-7-closeup-of-board-design-before-ground-plane"><a href="/larger/image0138.PNG"><img src="/figures/figure_195.png" alt=""></a>
-Figure 7: Closeup of board design before ground plane</h2>
-<hr>
-<h2 id="figure-8-closeup-of-board-design-after-ground-plane"><a href="/larger/image0139.PNG"><img src="/figures/figure_196.png" alt=""></a>
-Figure 8: Closeup of board design after ground plane</h2>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0138.PNG"><img src="/larger/image0138.PNG" alt="Figure 7: Closeup of board design before ground plane"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 7: Closeup of board design before ground plane</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0139.PNG"><img src="/larger/image0139.PNG" alt="Figure 8: Closeup of board design after ground plane"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 8: Closeup of board design after ground plane</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>As you can see in Figure 8 above, the connections between the ground pins and the ground plane are very small (5 mils), making them a potential point of unreliability or failure in the design. Connections to power and ground should be a <strong>minimum</strong> of 20 mils, or larger if using higher currents (use a <a href="http://www.4pcb.com/trace-width-calculator.html">trace width calculator</a> to determine the minimum size).</p>
-<ol start="5">
-<li>To increase the size of the connections between pins and the ground plane, choose Shape &gt; Global Dynamic Params&hellip; (see Figure 9).</li>
-</ol>
-<p><img src="/figures/figure_189.png" alt=""></p>
-<hr>
-<h2 id="figure-9-global-dynamic-parameters-menu-option">Figure 9: Global Dynamic Parameters menu option</h2>
-<ol start="6">
-<li>Select the &ldquo;Clearances&rdquo; tab (see Figure 10) and update the oversize values to a larger number (20 mils or greater) to make the design easier to manufacture and test.</li>
-</ol>
-<hr>
-<pre><code>    ![](/figures/figure_204.png)
-</code></pre>
-<h2 id="figure-10-clearances-tab-with-updated-oversize-clearance-values">Figure 10: Clearances tab with updated oversize clearance values</h2>
-<ol start="7">
-<li>Select the &ldquo;Thermal relief connects&rdquo; tab (see Figure 11) and update the thermal width to a larger number (20 mils, or greater for higher currents). Click &ldquo;OK&rdquo; to apply the changes.</li>
-</ol>
-<hr>
-<pre><code>     ![](/figures/figure_205.png)
-</code></pre>
-<h2 id="figure-11-thermal-relief-connects-tab-with-updated-thermal-width">Figure 11: Thermal relief connects tab with updated thermal width</h2>
+</li>
+<li>
+<p>To increase the size of the connections between pins and the ground plane, choose Shape &gt; Global Dynamic Params&hellip; (see Figure 9).</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_189.png"><img src="/figures/figure_189.png" alt="Figure 9: Global Dynamic Parameters menu option"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 9: Global Dynamic Parameters menu option</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+<li>
+<p>Select the &ldquo;Clearances&rdquo; tab (see Figure 10) and update the oversize values to a larger number (20 mils or greater) to make the design easier to manufacture and test.</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_204.png"><img src="/figures/figure_204.png" alt="Figure 10: Clearances tab with updated oversize clearance values"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 10: Clearances tab with updated oversize clearance values</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+<li>
+<p>Select the &ldquo;Thermal relief connects&rdquo; tab (see Figure 11) and update the thermal width to a larger number (20 mils, or greater for higher currents). Click &ldquo;OK&rdquo; to apply the changes.</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_205.png"><img src="/figures/figure_205.png" alt="Figure 11: Thermal relief connects tab with updated thermal width"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 11: Thermal relief connects tab with updated thermal width</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>Figures 12 and 13 below show closeups before and after the changes to the global dynamic parameters. Note that changes are applied to the entire design, not just a single pad.</p>
-<hr>
-<h2 id="figure-12-example-pad-before-global-dynamic-parameters-adjustments"><a href="/larger/image0140.PNG"><img src="/figures/figure_197.png" alt=""></a>
-Figure 12: Example pad before global dynamic parameters adjustments</h2>
-<hr>
-<h2 id="figure-13-example-pad-after-global-dynamic-parameters-adjustments"><a href="/larger/image0141.PNG"><img src="/figures/figure_198.png" alt=""></a>
-Figure 13: Example pad after global dynamic parameters adjustments</h2>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0140.PNG"><img src="/larger/image0140.PNG" alt="Figure 12: Example pad before global dynamic parameters adjustments"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 12: Example pad before global dynamic parameters adjustments</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0141.PNG"><img src="/larger/image0141.PNG" alt="Figure 13: Example pad after global dynamic parameters adjustments"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 13: Example pad after global dynamic parameters adjustments</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+</ol>
 <h2 id="how-do-i-find-and-eliminate-ground-islands">How do I find and eliminate ground islands?</h2>
 <p>A &ldquo;ground island&rdquo; is a section of a ground plane that is isolated from the rest of the circuit. Ground islands can often be discovered through careful examination of a design with a ground plane, noticing where a rats nest wire still exists (see example, Figure 14).</p>
-<hr>
-<h2 id="figure-14-example-ground-island"><a href="/larger/image0142.jpg"><img src="/figures/figure_199.jpg" alt=""></a>
-Figure 14: Example &ldquo;ground island&rdquo;</h2>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0142.jpg"><img src="/larger/image0142.jpg" alt="Figure 14: Example &amp;ldquo;ground island&amp;rdquo;"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 14: Example &amp;ldquo;ground island&amp;rdquo;</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>A ground island can be fixed by adding a via between the ground island and the remainder of the ground plane (see example, Figure 15).</p>
-<hr>
-<h2 id="figure-15-repaired-ground-island"><a href="/larger/image0143.PNG"><img src="/figures/figure_200.png" alt=""></a>
-Figure 15: Repaired ground island</h2>
-<ul>
-<li></li>
-</ul>
-<hr>
-<pre><code>   [![](/figures/figure_201.png)](/larger/image0144.PNG)
-                Figure 16: Completed PCB design with ground plane
-  ------------------------------------------------------------------------------
-</code></pre>
-<ul>
-<li></li>
-</ul>
-<ul>
-<li></li>
-</ul>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0143.PNG"><img src="/larger/image0143.PNG" alt="Figure 15: Repaired ground island"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 15: Repaired ground island</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0144.PNG"><img src="/larger/image0144.PNG" alt="Figure 16: Completed PCB design with ground plane"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 16: Completed PCB design with ground plane</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <h2 id="what-is-a-void-rubout-or-anti-etch-and-when-do-i-use-one">What is a void, rubout, or anti-etch and when do I use one?</h2>
 <p>A void, rubout, or anti-etch is a place where the copper is fully removed from the PCB. A common use of rubouts is underneath Bluetooth or Wifi antennas (e.g., from a Photon or Argon) as having a ground plane underneath an antenna will effectively shield RF waves from reaching the antenna. At best this will mean reduced range for a wireless device, and at worst it will mean that the device will not connect wirelessly.</p>
-<h2 id="how-do-i-create-a-rubout-in-cadence" style="text-align: left;">How do I create a rubout in Cadence?</h2>
-<h2 id="section" style="text-align: left;"></h2>
-<p> </p>
+<h2 id="how-do-i-create-a-rubout-in-cadence">How do I create a rubout in Cadence?</h2>
 <ol>
 <li>
 <p>First, make sure you have placed all of the components on your PCB (and ideally have not started routing traces yet, though this can still be done even if you have routed traces).</p>
@@ -265,29 +396,55 @@ Figure 15: Repaired ground island</h2>
 <p>Choose Shape &gt; Manual Void/Cavity and choose a shape of your liking (see Figure 17).</p>
 </li>
 </ol>
-<p><img src="/figures/figure_190.png" alt=""></p>
-<p>Figure 17: Anti-etch selection</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_190.png"><img src="/figures/figure_190.png" alt="Figure 17: Anti-etch selection"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 17: Anti-etch selection</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <ol start="3">
 <li>Draw an anti-etch on the appropriate layer(s) in appropriate place(s) (e.g., underneath an antenna). If there are existing races or vias in the area of the anti-etch, you will need to move them. If you have ground (or power) planes on multiple layers, you should place an anti-etch on each of the copper layers (e.g., TOP and BOTTOM). See example in Figure 18.</li>
 </ol>
-<p><img src="/figures/figure_192.png" alt=""></p>
-<p>Figure 18: Anti-etch example under a PSoC® 5 footprint</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_192.png"><img src="/figures/figure_192.png" alt="Figure 18: Anti-etch example under a PSoC® 5 footprint"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 18: Anti-etch example under a PSoC® 5 footprint</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <ol start="4">
 <li>To delete an anti-etch, you need to use the special delete tool in the Manual Void/Cavity menu (see Figure 19).</li>
 </ol>
-<p><img src="/figures/figure_193.png" alt=""></p>
-<p>Figure 19: Delete tool for manual void/cavity</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_193.png"><img src="/figures/figure_193.png" alt="Figure 19: Delete tool for manual void/cavity"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 19: Delete tool for manual void/cavity</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <ol start="5">
 <li>When generating your final Gerber files, you will need to add these anti-etches to the layers in the Artwork Control Form in order for them to be manufactured (see <a href="exporting-gerber-files-from-cadence-pcb-editor.html">How do I export Gerber files from Cadence?</a>).</li>
 </ol>
-<h2 id="additional-resources" style="text-align: left;">Additional Resources</h2>
+<h2 id="additional-resources">Additional Resources</h2>
 <ul>
-<li>
-<p><em><a href="https://www.youtube.com/watch?v=ZDIhdMQbjlw">Tutorial on Split Planes</a> from parsysEDA</em></p>
-</li>
-<li>
-<p>Based on a tutorial by Cody Van Cleve and updated by Jacob Lara in 2020.*</p>
-</li>
+<li><em><a href="https://www.youtube.com/watch?v=ZDIhdMQbjlw">Tutorial on Split Planes</a> from parsysEDA</em></li>
+<li>Based on a tutorial by Cody Van Cleve and updated by Jacob Lara in 2020.*</li>
 </ul>
 
         </div>

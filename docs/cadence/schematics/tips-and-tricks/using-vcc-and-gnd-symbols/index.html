@@ -149,23 +149,52 @@
         <div class="content mb-5">
           <p>You can use VCC (power) and GND (ground) symbols to connect power and ground instead of manually routing wires across your schematic. This is a common technique used by professional engineers to improve the readability of schematics.</p>
 <ol>
-<li>With a schematic open Design Entry CIS, click on the Vxx or GND buttons in the toolbar at the top or right side of the screen (see Figure 1)</li>
+<li>
+<p>With a schematic open Design Entry CIS, click on the Vxx or GND buttons in the toolbar at the top or right side of the screen (see Figure 1)</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0258.png"><img src="/larger/image0258.png" alt="Figure 1: Place power and ground symbol buttons in the toolbar"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 1: Place power and ground symbol buttons in the toolbar</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+<li>
+<p>Select the symbol you would like to use for your design and place it in your design (see Figure 2). You can rename power and ground symbols to assign them to a particular electrical net (e.g., +5V or +12V).</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0259.png"><img src="/larger/image0259.png" alt="Figure 2: &#43;5V and GND symbols connected to a connector"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 2: &#43;5V and GND symbols connected to a connector</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
+<li>
+<p>In order to connect multiple components to the same power rail, place the same power or ground symbol with the same net name on your schematic (see Figure 3). Symbols that have different net names will <strong>not</strong> be connected.</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0260.png"><img src="/larger/image0260.png" alt="Figure 3: Example of &#43;5V and GND symbols connected to multiple components. In this example, pin 1 of J1 is electrically connected to Pin 6 of U2, and Pin 2 of CON2 is electrically connected to pin 21 of U2."  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 3: Example of &#43;5V and GND symbols connected to multiple components. In this example, pin 1 of J1 is electrically connected to Pin 6 of U2, and Pin 2 of CON2 is electrically connected to pin 21 of U2.</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
 </ol>
-<p><a href="/larger/image0258.png"><img src="/figures/figure_147.png" alt=""></a></p>
-<p>Figure 1: Place power and ground symbol buttons in the toolbar</p>
-<ol start="2">
-<li>Select the symbol you would like to use for your design and place it in your design (see Figure 2). You can rename power and ground symbols to assign them to a particular electrical net (e.g., +5V or +12V).</li>
-</ol>
-<hr>
-<h2 id="figure-25v-and-gnd-symbols-connected-to-a-connector"><a href="/larger/image0259.png"><img src="/figures/figure_148.png" alt=""></a>
-Figure 2: +5V and GND symbols connected to a connector</h2>
-<ol start="3">
-<li>In order to connect multiple components to the same power rail, place the same power or ground symbol with the same net name on your schematic (see Figure 3). Symbols that have different net names will <strong>not</strong> be connected.</li>
-</ol>
-<hr>
-<pre><code>                                                                [![](/figures/figure_149.png)](/larger/image0260.png)
-</code></pre>
-<h2 id="figure-3-example-of5v-and-gnd-symbols-connected-to-multiple-components-in-this-example-pin-1-of-j1-is-electrically-connected-to-pin-6-of-u2-and-pin-2-of-con2-is-electrically-connected-to-pin-21-of-u2">Figure 3: Example of +5V and GND symbols connected to multiple components. In this example, pin 1 of J1 is electrically connected to Pin 6 of U2, and Pin 2 of CON2 is electrically connected to pin 21 of U2.</h2>
 <p><em>Based on a tutorial written by Robert Goby and updated by Ryan Sparks (2020)</em></p>
 
         </div>

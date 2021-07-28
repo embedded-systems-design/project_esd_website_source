@@ -149,7 +149,18 @@
         <div class="content mb-5">
           <h2 id="what-is-an-interrupt">What is an interrupt?</h2>
 <p>Consider the following knock-knock joke:</p>
-<p><a href="/larger/image0171.jpg"><img src="/figures/figure_160.jpg" alt=""></a></p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0171.jpg"><img src="/larger/image0171.jpg" alt="Figure 1"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 1</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p><strong>Joker:</strong> &ldquo;Knock, knock&rdquo;</p>
 <p><strong>Innocent Person:</strong> &ldquo;Who&rsquo;s there?&rdquo;</p>
 <p><strong>Joker:</strong> &ldquo;Interrupting cow&rdquo;</p>
@@ -168,7 +179,18 @@
 <p>Since interrupts can happen at nearly any time, there is a possibility that interrupts from two or more different sources can be generated at the same time. If the microcontroller finds pending interrupts from multiple different sources, it will use the programmer-assigned priorities for each interrupt source to determine which interrupt service routine to run first. Once the first interrupt is serviced, additional interrupts will be serviced in priority order.</p>
 <h2 id="how-do-i-create-a-uml-diagram-for-an-interrupt-service-routine">How do I create a UML diagram for an interrupt service routine?</h2>
 <p>An example UML activity diagram for an interrupt-based system is shown in Figure 1 below.</p>
-<p><a href="/larger/image0172.jpg"><img src="/figures/figure_161.jpg" alt=""></a></p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0172.jpg"><img src="/larger/image0172.jpg" alt="Figure"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>For more information on UML, please see the <a href="software-design.html">What is Unified Modeling Languageâ„¢ (UML®)?</a> blog post.</p>
 <h2 id="what-is-the-general-process-for-enabling-interrupts-on-a-microcontroller">What is the general process for enabling interrupts on a microcontroller?</h2>
 <p>Interrupts are typically active in a specific region of code defined by the programmer. Before the region of code where interrupts should be active, interrupts must be enabled (typically one or more lines of code specific to the microcontroller). After the region of code where interrupts should be active, interrupts must be disabled (typically one or more lines of code specific to the microcontroller).</p>

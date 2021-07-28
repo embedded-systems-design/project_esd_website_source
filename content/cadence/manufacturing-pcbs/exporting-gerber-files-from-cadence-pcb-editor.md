@@ -36,7 +36,7 @@ You need **both** Gerber files for each layer **and** a single drill file in o
     ![Figure 3: Film Name window](/exporting_gerber_files/4.png)
   
   
-4.5. Expand OUTLINE folder and right click on "BOARD GEOMETRY/DESIGN_OUTLINE" and select add.
+4. Expand OUTLINE folder and right click on "BOARD GEOMETRY/DESIGN_OUTLINE" and select add.
 
     ![Figure 3.5: Subclass Selection window](/exporting_gerber_files/5.png)
   

@@ -149,23 +149,87 @@
         <div class="content mb-5">
           <h2 id="introduction">Introduction</h2>
 <p>A <a href="https://www.speedingedge.com/PDF-Files/anatomy%20of%20a%20plated%20hole.pdf">padstack</a> is a design for the exposed copper surface area for each hole or pad on the board where the component is mounted and soldered (see example, Figure 1). You may need to create a custom padstack when creating custom parts to ensure that the pad and hole are big enough to be reliable. This tutorial describes the manual creation of custom padstacks using the Pad Designer application.</p>
-<hr>
-<h2 id="figure-1-padstack-examples-for-through-hole-and-surface-mount-devies"><a href="/larger/image0083.jpg"><img src="/figures/figure_065.jpg" alt=""></a>
-Figure 1: Padstack examples for through-hole and surface mount devies</h2>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0083.jpg"><img src="/larger/image0083.jpg" alt="Figure 1: Padstack examples for through-hole and surface mount devies"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 1: Padstack examples for through-hole and surface mount devies</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>The example below is for a simple round pad.  You should look up the dimensions for your own parts.</p>
-<h2 id="1-search-the-datasheet-for-the-footprint-specifications">1. Search the Datasheet for the Footprint Specifications</h2>
+<h2 id="search-the-datasheet-for-the-footprint-specifications">Search the Datasheet for the Footprint Specifications</h2>
 <p>In order to build a custom padstack, you first need to find the footprint (sometimes called &ldquo;land pattern&rdquo; specifications in the datasheet for the component. </p>
-<h2 id="2-create-a-custom-electrical-padstack">2. Create a Custom Electrical Padstack</h2>
-<p>1.    Open the new Padstack editor in Cadence:</p>
-<p><a href="/figures/PadstackEditorSearch.png"><img src="/figures/PadstackEditorSearch.png" alt=""></a></p>
-<p>2.    Select Thru-pin and circle on the start tab</p>
-<p><a href="/larger/image0085.png"><img src="/figures/figure_306.png" alt=""></a></p>
-<p>3.    Enter the drill diameter</p>
-<p><a href="/larger/image0086.png"><img src="/figures/figure_307.png" alt=""></a></p>
-<p>4.    Define the symbol that will be used to represent the drill hole:</p>
-<p><a href="/larger/image0087.png"><img src="/figures/figure_308.png" alt=""></a></p>
-<p>5.    Define the Top and bottom layer inner, outer, and thermal geometry.  Since Peralta uses two-layer boards, geometry other than begin and end layers will be ignored.</p>
-<p><a href="/larger/image0088.png"><img src="/figures/figure_309.png" alt=""></a></p>
+<h2 id="create-a-custom-electrical-padstack">Create a Custom Electrical Padstack</h2>
+<p>1. Open the new Padstack editor in Cadence:</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/PadstackEditorSearch.png"><img src="/figures/PadstackEditorSearch.png" alt="Figure 2"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 2</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>2. Select Thru-pin and circle on the start tab</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0085.png"><img src="/larger/image0085.png" alt="Figure 3"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 3</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>3. Enter the drill diameter</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0086.png"><img src="/larger/image0086.png" alt="Figure 4"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 4</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>4. Define the symbol that will be used to represent the drill hole:</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0087.png"><img src="/larger/image0087.png" alt="Figure 5"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 5</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>5. Define the Top and bottom layer inner, outer, and thermal geometry.  Since Peralta uses two-layer boards, geometry other than begin and end layers will be ignored.</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0088.png"><img src="/larger/image0088.png" alt="Figure 6"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 6</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>The layers tab provides options for editing individual layers or the entire PCB. You can click on layers and make changes via the Regular Pad, Thermal Relief, and Anti Pad boxes described below.</p>
 <p>The default layers for a padstack are:</p>
 <ul>
@@ -180,9 +244,31 @@ Figure 1: Padstack examples for through-hole and surface mount devies</h2>
 <li>FILMMASK_BOTTOM - bottom conformal coating layer of the PCB (uncommon in class)</li>
 </ul>
 <p>6.    Define the soldermask geometry for the top and bottom layers</p>
-<p><a href="/larger/image0089.png"><img src="/figures/figure_310.png" alt=""></a></p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0089.png"><img src="/larger/image0089.png" alt="Figure 7"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 7</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>7.    Look through the summary page to ensure everything was entered correctly:</p>
-<p><a href="/larger/image0090.png"><img src="/figures/figure_311.png" alt=""></a></p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/larger/image0090.png"><img src="/larger/image0090.png" alt="Figure 8"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 8</div></td></tr>
+</tbody>
+</table>
+
+</p>
 <p>8.    Save to the custom symbols folder you created and included in your padpath.</p>
 <h2 id="additional-resources">Additional Resources</h2>
 <ul>

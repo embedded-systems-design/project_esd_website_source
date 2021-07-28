@@ -68,10 +68,9 @@ or if you have defined your home directory differently according to the installa
 
 %HOME%/cdssetup/OrCAD_Capture/17.4.0/Capture.ini where %HOME% is the location you set as your home directory (typcically "c:/users/YOURUSERNAME")
 
-     ![Figure 2: Original custom CAPTURE.INI template](/larger/image0064.png)
-                  
-  
-     ![Figure 3: Example edited custom CAPTURE.INI template](/larger/image0065.png)
+![Figure 2: Original custom CAPTURE.INI template](/larger/image0064.png)
+
+![Figure 3: Example edited custom CAPTURE.INI template](/larger/image0065.png)
                
   
 ## Step 3. Configure PCB Editor

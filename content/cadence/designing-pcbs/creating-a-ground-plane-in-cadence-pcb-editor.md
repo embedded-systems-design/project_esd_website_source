@@ -32,7 +32,7 @@ A [ground plane](https://en.wikipedia.org/wiki/Ground_plane) is a large area of 
   
 2.  In the toolbar, click on the Add Rectangle tool (see Figure 2) and select the "Options" tab on the right side of the screen (see Figure 3). **Do not draw a rectangle yet.**
 
-![Figure 2: Add rectangle tool](/figures/figure_187.png)
+    ![Figure 2: Add rectangle tool](/figures/figure_187.png)
 
 
     ![Figure 3: Options tab for the Add Rectangle tool](/figures/figure_202.png)
@@ -46,18 +46,15 @@ A [ground plane](https://en.wikipedia.org/wiki/Ground_plane) is a large area of 
 
 4.  Draw a rectangle around all of the placed components. If the above steps were completed correctly, the blue rats nest connections should disappear and ground pins electrically connected to the ground plane (see example, Figure 6).
 
-     ![Figure 6: Ground rectangle placed](/larger/image0137.PNG)
-                        
-  
-Figures 7 and 8 below show closeups "before ground plane" and "after ground plane" connections.
+    ![Figure 6: Ground rectangle placed](/larger/image0137.PNG)
 
-     ![Figure 7: Closeup of board design before ground plane](/larger/image0138.PNG)
-              
-  
-     ![Figure 8: Closeup of board design after ground plane](/larger/image0139.PNG)
-               
-  
-As you can see in Figure 8 above, the connections between the ground pins and the ground plane are very small (5 mils), making them a potential point of unreliability or failure in the design. Connections to power and ground should be a **minimum** of 20 mils, or larger if using higher currents (use a [trace width calculator](http://www.4pcb.com/trace-width-calculator.html) to determine the minimum size).
+    Figures 7 and 8 below show closeups "before ground plane" and "after ground plane" connections.
+
+    ![Figure 7: Closeup of board design before ground plane](/larger/image0138.PNG)
+
+    ![Figure 8: Closeup of board design after ground plane](/larger/image0139.PNG)
+
+    As you can see in Figure 8 above, the connections between the ground pins and the ground plane are very small (5 mils), making them a potential point of unreliability or failure in the design. Connections to power and ground should be a **minimum** of 20 mils, or larger if using higher currents (use a [trace width calculator](http://www.4pcb.com/trace-width-calculator.html) to determine the minimum size).
 
 5.  To increase the size of the connections between pins and the ground plane, choose Shape > Global Dynamic Params... (see Figure 9).
 

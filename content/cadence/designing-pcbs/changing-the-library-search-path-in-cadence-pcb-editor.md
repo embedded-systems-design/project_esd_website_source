@@ -19,7 +19,7 @@ C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 
 When creating a new footprint drawing, the New Drawing dialog box will show the default path (see Figure 1 below). If the path in the dialog box is different than the path above, use the dialog box path for the remainder of this tutorial.
 
-    ![Figure 1: New Drawing dialog box](/larger/image0054.png)
+![Figure 1: New Drawing dialog box](/larger/image0054.png)
                          
   
 Also, note the exact name of the footprint. This will be needed later in order to reference it.

@@ -26,10 +26,10 @@
     
     <item>
       <title>Installing Cadence</title>
-      <link>https://embedded-systems-design.github.io/cadence/getting_started/installing-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/getting-started/installing-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/cadence/getting_started/installing-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/getting-started/installing-cadence/</guid>
       <description>Installation System Requirements  PC: Windows 7, 8, 8.1, 10, or greater (Hardware and Software Requirements) Mac: Windows 7, 8, 8.</description>
     </item>
     
@@ -48,7 +48,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://embedded-systems-design.github.io/tutorials/microcontrollers/interrupts/</guid>
-      <description>What is an interrupt? Consider the following knock-knock joke:</description>
+      <description>What is an interrupt? Consider the following knock-knock joke:
+Figure 1Joker: &amp;ldquo;Knock, knock&amp;rdquo;</description>
     </item>
     
     <item>
@@ -71,10 +72,10 @@
     
     <item>
       <title>What is Cadence?</title>
-      <link>https://embedded-systems-design.github.io/cadence/getting_started/what-is-cadence/</link>
+      <link>https://embedded-systems-design.github.io/cadence/getting-started/what-is-cadence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://embedded-systems-design.github.io/cadence/getting_started/what-is-cadence/</guid>
+      <guid>https://embedded-systems-design.github.io/cadence/getting-started/what-is-cadence/</guid>
       <description>Cadence is an electronic computer-aided drafting (ECAD) program commonly used in industry for the design and simulation of electronic circuits and printed circuit boards.</description>
     </item>
     

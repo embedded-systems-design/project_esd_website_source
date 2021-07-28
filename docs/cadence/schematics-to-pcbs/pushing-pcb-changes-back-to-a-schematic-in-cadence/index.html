@@ -151,50 +151,88 @@
 <p>If you make changes to your design while in PCB Editor (for example, swapping a footprint), you must <em>back annotate</em> (meaning, push changes) from the PCB design back into your original schematic. By doing this update, future changes to the schematic can be forward annotated (meaning, pushed forward) to your PCB design without having to start over from scratch.</p>
 <h2 id="how-do-i-back-annotate-a-design-from-pcb-editor-to-design-entry-cis">How do I back annotate a design from PCB Editor to Design Entry CIS?</h2>
 <ol>
-<li>In PCB Editor, choose Setup &gt; User Preferences&hellip; and click on the Logic folder. The User Preferences Editor window will appear (see Figure 1).</li>
-</ol>
-<hr>
-<pre><code>      ![](/figures/figure_249.png)
-</code></pre>
-<h2 id="figure-1-user-preferences-editor-window-with-logic-folder-selected">Figure 1: User Preferences Editor window with Logic folder selected</h2>
-<ol start="2">
+<li>
+<p>In PCB Editor, choose Setup &gt; User Preferences&hellip; and click on the Logic folder. The User Preferences Editor window will appear (see Figure 1).</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_249.png"><img src="/figures/figure_249.png" alt="Figure 1: User Preferences Editor window with Logic folder selected"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 1: User Preferences Editor window with Logic folder selected</div></td></tr>
+</tbody>
+</table>
+
+</p>
+</li>
 <li>
 <p>Under the Logic folder, set schematic_editor to capture (see Figure 1, above). Close the User Preferences Editor.</p>
 </li>
 <li>
 <p>Choose File &gt; Export &gt; Logic&hellip;. The Export Logic dialog box will appear. (see Figure 2).</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_250.png"><img src="/figures/figure_250.png" alt="Figure 2: Export Logic dialog box"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 2: Export Logic dialog box</div></td></tr>
+</tbody>
+</table>
+
+</p>
 </li>
-</ol>
-<hr>
-<h2 id="figure-2-export-logic-dialog-box"><img src="/figures/figure_250.png" alt="">
-Figure 2: Export Logic dialog box</h2>
-<ol start="4">
 <li>
 <p>In the Export Logic dialog box, select the Cadence tab and choose the Design entry CIS option under &ldquo;Logic type&rdquo; (see Figure 2, above). If the path under &ldquo;Export to directory&rdquo; does not point back to the directory your design is stored in, click the &ldquo;&hellip;&rdquo; button and change it.</p>
 </li>
 <li>
 <p>In the Export Logic dialog box, click the &ldquo;Export Cadence&rdquo; button (see Figure 3). You are now finished exporting the design from PCB Editor, but still need to import the design changes into Design Entry CIS.</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_251.png"><img src="/figures/figure_251.png" alt="Figure 3: Export Cadence button in the Export Logic dialog box"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 3: Export Cadence button in the Export Logic dialog box</div></td></tr>
+</tbody>
+</table>
+
+</p>
 </li>
-</ol>
-<hr>
-<pre><code>   ![](/figures/figure_251.png)
-</code></pre>
-<h2 id="figure-3-export-cadence-button-in-the-export-logic-dialog-box">Figure 3: Export Cadence button in the Export Logic dialog box</h2>
-<ol start="6">
 <li>
 <p>Open your project in Design Entry CIS.</p>
 </li>
 <li>
 <p>In Design Entry CIS, go to the &ldquo;Project Manager&rdquo; window and select the project icon. Choose Tools &gt; Back Annotate&hellip; (see Figure 4). The Backannotate dialog box will open (see Figure 5). If you want to make any changes to what is imported, click the &ldquo;Setup&hellip;&rdquo; button and edit the allegro.cfg file <em>(not recommended for most users)</em> (see Figure 5).</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_252.png"><img src="/figures/figure_252.png" alt="Figure 4: Project Manager and Back Annotate&amp;hellip;"  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 4: Project Manager and Back Annotate&amp;hellip;</div></td></tr>
+</tbody>
+</table>
+
+</p>
+<p>
+<table>
+<thead></thead>
+<tr><th><div class="text-center">
+  <a href="/figures/figure_253.png"><img src="/figures/figure_253.png" alt="Figure 5: Backannotate dialog box and setting up the path8. Click &amp;ldquo;OK&amp;rdquo; to complete the back annotation."  style="max-width:80%; max-height:200px; width:auto; height: auto; text-align:center;"/></a>
+</div></th></tr>
+<tbody>
+<tr><td><div style="text-align:center;">Figure 5: Backannotate dialog box and setting up the path8. Click &amp;ldquo;OK&amp;rdquo; to complete the back annotation.</div></td></tr>
+</tbody>
+</table>
+
+</p>
 </li>
 </ol>
-<hr>
-<h2 id="figure-4-project-manager-and-back-annotate"><img src="/figures/figure_252.png" alt="">
-Figure 4: Project Manager and Back Annotate&hellip;</h2>
-<hr>
-<pre><code>                        ![](/figures/figure_253.png)
-</code></pre>
-<h2 id="figure-5-backannotate-dialog-box-and-setting-up-the-path8-click-ok-to-complete-the-back-annotation">Figure 5: Backannotate dialog box and setting up the path8. Click &ldquo;OK&rdquo; to complete the back annotation.</h2>
 <p><em>Based on a tutorial written by Seana O&rsquo;Reilly and updated by Griffin Puggie</em></p>
 
         </div>

@@ -18,7 +18,7 @@ This guide will not cover how to add the custom fields required for PSpice simul
 
 In order to build a custom schematic symbol, you need to find the pin layout in the data sheet of the component. Figure 1 shows the pin layout from the [CC2541 datasheet](http://www.ti.com/lit/ds/symlink/cc2541.pdf).
 
-    ![Figure 1: Pin layout for the CC2541 microcontroller](/figures2/figure_269.jpg)
+![Figure 1: Pin layout for the CC2541 microcontroller](/figures2/figure_269.jpg)
 
 ## 2. Create a New Project and Custom Library
 
@@ -28,9 +28,9 @@ See the [Creating a New Project in Cadence page](creating-a-new-project-in-caden
 
 Right-click on your custom library and choose "New Part" (see Figure 2). The New Part Properties window will appear (see Figure 3). Note that the file path at the bottom of the window will be the path of your custom library.
 
-    ![Figure 2: Creating a new part in your custom library](/larger/image0124.png)
+![Figure 2: Creating a new part in your custom library](/larger/image0124.png)
 
-    ![Figure 3: New Part Properties window.](/figures2/figure_109.jpg)
+![Figure 3: New Part Properties window.](/figures2/figure_109.jpg)
               
   
 Name your part with the part number from the component datasheet. If you have not yet created a footprint for your part, you can add it at a later time.

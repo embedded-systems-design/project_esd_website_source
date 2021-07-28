@@ -62,9 +62,9 @@ Command > x 200 will move the component to (200,75) (see Figure 9)
 
 Command > y 200 will move the component to (25, 200) (see Figure 10)
 
-    ![Figure 9: Moving a component to an absolute x coordinate](/larger/image0202.png)
+![Figure 9: Moving a component to an absolute x coordinate](/larger/image0202.png)
 
-    ![Figure 10: Moving a component to an absolute Y coordinate](/larger/image0203.png)
+![Figure 10: Moving a component to an absolute Y coordinate](/larger/image0203.png)
         
   
 ## How do you move a component relative to its current position?

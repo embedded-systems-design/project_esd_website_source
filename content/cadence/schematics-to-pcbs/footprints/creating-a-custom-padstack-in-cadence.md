@@ -19,25 +19,26 @@ In order to build a custom padstack, you first need to find the footprint (somet
 
 ## Create a Custom Electrical Padstack
 
+
 1. Open the new Padstack editor in Cadence:
 
-    ![Figure 2](/figures/PadstackEditorSearch.png)
+![Figure 2](/figures/PadstackEditorSearch.png)
 
 2. Select Thru-pin and circle on the start tab
 
-    ![Figure 3](/larger/image0085.png)
+![Figure 3](/larger/image0085.png)
 
 3. Enter the drill diameter
 
-    ![Figure 4](/larger/image0086.png)
+![Figure 4](/larger/image0086.png)
 
 4. Define the symbol that will be used to represent the drill hole:
 
-    ![Figure 5](/larger/image0087.png)
+![Figure 5](/larger/image0087.png)
 
 5. Define the Top and bottom layer inner, outer, and thermal geometry.  Since Peralta uses two-layer boards, geometry other than begin and end layers will be ignored.
 
-    ![Figure 6](/larger/image0088.png)
+![Figure 6](/larger/image0088.png)
 
 The layers tab provides options for editing individual layers or the entire PCB. You can click on layers and make changes via the Regular Pad, Thermal Relief, and Anti Pad boxes described below.
 
@@ -55,11 +56,11 @@ The default layers for a padstack are:
 
 6.    Define the soldermask geometry for the top and bottom layers
 
-    ![Figure 7](/larger/image0089.png)
+![Figure 7](/larger/image0089.png)
 
 7.    Look through the summary page to ensure everything was entered correctly:
 
-    ![Figure 8](/larger/image0090.png)
+![Figure 8](/larger/image0090.png)
 
 8.    Save to the custom symbols folder you created and included in your padpath.
 
