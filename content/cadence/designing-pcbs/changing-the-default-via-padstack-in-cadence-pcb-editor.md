@@ -19,17 +19,14 @@ A via is an electrical interconnection that connects one layer of a PCB to anoth
 
 1.2. Right-click on one of the vias and select Replace Padstack > All instances (see Figure 1 below)
 
-[![](/figures/figure_092.png)](/larger/image0044.png)
-
-Figure 1: Using "Replace Padstack" to change all instances of a via padstack
+![Figure 1: Using Replace Padstack to change all instances of a via padstack](/larger/image0044.png)
 
 1.3. Select the asuvia.pad Padstack from the list of available padstacks (see Figure 2 below) and click OK. **Note: This will only work if you have configured Cadence properly according to our provided instructions, and your Cadence/symbols folder contains asuvia.pad**
 
 ** **
 
-[![](/figures/figure_096.png){width="320"}](/larger/image0045.png)
+![Figure 2: Selecting the asuvia padstack](/larger/image0045.png)
 
-Figure 2: Selecting the asuvia padstack
 
 ## 2.0: Changing the default via.pad padstack
 
@@ -39,25 +36,17 @@ As an alternative to using asuvia.pad, you can instead change the default via.pa
 
 2.2. Choose File > Padstack Library Browser... and choose via.pad from the list (see Figure 3). Click OK.
 
-[![](/figures/figure_091.png){height="320"}](/larger/image0046.png)
-
-Figure 3: Choosing via.pad from the Library Padstack Browser
+![Figure 3: Choosing via.pad from the Library Padstack Browser](/larger/image0046.png)
 
 2.3. In the Drill/Slot hole section, set the Drill diameter to 31.5 and change your "Decimal places:" to 2 (see Figure 4).
 
-[![](/figures/figure_093.png)](/larger/image0047.png)
-
-Figure 4: Drill diameter set to 31.50
+![Figure 4: Drill diameter set to 31.50](/larger/image0047.png)
 
 2.4. Click the Design Layers tab (see Figure 5) and change the settings for the BEGIN LAYER, DEFAULT INTERNAL, and END LAYER. Click the Mask Layers tab (see Figure 6) and change the settings for SOLDERMASK_TOP and SOLDERMASK_BOTTOM.
 
-[![](/figures/figure_094.png){width="320"}](/larger/image0048.png)
+![Figure 5: Design Layers tab with layers configured](/larger/image0048.png)
 
-Figure 5: Design Layers tab with layers configured
-
-[![](/figures/figure_095.png){width="320"}](/larger/image0049.png)
-
-Figure 6: Mask Layers tab with layers configured
+![Figure 6: Mask Layers tab with layers configured](/larger/image0049.png)
 
 2.5. Choose File > Save and overwrite the existing file. You have now successfully changed the default via size to be manufacturable and handle up to 5 amps of current!
 

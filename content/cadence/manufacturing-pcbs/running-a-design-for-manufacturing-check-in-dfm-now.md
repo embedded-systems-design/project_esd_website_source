@@ -25,69 +25,46 @@ The following video shows the process described in this tutorial from start to f
 
 2.  Choose Import > AutoLoad (Gerber/Drill)..., select the folder that contains the Gerber and drill files for your project, and click Next (see Figures 1 and 2).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_103.jpg)](/larger/image0222.JPG)
-                          Figure 1: AutoLoad import menu
-  ------------------------------------------------------------------------------
+     ![Figure 1: AutoLoad import menu](/larger/image0222.JPG)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_104.png)](/larger/image0223.png)
-                      Figure 2: Select Folder to Load window
-  ------------------------------------------------------------------------------
+     ![Figure 2: Select Folder to Load window](/larger/image0223.png)
 
 3.  In the File Description: window (see Figure 3), choose the correct layer type for each layer. Common layer types include:
 
--   Top Art = Top
--   Bottom Art = Bottom
--   Outline = Border (this is typically a graphic and may be the only one that you need to change)
--   Soldermask Top = Mask Top
--   Soldermask Bottom = Mask Bottom
--   Drill = Drill ThruHole
+    -   Top Art = Top
+    -   Bottom Art = Bottom
+    -   Outline = Border (this is typically a graphic and may be the only one that you need to change)
+    -   Soldermask Top = Mask Top
+    -   Soldermask Bottom = Mask Bottom
+    -   Drill = Drill ThruHole
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_105.jpg)](/larger/image0224.JPG)
-                        Figure 3: File Description window
-  ------------------------------------------------------------------------------
-
+    ![  Figure 3: File Description window](/larger/image0224.JPG)
+                      
 4.  Click Next and Finish.
-
 5.  Review your design and make sure all of the layers were loaded properly.
-
 6.  Choose DFM > DFM Rules Management... (see Figure 4). The DFM Check Settings window will appear (see Figure 5).
 
-  ----------------------------------------------------
-   [![](/figures/figure_106.jpg)](/larger/image0225.JPG)
-     Figure 4: DFM Rules Management menu selection
-  ----------------------------------------------------
+    ![Figure 4: DFM Rules Management menu selection](/larger/image0225.JPG)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_107.jpg)](/larger/image0226.JPG)
-                   Figure 5: Default DFM Check Settings window
-  ------------------------------------------------------------------------------
+    ![ Figure 5: Default DFM Check Settings window](/larger/image0226.JPG)
 
 7.  In the DFM Rules Settings window under Rules File Management, click Open... and choose the [Peralta Mill Spec.drf](https://drive.google.com/open?id=0ByRWb7dgVD-rYlRJMWZZM0V4QXc) file that is saved to your hard drive. Under Rules File Management, click Save As... and save the rules so they are available next time you open the program. New DFM settings will appear in the Signal tab (see Figure 6). Click Finish.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_108.png)](/larger/image0227.png)
-              Figure 6: Custom Peralta Mill Spec DFM Rules Settings
-  ------------------------------------------------------------------------------
-
+    ![Figure 6: Custom Peralta Mill Spec DFM Rules Settings](/larger/image0227.png)
+              
+  
 8.  Choose DFM > DFM Check.... The General Settings window will appear (see Figure 7). Make sure that the DFM Rule Set is set to Peralta Mill Specs.drf and click Next to begin the design for manufacturing process.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_109.png)](/larger/image0228.png)
-                        Figure 7: General Settings window
-  ------------------------------------------------------------------------------
-
+    ![Figure 7: General Settings window](/larger/image0228.png)
+                        
+  
 9.  Depending on the complexity of your board, the DFM check will take several seconds to several minutes to run. If it uncovers any errors, you will need to find and correct them within PCB Editor, re-[export your Gerber files](exporting-gerber-files-from-cadence-pcb-editor.html), and re-run the DFM Check on the new Gerber files.
 
 10. Once you have corrected all of the errors, you will receive a green checkmark. Success! (see Figure 8)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_110.png)](/larger/image0229.png)
-                       Figure 8: Example errors and success
-  ------------------------------------------------------------------------------
-
+    ![ Figure 8: Example errors and success](/larger/image0229.png)
+                      
+  
 11. Bring your computer to a TA or professor during office hours and show them the results of your DFM check to receive approval for submitting your PCB design to Peralta for milling.
 
 *Based on a video and tutorial created by Robert Goby*

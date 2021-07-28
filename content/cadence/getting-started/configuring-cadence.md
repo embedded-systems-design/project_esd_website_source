@@ -22,11 +22,9 @@ CAPTURE.INI is the primary file in which Cadence stores all of the program setti
 
 1.  Open the Capture CIS application, which you will use to design schematics. When the "Cadence Product Choices" window (see Figure 4) appears, select Allegro PCB Design CIS L and click the checkbox next to Use as default. Click OK to continue.
 
-  ----------------------------------------------------
-   [![](/figures/figure_150.png)](/larger/image0063.png)
-        Figure 1: Cadence Product Choices window
-  ----------------------------------------------------
-
+   ![Figure 1: Cadence Product Choices window](/larger/image0063.png)
+        
+  
 2.  Quit the "Capture CIS 17.4" application.
 
 3.  Download the ASU Polytechnic School [custom Capture.INI file](https://drive.google.com/file/d/1wPGlv_hOVaj9csTwlRAfMQQq178dtzpR/view?usp=sharing) to your computer. This custom file configures Cadence as follows:
@@ -70,68 +68,50 @@ or if you have defined your home directory differently according to the installa
 
 %HOME%/cdssetup/OrCAD_Capture/17.4.0/Capture.ini where %HOME% is the location you set as your home directory (typcically "c:/users/YOURUSERNAME")
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_152.png)](/larger/image0064.png)
-                  Figure 2: Original custom CAPTURE.INI template
-  ------------------------------------------------------------------------------
-
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_153.png)](/larger/image0065.png)
-               Figure 3: Example edited custom CAPTURE.INI template
-  ------------------------------------------------------------------------------
-
+     ![Figure 2: Original custom CAPTURE.INI template](/larger/image0064.png)
+                  
+  
+     ![Figure 3: Example edited custom CAPTURE.INI template](/larger/image0065.png)
+               
+  
 ## Step 3. Configure PCB Editor
 
 1.  Open the PCB Editor application, which you will use to create PCB designs. When the "17.4 Allegro PCB Designer Product Choices" window (see Figure 4) appears, select Allegro PCB Designer and click the checkbox next to Use as default. Click OK to continue.
 
-  ---------------------------------------------------------------------
-           [![](/figures/figure_151.png)](/larger/image0066.png)
+    ![Allegro PCB Designer Product Choices window](/larger/image0066.png)
 
-               Allegro PCB Designer Product Choices window
-  ---------------------------------------------------------------------
-
+               
+  
 2.  Choose Setup > User Preferences... (see Figure 5).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_154.png)](/larger/image0067.png)
-                Figure 5: Setup > User Preferences... menu option
-  ------------------------------------------------------------------------------
-
+    ![  Figure 5: Setup > User Preferences... menu option](/larger/image0067.png)
+              
+  
 3.  Turn on autosave in PCB Editor to automatically back up your design in case of a system crash by selecting the File_management > Autosave category and changing the settings to match the configuration shown in Figure 6 below. *Note: By selecting the Favorite check box, PCB Editor will make it easier to access these settings in the future by saving them in the My_favorites folder at the top of the Categories list.*
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_155.png)](/larger/image0068.png)
-        Figure 6: User Preferences Editor Autosave category configuration
-  ------------------------------------------------------------------------------
-
+    ![Figure 6: User Preferences Editor Autosave category configuration](/larger/image0068.png)
+        
+  
 4.  Configure the search paths in PCB Editor by selecting the Paths > Library category and selecting the Favorite checkboxes next to padpath, psmpath, and steppath (see Figure 7).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_156.png)](/larger/image0069.png)
-            Figure 7: User Preferences Editor Paths > Library window
-  ------------------------------------------------------------------------------
-
+    ![Figure 7: User Preferences Editor Paths > Library window](/larger/image0069.png)
+            
+  
 5.  Click the ... next to padpath and add the path to the symbols folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/symbols) (see Figure 8). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_157.png)](/larger/image0070.png)
-                     Figure 8: Adding to the padpath example
-  ------------------------------------------------------------------------------
-
+    ![ Figure 8: Adding to the padpath example](/larger/image0070.png)
+                    
+  
 6.  Click the ... next to psmpath and add the path to the symbols folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/symbols) (see Figure 9). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_158.png)](/larger/image0071.png)
-                     Figure 9: Adding to the psmpath example
-  ------------------------------------------------------------------------------
-
+    ![Figure 9: Adding to the psmpath example](/larger/image0071.png)
+                     
+  
 7.  Click the ... next to steppath and add the path to the step folder in the Cadence folder on your desktop (C:/Users/YOURWINDOWSLOGIN/Desktop/Cadence/step) (see Figure 10). Click the up button to give your library priority over the default location(s). Click OK to save changes.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_159.png)](/larger/image0072.png)
-                    Figure 10: Adding to the steppath example
-  ------------------------------------------------------------------------------
-
+    ![Figure 10: Adding to the steppath example](/larger/image0072.png)
+                    
+  
 8.  Click OK to save changes.
 
 ## Congratulations, you have configured Cadence!

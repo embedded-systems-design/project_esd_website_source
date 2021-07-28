@@ -19,70 +19,48 @@ C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 
 When creating a new footprint drawing, the New Drawing dialog box will show the default path (see Figure 1 below). If the path in the dialog box is different than the path above, use the dialog box path for the remainder of this tutorial.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_218.png)](/larger/image0054.png)
-                         Figure 1: New Drawing dialog box
-  ------------------------------------------------------------------------------
-
+    ![Figure 1: New Drawing dialog box](/larger/image0054.png)
+                         
+  
 Also, note the exact name of the footprint. This will be needed later in order to reference it.
 
 2.  In PCB Editor, choose Setup > User Preferences... (see Figure 2). This will open the User Preferences Editor (see Figure 3).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_222.png)](/larger/image0055.png)
-                         Figure 2: User Preferences Menu
-  ------------------------------------------------------------------------------
+    ![Figure 2: User Preferences Menu](/larger/image0055.png)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_223.png)](/larger/image0056.png)
-                        Figure 3: User Preferences Editor
-  ------------------------------------------------------------------------------
-
+    ![Figure 3: User Preferences Editor](/larger/image0056.png)
+                        
+  
 3.  In the User Preferences Editor (see Figure 3, above), choose the Paths > Library.
 
 The padpath and psmpath lists where Cadence will search for padstack (.pad) and package symbol footprint (.psm) files on your computer.
 
 4.  Click on the "..." button next to the padpath preference. A window similar to Figure 4 will appear.
 
-** **
-
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_224.png)](/larger/image0057.png)
-                        Figure 4: psmpath Items Dialog Box
-  ------------------------------------------------------------------------------
-
+    ![  Figure 4: psmpath Items Dialog Box](/larger/image0057.png)
+                      
+  
 5.  Make sure the library search path from step 1 above is in the list. If it is not, click the new item button (circled in red in Figure 4) and add the full path to your footprint to the list. **Do not delete any existing directories from the list.** Click OK when finished.
-
-** **
 
 6.  Repeat steps 4 and 5 for the padpath, using the same path from step 1. It is recommended that padstacks (.pad) and package symbol footprints (.psm) be stored in the same folder to simplify usage. Click OK when finished to exit the User Preferences Editor.
 
 7.  Finally, you need to confirm that the path was correctly updated to see your custom footprint. In PCB Editor, choose Place > Manually... (see Figure 5). This will open the Placement dialog box. Choose the Advanced Settings tab (see Figure 6).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_225.png)](/larger/image0058.png)
-                          Figure 5: Place Manually Menu
-  ------------------------------------------------------------------------------
+    ![Figure 5: Place Manually Menu](/larger/image0058.png)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_226.png)](/larger/image0059.png)
-                          Figure 6: Placement Dialog Box
-  ------------------------------------------------------------------------------
-
+    ![Figure 6: Placement Dialog Box](/larger/image0059.png)
+                          
+  
 8.  In the Advanced tab of the Placement dialog box (see Figure 6), ensure that the box next to Library is checked.
 
 9.  In the Placement dialog box, choose the Placement List tab and select Package symbols from the drop-down menu (see Figure 7).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_227.png)](/larger/image0060.png)
-          Figure 7: Package symbols selected in the Placement dialog box
-  ------------------------------------------------------------------------------
-
+    ![  Figure 7: Package symbols selected in the Placement dialog box](/larger/image0060.png)
+        
+  
 10. If your custom footprint shows up in the Placement List (see Figure 8), you have successfully updated the library search path. If it **does not** show up in the Placement List, re-check the above steps.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_228.png)](/larger/image0061.png)
-              Figure 8: Footprints successfully linked to PCB Editor
-  ------------------------------------------------------------------------------
-
+    ![  Figure 8: Footprints successfully linked to PCB Editor](/larger/image0061.png)
+            
+  
 *Based on a tutorial written by Seana O'Reilly.*

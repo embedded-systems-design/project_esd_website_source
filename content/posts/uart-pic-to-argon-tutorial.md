@@ -4,13 +4,13 @@ tags:
 title: UART PIC to Argon Tutorial
 ---
 
-# UART PIC to Argon Tutorial {#uart-pic-to-argon-tutorial style="text-align: left;"}
+# UART PIC to Argon Tutorial 
 
-## Objectives {#objectives style="text-align: left;"}
+## Objectives 
 
 Getting familiar with UART on both PIC and Particle platforms. In this tutorial, you will set up the PIC as a black box that will respond to various inputs from the Argon. Utilizing the USB serial bus on the Argon, we can verify the project at the end.
 
-## Resources {#resources style="text-align: left;"}
+## Resources 
 
 [Argon Serial Reference](https://draft.blogger.com/#)
 
@@ -18,7 +18,7 @@ Getting familiar with UART on both PIC and Particle platforms. In this tutorial,
 
 [PuTTY](https://draft.blogger.com/#)
 
-## Procedure {#procedure style="text-align: left;"}
+## Procedure 
 
 1.  Configure the PIC Device
 

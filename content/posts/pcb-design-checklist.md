@@ -25,11 +25,8 @@ Before exporting your PCB design for fabrication, you **must **verify the desi
 -   Board space is allocated for mechanical constraints (e.g., PCB mounting holes, heat sinks, connectors)
 -   The top and bottom copper layers are labeled in text "top", "bottom", and "group name"
 
-  ------------------------------------------------------
-   [![](/figures/figure_289.jpeg)](/larger/image0193.jpeg)
-   Figure 1: Example of good bypass capacitor placement
-  ------------------------------------------------------
-
+![Figure 1: Example of good bypass capacitor placement](/larger/image0193.jpeg)
+  
 ### Vias
 
 -   Minimize the number of vias in your design. Vias reduce the reliability of your system.

@@ -78,7 +78,7 @@ These suppliers generally offer lower prices for components, but may not have da
 
 ### Component Manufacturers
 
-###  {#section style="-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); color: black; font-family: -webkit-standard; font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-decoration: none; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px;"}
+###  
 
 Here's a list of popular manufacturers and the types of components that they manufacture. Most of these companies offer free samples of parts to students working on design projects. Even if you're not sure you will use one of their parts, it's better to order samples anyway so that you have options if other plans do not work. Instructables also has a larger [list of companies that offer free samples](http://www.instructables.com/id/Free_Electronic_Samples/).
 

@@ -6,27 +6,18 @@ title: Creating a Custom Padstack (old)
 
 [](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)A [padstack](https://www.speedingedge.com/PDF-Files/anatomy%20of%20a%20plated%20hole.pdf) is a design for the exposed copper surface area for each hole or pad on the board where the component is mounted and soldered (see example, Figure 1). You may need to create a custom padstack when creating custom parts to ensure that the pad and hole are big enough to be reliable. This tutorial describes the manual creation of custom padstacks using the Pad Designer application.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_065.jpg)](/larger/image0091.jpg)
-      Figure 1: Padstack examples for through-hole and surface mount devies
-  ------------------------------------------------------------------------------
+![Figure 1: Padstack examples for through-hole and surface mount devies](/larger/image0091.jpg)
 
 The example custom padstacks created in this tutorial will be for [TI LM2676 SIMPLE SWITCHER® 8V to 40V, 3A Low Component Count Step-Down Regulator](http://www.ti.com/product/lm2676) (see Figure 2).
 
-  ----------------------------------------------------
-  [![](/figures/figure_066.jpg)](/larger/image0092.jpg)
-  Figure 2: LM2676 Switching Power Supply IC
-  ----------------------------------------------------
-
-## 1. Search the Datasheet for the Footprint Specifications
+![Figure 2: LM2676 Switching Power Supply IC](/larger/image0092.jpg)
+  
+## Search the Datasheet for the Footprint Specifications
 
 In order to build a custom padstack, you first need to find the footprint (sometimes called "land pattern" specifications in the datasheet for the component. Figure 2 shows the land pattern of the IC package from page 34 of the [LM2676 datasheet](http://www.ti.com/lit/ds/symlink/lm2676.pdf).
 
-  ------------------------------------------------------------------------------------------------
-  [![](/figures/figure_067.png)](/larger/image0093.png)
-  Figure 3: Land pattern from the LM2676 datasheet. Dimensions are in mils, with brackets in mm.
-  ------------------------------------------------------------------------------------------------
-
+![Figure 3: Land pattern from the LM2676 datasheet. Dimensions are in mils, with brackets in mm.](/larger/image0093.png)
+  
 By interpreting Figure 3, the following key dimensions were determined:
 
 Pad - Pins
@@ -41,16 +32,13 @@ Mechanical/Thermal Un-Plated Pad* (underneath the body of the chip)*
 -   Length = 410 mils
 -   Width = 425 mils
 
-## 2. Create a Custom Electrical Padstack
+## Create a Custom Electrical Padstack
 
 7 pins of the LM2676 will be soldered to (7) 36 mil x 85 mil (L x W) pads spaced 50 mils apart (center to center). Since the 7 pads are all the same, we can create a single padstack and use it for all of the pins.
 
-a)  In Windows, open the "Pad Designer" application. The Pad Designer window shown in Figure 4 will appear and default to editing the parameters for a new unnamed padstack. For a surface mount padstack, the options on the Parameters tab can be left at their defaults.
+1.  In Windows, open the "Pad Designer" application. The Pad Designer window shown in Figure 4 will appear and default to editing the parameters for a new unnamed padstack. For a surface mount padstack, the options on the Parameters tab can be left at their defaults.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_063.png)](/larger/image0094.png)
-                  Figure 4: Pad Designer window, Parameters tab
-  ------------------------------------------------------------------------------
+![Figure 4: Pad Designer window, Parameters tab](/larger/image0094.png)
 
 The *Summary* box shows the overall specifications for the currently loaded pad.
 
@@ -88,12 +76,9 @@ The *Drill/Slot symbol* box allows for the creation of silkscreen shapes aroun
 
 The Top view box shows the padstack under design.
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_064.png)](/larger/image0095.png)
-                    Figure 5: Pad Designer window, Layers tab 
-  ------------------------------------------------------------------------------
+![  Figure 5: Pad Designer window, Layers tab ](/larger/image0095.png)
 
-b)  The Layers tab is shown in Figure 5.
+The Layers tab is shown in Figure 5.
 
 The *Padstack layers *box provides options for editing individual layers or the entire PCB. The "Single layer mode" allows for simplifying the padstack for a single-sided (single-layer) board. You can click on layers and make changes via the Regular Pad, Thermal Relief, and Anti Pad boxes described below.
 
@@ -121,7 +106,7 @@ In this example, the pad dimensions from the datasheet are entered to create the
 
 Finally, choose "File > Save As..." and save the padstack to your project folder with a useful name (e.g., "SMD85W36L" which means a surface mount pad with width of 85 mil and length of 36 mil). Do not use spaces in filenames.
 
-## 3. Create a Custom Mechanical Padstack
+## Create a Custom Mechanical Padstack
 
 In this example, there is also a mechanical pad with dimensions 410 mils x 425 mils (L x W). Follow the instructions above to create the mechanical pad as a "Thermal Relief" instead of a "Regular Pad".
 
@@ -130,11 +115,5 @@ In this example, there is also a mechanical pad with dimensions 410 mils x 425 m
 ## Additional Resources
 
 -   [Part 19: Designing Pads video](https://www.youtube.com/watch?v=SMYi7eS94J8) from iEngineered
-
--   
-
--   
-
-[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?rinli=1&pli=1&blogID=6469592703220698319)
 
 *Based on a tutorial by Josh Carroll*

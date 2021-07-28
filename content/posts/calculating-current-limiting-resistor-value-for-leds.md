@@ -10,10 +10,10 @@ As we can see from the image, the maximum forward voltage for the LED is 3.2V. T
 
 These graphs show useful information that is needed to calculate our resistor value. The graph on the right shows the relative luminous flux vs. forward current. The first step is to choose the brightness you want for your application. For this example, we will use 1.0 for our value. From the graph, we can gather that at 1.0 relative intensity, a 350mA forward current is needed. Now the information from the graph on the left must be referenced. From the graph, we can see that for a forward current of 350mA, the LED will have a forward voltage of 2.8V. After finding that, we have all the information that is needed to calculate the value for the current limiting resistor. The equation is shown below:
 
-$$R_{text{CL}} = frac{V_{text{IN}} - V_{f}}{I_{f}}$$
+$$R_$$
 
-Where $R_{text{CL}}$ is the resistance of the current limiting resistor, $V_{text{IN}}$ is the supply voltage, $V_{f}$ is the forward voltage for the LED, and $I_{f}$ is the forward current in Amps. For the example that was chosen, the equation would look like this:
+Where $R_$ is the forward current in Amps. For the example that was chosen, the equation would look like this:
 
-$$R_{text{CL}} = frac{5 - 2.8}{.350}$$
+$$R_$$
 
 From this equation, we can calculate the resistance as 6.28Ω (assuming a supply voltage of 5V). While most LEDs will not require this amount of current in order to operate (most datasheets say 20mA) it is still able to show how to find and use the information in the datasheet to find the current limiting resistor value.

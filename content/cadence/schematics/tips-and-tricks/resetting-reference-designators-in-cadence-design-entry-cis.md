@@ -16,13 +16,9 @@ When drawing a circuit, you will often move and delete components as part of the
 
 2.  In Design Entry CIS, select the root folder for your schematic and click the Annotate button in the toolbar (see Figure 1). The Annotate window will appear (see Figure 2).
 
-[![](/figures/figure_089.png "Figure 1")](/larger/image0220.png)
+    ![Figure 1: Annotate tool](/larger/image0220.png)
 
-Figure 1: Annotate tool
-
-[![](/figures/figure_090.png)](/larger/image0221.png)
-
-Figure 2: Annotate Window
+    ![Figure 2: Annotate Window](/larger/image0221.png)
 
 3.  In the Annotate window (see Figure 2), choose Action > Reset part references to "?". Click OK.
 

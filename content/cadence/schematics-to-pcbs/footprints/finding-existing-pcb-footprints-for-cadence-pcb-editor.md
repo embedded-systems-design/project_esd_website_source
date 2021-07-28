@@ -31,11 +31,9 @@ pad(number1)(circle/square)(number2)d where
 -   "circle/square" is the shape of the pad (cir is most common for this class),
 -   "number2" is the diameter of the hole in the center of the pad (see Figure 1, red circle)
 
-  ------------------------------------------------------------------------------------------------
-            [![](/figures/figure_172.png)](/larger/image0164.png)
-   Figure 1: Example through-hole Padstack, where the blue ring is copper and the red is the hole
-  ------------------------------------------------------------------------------------------------
-
+![Figure 1: Example through-hole Padstack, where the blue ring is copper and the red is the hole](/larger/image0164.png)
+   
+  
 For example, pad93cir56d.pad is a padstack with an outer copper ring diameter of 93 mils (not mm), and a center hole diameter of 56 mils.
 
 For surface-mount padstacks, it is easiest to make your own using the Padstack Editor application.

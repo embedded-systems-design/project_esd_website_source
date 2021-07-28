@@ -20,7 +20,7 @@ When creating a custom PCB footprint for a component, it is stored somewhere on 
 
     When creating a new footprint drawing, the New Drawing dialog box will show the default path (see Figure 1 below). If the path in the dialog box is different than the path above, use the dialog box path for the remainder of this tutorial.
 
-    [![Figure 1: New Drawing dialog box](/figures/figure_218.png)](/larger/image0050.png) |
+    ![Figure 1: New Drawing dialog box](/larger/image0050.png) |
     
 Also, note the exact name of the footprint. This will be needed later in order to reference it.
 
@@ -30,15 +30,15 @@ C:/Cadence/SPB_Data-Silent/cdssetup/OrCAD_Capture/17.4.0/Capture.ini
 
 or, if you made a custom HOME variable: %HOME%/cdssetup/OrCAD_Capture/17.4.0/Capture.ini
 
-   [![Figure 2: Design Entry CIS Start Page](/figures/CaptureStart.png)](/figures/CaptureStart.png)
+   ![Figure 2: Design Entry CIS Start Page](/figures/CaptureStart.png)
 
 3.  Copy (Control-C) the full path of the Capture.ini file. Open the File Explorer in Windows, paste the full path into the path bar (see Figure 3), and press return.
 
-   [![Figure 3: Capture.ini file path in the File Explorer.](/figures/figure_220.png)](/larger/image0052.png)
+   ![Figure 3: Capture.ini file path in the File Explorer.](/larger/image0052.png)
 
 4.  The Capture.ini file will open in Notepad. Under the [Allegro Footprints] section, add the full library search path from step 1 above if it is not already listed (see Figure 4). Note that you must increment the number after Dir for each path added (e.g., Dir0, Dir1, Dir2). **Do not delete any existing paths from the list.** ** **
 
-   [![Figure 4: Capture.ini file with several library search paths added](/figures/figure_221.png)](/larger/image0053.png)
+   ![Figure 4: Capture.ini file with several library search paths added](/larger/image0053.png)
         
 5.  You have successfully added a library search path to Design Entry CIS. If you are still not able to attach your custom footprints to schematic symbols, re-check the above steps and make sure your custom footprint name is correct.
 

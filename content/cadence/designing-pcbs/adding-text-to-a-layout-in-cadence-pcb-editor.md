@@ -17,37 +17,22 @@ Text is important on PCB layouts to identify the designers, project, version, co
 
 2.  Choose Setup > Design Parameters... and click the Text tab. Click the ... button next to Setup text sizes (see Figure 1). The Text Setup window will open (see Figure 2).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_097.png)](/larger/image0000.png)
-                    Figure 1: Design Parameter Editor Text tab
-  ------------------------------------------------------------------------------
+   ![Figure 1: Design Parameter Editor Text tab](/larger/image0000.png)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_098.png)](/larger/image0001.png)
-                           Figure 2: Text Setup window
-  ------------------------------------------------------------------------------
+   ![Figure 2: Text Setup window](/larger/image0001.png)
 
 2.  In the Text Setup window, change the Photo Width for Text Blk 4 to 10.00 (see Figure 2). The 4th text value is big enough to read but not overly large. Click OK and OK to return to your design.
 
 3.  Click the abc+ button in the toolbar (see Figure 3) and click on the Options tab on the right hand of the screen (see Figure 4).
 
-  ----------------------------------------------------
-   [![](/figures/figure_099.png)](/larger/image0002.png)
-               Figure 3: Add Text button
-  ----------------------------------------------------
+   ![Figure 3: Add Text button](/larger/image0002.png)
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_100.png)](/larger/image0003.png)
-             Figure 4: Options tab configured for the 4th text block
-  ------------------------------------------------------------------------------
-
+   ![Figure 4: Options tab configured for the 4th text block](/larger/image0003.png)
+  
 4.  Configure the options to make sure the Top or Bottom layer is selected, and that the Text block is set to 4 (or whichever one that you changed in step 2) (see Figure 4).
 
 5.  Click anywhere on the board and type the text that you wish to add (see example, Figure 5).
 
-  ------------------------------------------------------------------------------
-   [![](/figures/figure_101.png)](/larger/image0004.png)
-                        Figure 5: Example text on a layout
-  ------------------------------------------------------------------------------
+   ![Figure 5: Example text on a layout](/larger/image0004.png)
 
 *Based on a tutorial by Robert Goby*

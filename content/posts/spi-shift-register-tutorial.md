@@ -6,11 +6,11 @@ title: SPI & Shift Register Tutorial
 
 **Serial Communication - SPI & Shift Register Tutorial**
 
-# **Objectives** {#objectives style="line-height: normal; margin-bottom: 0in; margin-left: 0in; margin-right: 0in; margin-top: 24.0pt; margin: 24pt 0in 0in;"}
+# **Objectives** 
 
 Getting familiar with the SPI serial communication protocol using MCC under the MPLAB X programming environment to program the PIC16F18446 Curiosity Nano development board and control a shift register to drive 8 LEDs on and off. In this tutorial, you will learn to set up the Serial Peripheral Interface (SPI), Shift Registers, and 3 of the major numeral system (decimal, binary, and hexadecimal).
 
-# **Resources** {#resources style="line-height: normal; margin-bottom: 0in; margin-left: 0in; margin-right: 0in; margin-top: 24.0pt; margin: 24pt 0in 0in;"}
+# **Resources** 
 
 [PIC16F18446 Curiosity Nano Hardware User Guide](http://ww1.microchip.com/downloads/en/DeviceDoc/50002808B.pdf)
 
