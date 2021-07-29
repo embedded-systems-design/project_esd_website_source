@@ -1,6 +1,4 @@
 ---
-categories:
-- cadence
 tags:
 - software
 - cadence

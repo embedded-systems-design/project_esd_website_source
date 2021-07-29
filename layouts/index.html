@@ -19,17 +19,20 @@
 </section>
 <!-- /featured post -->
 
+{{ $starred:= ( where .Pages "Type" "starred" )}}
+{{ if gt (len $starred) 0 }}
 <!-- recent post -->
 <section>
   <div class="container">
     <div class="row">
-      {{ range first 3 ( where .Pages "Type" "starred" )}}
+      {{ range $starred}}
       {{ .Render "post_4" }}
       {{ end }}
     </div>
   </div>
 </section>
 <!-- /recent post -->
+{{ end }}
 
 <!-- blog post -->
 <section class="section pb-0">

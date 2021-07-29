@@ -1,6 +1,4 @@
 ---
-categories:
-- circuit-design
 tags:
 - components
 - filter

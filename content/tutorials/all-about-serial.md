@@ -1,6 +1,4 @@
 ---
-categories:
-- tutorials
 tags:
 - tutorial
 - uart

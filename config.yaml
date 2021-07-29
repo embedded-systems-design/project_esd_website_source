@@ -31,8 +31,8 @@ menu:
   - URL: tutorials
     name: Tutorials
     weight: 4
-  - URL: posts
-    name: All Posts
+  - URL: misc
+    name: Misc
     weight: 5
 #  - URL: contact
 #    name: Contact
@@ -47,7 +47,7 @@ params:
   github_repo: "https://github.com/embedded-systems-design/embedded-systems-design.github.io"
   github_edit_branch: hugo
   default_image: images/box.png
-  default_icon: bi bi-box
+  default_icon: bi bi-file-text
   author: ESD Faculty
   cookies:
     enable: false
@@ -58,7 +58,7 @@ params:
   #googleAnalitycsID: Your ID
   home: Home
   location: Arizona State University
-  logo: 
+  logo: images/esd3.svg
 #  mobile: 0124857985320
   newsletter:
     content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -110,3 +110,12 @@ markup:
     style: monokailight
     noClasses: true
 summarylength: 10
+
+permalinks:
+  cadence: /:filename
+  circuit-design: /:filename  
+  misc: /:filename
+  parts: /:filename
+  search: /:filename
+  tutorials: /:filename
+  

@@ -19,7 +19,7 @@ This Cadence walkthrough goes through the process of creating a PSoC® 4 BLE mod
 
 1.  In Windows, open "Capture CIS"
 
-2.  [Create a custom library](creating-a-custom-library-in-cadence.html)
+2.  [Create a custom library](/creating-a-custom-library-in-cadence/)
 
 3.  Right-click on your custom library and choose "New Part" (see Figure 1). The New Part Properties window will appear (see Figure 2).
 

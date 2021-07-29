@@ -1,4 +1,4 @@
 ---
-title: Cadence Pages
+title: Misc Posts
 icon: bi bi-folder
 ---

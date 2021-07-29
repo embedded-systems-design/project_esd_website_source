@@ -1,6 +1,4 @@
 ---
-categories:
-- parts
 tags:
 - components
 - asu
