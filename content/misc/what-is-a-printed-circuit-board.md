@@ -28,4 +28,4 @@ In an industrial setting, PCBs are most commonly sent out to manufacturing house
 
 ## How do we manufacture PCBs at ASU?
 
-See the [ASU PCB Fabrication Process](asu-pcb-fabrication-process.html) blog entry.
+See the [ASU PCB Fabrication Process](/asu-pcb-fabrication-process/) blog entry.

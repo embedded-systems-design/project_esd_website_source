@@ -22,7 +22,7 @@ More information on UARTs is available in the [Microcontroller UART Tutorial](ht
 
 ## How many PSoC® chips does the PSoC® 4 Pioneer Kit have?
 
-See the [PSoC® Hardware Development Kits](psoc-hardware-development-kits.html) page. This is important to understand the answer to the next question.
+See the [PSoC® Hardware Development Kits](/psoc-hardware-development-kits/) page. This is important to understand the answer to the next question.
 
 ## How do I connect and configure the PSoC® 4 Pioneer Kit to send information to the computer over the UART?
 

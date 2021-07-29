@@ -37,8 +37,8 @@ Turns on auto backup to back up your Capture CIS design every 10 minutes to C:/
 
 Adds two custom help links to the Capture CIS > Help > Web Resources menu
 
--   [Embedded System Design Resources Blog - Cadence Posts](%7B%7Bsite.baseurl%7D%7D/cadence-posts)
--   [Cadence Manuals](cadence-manuals.html)
+-   [Embedded System Design Resources Blog - Cadence Posts](/cadence/)
+-   [Cadence Manuals](/cadence-manuals/)
 
 4.  Edit the custom CAPTURE.INI file to replace the two instances of the text YOURWINDOWSLOGIN with your Windows login (where your home directory is located) on your computer. Examples:
 
@@ -115,7 +115,7 @@ or if you have defined your home directory differently according to the installa
 
 ## Congratulations, you have configured Cadence!
 
-Next: [Get started creating a schematic](getting-started-with-cadence.html)
+Next: [Get started creating a schematic](/getting-started-with-cadence/)
 
 ## Common Issues
 

@@ -30,4 +30,4 @@ title: Creating a new project in Cadence
 
     The default location where library files are stored should be similar to: C:/Cadence/SPB_17.4-silent/tools/capture/library/
 
-4.  If you plan to use any schematic symbols not built into Cadence, it is a good idea to create a custom library in which to store the symbols. Further instructions are available on the [*Creating a Custom Library in Cadence page*](creating-a-custom-library-in-cadence.html).
+4.  If you plan to use any schematic symbols not built into Cadence, it is a good idea to create a custom library in which to store the symbols. Further instructions are available on the [*Creating a Custom Library in Cadence page*](/creating-a-custom-library-in-cadence/).

@@ -97,4 +97,4 @@ C:/Cadence/SPB_17.4-silent/share/pcb/pcb_lib/symbols
 
 -   to(number), where "number" is the number of the specific to case style from the component data sheet (e.g., a transistor with a to92 package type)
 
-If your package type and footprint dimensions do not match one of those listed above, then you must [create your own custom footprint](creating-custom-footprints.html).
+If your package type and footprint dimensions do not match one of those listed above, then you must [create your own custom footprint](/creating-custom-footprints/).

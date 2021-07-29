@@ -25,7 +25,7 @@ Before exporting your schematic to create a PCB, you **must** verify the design
 
 ### For ICs, make sure:
 
-1.  Bypass/decoupling capacitors are present for each chip. (0.1 uF ceramic for every power pin AND 1 uF, 10 uF, or 100 uF tantalum for every 10 to 20 ICs) (see [Bypass Capacitor Basics page](bypass-capacitor-basics.html))
+1.  Bypass/decoupling capacitors are present for each chip. (0.1 uF ceramic for every power pin AND 1 uF, 10 uF, or 100 uF tantalum for every 10 to 20 ICs) (see [Bypass Capacitor Basics page](/bypass-capacitor-basics/))
 2.  Pull up or pull down resistors are used, rather than hardwiring signal pins to power planes
 3.  Pull up or pull down resistors are used on all unused IC inputs. One exception is microcontrollers, which should have unused I/O pins tied to test points
 

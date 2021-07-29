@@ -173,7 +173,7 @@ The custom PCB padstack definition includes mechanical dimensions for the copper
 
    ![Figure 26: Footprint successfully linked to the custom schematic symbol](/larger/image0040.png)
 
-If the footprint does not show up, confirm that the name of the footprint in the Property Editor matches the filename of the footprint, and that the symbols folder is [configured correctly in Cadence](configuring-cadence.html).
+If the footprint does not show up, confirm that the name of the footprint in the Property Editor matches the filename of the footprint, and that the symbols folder is [configured correctly in Cadence](/configuring-cadence/).
 
 The following video shows the process described in this tutorial from start to finish. Note that the Cadence interface has changed for padstack editing since the time the video was created.
 

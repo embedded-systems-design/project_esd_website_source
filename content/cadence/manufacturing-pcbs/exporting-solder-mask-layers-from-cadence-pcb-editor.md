@@ -11,7 +11,7 @@ title: Exporting Solder Mask Layers from Cadence PCB Editor
 
 ## How do you create a solder mask layer in PCB Editor?
 
-1.  Export TOP, BOTTOM, and OUTLINE Gerber files for your design (see [Exporting Gerber Files from Cadence](exporting-gerber-files-from-cadence-pcb-editor.html)).
+1.  Export TOP, BOTTOM, and OUTLINE Gerber files for your design (see [Exporting Gerber Files from Cadence](/exporting-gerber-files-from-cadence-pcb-editor/)).
 
 2.  In PCB Editor, open your completed design and choose Manufacture > Artwork... (see Figure 1). The "Artwork Control Form" will open (see Figure 2).
 

@@ -51,7 +51,7 @@ Launch setup.exe to initiate the HotFix installation. The HotFix has a status ba
 
 Confirm that Cadence has installed correctly by launching Start > Cadence PCB 17.4-2019 > Capture CIS 17.4. This program allows you to model electronic schematics.
 
-Follow the [Configuring Cadence](configuring-cadence.html) instructions to configure and optimize Cadence for the ASU Polytechnic engineering programs.
+Follow the [Configuring Cadence](/configuring-cadence/) instructions to configure and optimize Cadence for the ASU Polytechnic engineering programs.
 
 ## Using Cadence On Campus
 

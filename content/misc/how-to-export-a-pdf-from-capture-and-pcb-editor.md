@@ -14,7 +14,7 @@ This tutorial goes through how to save CIS schematics and PCB layers as a PDF.
 
 1.  First, configure Microsoft Print to PDF to print to a file
 
-2.  [packaging-cadence-files-for-submission.html](packaging-cadence-files-for-submission.html)
+2.  [packaging-cadence-files-for-submission.html](/packaging-cadence-files-for-submission/)
 
 3.  Saving a Cadence Schematic as a PDF
 

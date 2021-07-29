@@ -14,17 +14,17 @@ The following video shows our PCB manufacturing process.
 
 ## How do you prepare and submit Cadence PCB design for fabrication?
 
-[Label the PCB design](adding-text-to-a-layout-in-cadence-pcb-editor.html) with your name, course, and team number *(required for manufacturing)*
+[Label the PCB design](/adding-text-to-a-layout-in-cadence-pcb-editor/) with your name, course, and team number *(required for manufacturing)*
 
-[Run a Design Rules Check in Cadence PCB Editor](running-design-rules-check-in-cadence-pcb-editor.html) and fix any errors identified
+[Run a Design Rules Check in Cadence PCB Editor](/running-design-rules-check-in-cadence-pcb-editor/) and fix any errors identified
 
-[Export Gerber files from Cadence PCB Editor](exporting-gerber-files-from-cadence-pcb-editor.html)
+[Export Gerber files from Cadence PCB Editor](/exporting-gerber-files-from-cadence-pcb-editor/)
 
-[Export solder mask layers from Cadence PCB Editor](exporting-solder-mask-layers-from-cadence-pcb-editor.html) *(optional, final design only)*
+[Export solder mask layers from Cadence PCB Editor](/exporting-solder-mask-layers-from-cadence-pcb-editor/) *(optional, final design only)*
 
-Run a [Design for Manufacturing check](running-a-design-for-manufacturing-check-in-dfm-now.html) with DFM Now and fix any errors identified
+Run a [Design for Manufacturing check](/running-a-design-for-manufacturing-check-in-dfm-now/) with DFM Now and fix any errors identified
 
-[Print a 1:1 (100%)-sized copy of your PCB design](printing-a-pcb-layout-in-cadence-pcb-editor.html) and physically place all components on the printout to confirm that the footprints are correct. This is particularly important for ICs, connectors, and daughterboards.
+[Print a 1:1 (100%)-sized copy of your PCB design](/printing-a-pcb-layout-in-cadence-pcb-editor/) and physically place all components on the printout to confirm that the footprints are correct. This is particularly important for ICs, connectors, and daughterboards.
 
 Show your successful DFM check results to a TA or professor so that they can document approval of your PCB design for fabrication. **You must receive approval from a TA or the professor before your PCB will be fabricated.**
 

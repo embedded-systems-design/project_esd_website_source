@@ -44,7 +44,7 @@ An example UML activity diagram for an interrupt-based system is shown in Figure
 
 ![Figure](/larger/image0172.jpg)
 
-For more information on UML, please see the [What is Unified Modeling Languageâ„¢ (UML®)?](software-design.html) blog post.
+For more information on UML, please see the [What is Unified Modeling Languageâ„¢ (UML®)?](/software-design/) blog post.
 
 ## What is the general process for enabling interrupts on a microcontroller?
 

@@ -22,7 +22,7 @@ In order to build a custom schematic symbol, you need to find the pin layout in 
 
 ## 2. Create a New Project and Custom Library
 
-See the [Creating a New Project in Cadence page](creating-a-new-project-in-cadence.html) for instructions.
+See the [Creating a New Project in Cadence page](/creating-a-new-project-in-cadence/) for instructions.
 
 ## 3. Create a New Schematic Symbol
 

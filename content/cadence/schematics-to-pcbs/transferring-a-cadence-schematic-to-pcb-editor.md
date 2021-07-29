@@ -16,7 +16,7 @@ In order to create a PCB, you must first prepare the schematic and check for err
 
 ## Create Custom Footprints
 
-All schematic symbols need a footprint. If you created any [custom schematic symbols](creating-a-custom-schematic-symbol-in-cadence.html), you likely need to create a custom footprint for each one. For most ICs, you can use the [Package Designer](creating-a-custom-pcb-footprint-using-package-designer-in-cadence.html) application to make custom footprints. For all other components, you can [make custom footprints manually](creating-a-custom-pcb-footprint-manually-in-cadence.html).
+All schematic symbols need a footprint. If you created any [custom schematic symbols](/creating-a-custom-schematic-symbol-in-cadence/), you likely need to create a custom footprint for each one. For most ICs, you can use the [Package Designer](/creating-a-custom-pcb-footprint-using-package-designer-in-cadence/) application to make custom footprints. For all other components, you can [make custom footprints manually](/creating-a-custom-pcb-footprint-manually-in-cadence/).
 
 ## Open Project and Set Root Design
 
@@ -35,7 +35,7 @@ All schematic symbols need a footprint. If you created any [custom schematic sym
 
     ![Figure 4: Batch component property editing window](/larger/image0238.png)
 
-1.  Enter footprint names (built-in or custom) for each component. For more information on finding the names of built-in footprints, see [Finding Existing PCB Footprints for Cadence PCB Editor](finding-existing-pcb-footprints-for-cadence-pcb-editor.html). Repeat until all components have footprints.
+1.  Enter footprint names (built-in or custom) for each component. For more information on finding the names of built-in footprints, see [Finding Existing PCB Footprints for Cadence PCB Editor](/finding-existing-pcb-footprints-for-cadence-pcb-editor/). Repeat until all components have footprints.
 
 ## Run Design Rules Check
 
@@ -75,7 +75,7 @@ All schematic symbols need a footprint. If you created any [custom schematic sym
 
 ## Create/Update a Printed Circuit Board (PCB)
 
-1. In the Project Explorer window, left-click on your schematic and choose "PCB menu > New Layout". *(If the New Layout option is dimmed, then you have selected the wrong icon in the Project Explorer window).* Figure 17 shows the New Layout window. Select the folder path where you would like yo create your new PCB design next to the "Board" path and click OK (see Figure 18). To update a PCB design you have already made, select the path where your current board is saved for "Input Board File" as well as for "Board", and click OK (see Figure 19). Once you have clicked OK, the Allegro PCB Editor will automatically open. See the [Cadence PCB Tutorials page](getting-started-with-cadence-pcb-editor.html) for more information on creating a PCB.
+1. In the Project Explorer window, left-click on your schematic and choose "PCB menu > New Layout". *(If the New Layout option is dimmed, then you have selected the wrong icon in the Project Explorer window).* Figure 17 shows the New Layout window. Select the folder path where you would like yo create your new PCB design next to the "Board" path and click OK (see Figure 18). To update a PCB design you have already made, select the path where your current board is saved for "Input Board File" as well as for "Board", and click OK (see Figure 19). Once you have clicked OK, the Allegro PCB Editor will automatically open. See the [Cadence PCB Tutorials page](/getting-started-with-cadence-pcb-editor/) for more information on creating a PCB.
 
 ![Figure 17: PCB > New Layout menu](/larger/image0249.png)
 

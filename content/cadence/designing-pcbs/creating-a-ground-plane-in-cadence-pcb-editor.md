@@ -111,7 +111,7 @@ A void, rubout, or anti-etch is a place where the copper is fully removed from t
 ![Figure 19: Delete tool for manual void/cavity](/figures/figure_193.png)
 
 
-5.  When generating your final Gerber files, you will need to add these anti-etches to the layers in the Artwork Control Form in order for them to be manufactured (see [How do I export Gerber files from Cadence?](exporting-gerber-files-from-cadence-pcb-editor.html)).
+5.  When generating your final Gerber files, you will need to add these anti-etches to the layers in the Artwork Control Form in order for them to be manufactured (see [How do I export Gerber files from Cadence?](/exporting-gerber-files-from-cadence-pcb-editor/)).
 
 ## Additional Resources 
 

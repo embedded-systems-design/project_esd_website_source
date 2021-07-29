@@ -22,6 +22,6 @@ In order to use schematic symbols imported from the web or custom created for yo
 
     ![Figure 4: Add Library button (dotted square with yellow corner)](/larger/image0082.png)
 
-4.  To create a new part in the custom library, right-click on the library and choose "New Part". More information on creating custom parts can be found on the [Creating a Custom Schematic Symbol in Cadence page](creating-a-custom-schematic-symbol-in-cadence.html).
+4.  To create a new part in the custom library, right-click on the library and choose "New Part". More information on creating custom parts can be found on the [Creating a Custom Schematic Symbol in Cadence page](/creating-a-custom-schematic-symbol-in-cadence/).
 
 *Based on a tutorial by Cody Van Cleve*

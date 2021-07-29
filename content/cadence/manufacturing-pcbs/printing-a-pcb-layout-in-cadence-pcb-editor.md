@@ -5,7 +5,7 @@ tags:
 title: Printing a PCB Layout in Cadence PCB Editor
 ---
 
-*Note*: This tutorial shows how to print a PCB design on paper. Please see the [ASU PCB Fabrication Process](asu-pcb-fabrication-process.html) for instructions on how to manufacture / "print" a PCB design in copper.
+*Note*: This tutorial shows how to print a PCB design on paper. Please see the [ASU PCB Fabrication Process](/asu-pcb-fabrication-process/) for instructions on how to manufacture / "print" a PCB design in copper.
 
 ## Why would you want to print a PCB design on paper?
 
@@ -13,7 +13,7 @@ Before sending a PCB to be manufactured, it is imperative to separate the layers
 
 *Note:* "Plot" in Cadence is synonymous with "Print" in other Windows programs
 
-*Note:* You can also [Print a PCB Layout in DFM Now](printing-a-pcb-design-in-dfm-now.html).
+*Note:* You can also [Print a PCB Layout in DFM Now](/printing-a-pcb-design-in-dfm-now/).
 
 ## How do you print a PCB design on paper?
 

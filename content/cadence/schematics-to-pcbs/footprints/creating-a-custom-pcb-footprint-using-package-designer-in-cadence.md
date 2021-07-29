@@ -64,7 +64,7 @@ Using this drawing and a pair of calipers to fill in missing information, the fi
 
     ![Figure 9: Package Symbol Wizard Padstack Browser](/larger/image0120.png)
 
-1.  In the Padstack Browser window, choose a padstack that is appropriate for your component and click "Next >". The numbers are typically in mils (e.g., "Pad60cir42d" is a circular pad with diameter 60 mils and drill diameter of 42 mils). For through-hole components, it's usually better to have larger padstacks to allow for plenty of soldering area. For surface-mount components, the padstack should match the recommendations in the datasheet from the manufacturer. When in doubt, it's sometimes easier to make a custom padstack (see the [Creating a Custom Padstack in Cadence page](creating-a-custom-padstack-in-cadence.html)).
+1.  In the Padstack Browser window, choose a padstack that is appropriate for your component and click "Next >". The numbers are typically in mils (e.g., "Pad60cir42d" is a circular pad with diameter 60 mils and drill diameter of 42 mils). For through-hole components, it's usually better to have larger padstacks to allow for plenty of soldering area. For surface-mount components, the padstack should match the recommendations in the datasheet from the manufacturer. When in doubt, it's sometimes easier to make a custom padstack (see the [Creating a Custom Padstack in Cadence page](/creating-a-custom-padstack-in-cadence/)).
 
     ![Figure 10: Package Symbol Wizard - Symbol Compilation window](/larger/image0121.png)
 
@@ -78,7 +78,7 @@ Using this drawing and a pair of calipers to fill in missing information, the fi
 
 ## Additional Resources
 
--   [Quick Guide: Creating a Custom PCB Footprint using Package Designer](creating-a-custom-pcb-footprint-using-package-designer-in-cadence.html)
+-   [Quick Guide: Creating a Custom PCB Footprint using Package Designer](/creating-a-custom-pcb-footprint-using-package-designer-in-cadence/)
 -   [Part 20: Package Symbol Wizard video](https://www.youtube.com/watch?v=cEmX-KElXdw) from iEngineered
 
 

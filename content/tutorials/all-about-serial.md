@@ -24,9 +24,9 @@ I2C, SPI, and UART are three of the most common protocols for serial data transm
 
 -   [SPI Communication, part 1: Introduction](https://www.youtube.com/watch?v=c8qg3DK_ZVc&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-&index=30) video
 -   [SPI Communication, part 2: Configuration with Microchip Code Configurator](https://www.youtube.com/watch?v=Y1uPY_9UVPY&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-&index=31) video
--   [SPI and Shift Register Tutorial](spi-shift-register-tutorial.html) using the Microchip Curiosity board by Qinchen Zha
+-   [SPI and Shift Register Tutorial](/spi-shift-register-tutorial/) using the Microchip Curiosity board by Qinchen Zha
 
 ## UART Communication
 
 -   [MPLAB XC8 for Beginners Tutorial 19: EUSART with MPLAB Code Configurator](https://www.youtube.com/watch?v=jLRTTHI9m94&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-&index=19) video
--   [UART PIC to Argon tutorial](uart-pic-to-argon-tutorial.html) by Mykol Reklaitis
+-   [UART PIC to Argon tutorial](/uart-pic-to-argon-tutorial/) by Mykol Reklaitis

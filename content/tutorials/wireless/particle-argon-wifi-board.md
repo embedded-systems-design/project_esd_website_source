@@ -41,7 +41,7 @@ There are two major ways to communicate between the devices:
 
 1.  Using a UART (Universal Asynchronous Receiver Transmitter). UART connections transmit ASCII text, meaning that if you are trying to send numbers you will first need to convert them into strings (see FAQ question below). This strategy allows you to send data either to or from the Argon by either reading from or writing to the UART. An older example of how to do this is available [here](https://docs.google.com/document/d/1ArfviVWar79W0KfDVcT3e13jerVyXOeRsWhZUyI3jHg/edit?usp=sharing) (note that it is for the older version of the Argon called the Spark Core, so some of the code may not work).
 2.  Using the I/O pins on the Argon *(Note: This is **not** a form of serial communication)*. If you only need to turn something on and off, or read a simple bit or analog value, then this is a simpler solution than using the UART. See the [Pins and button definitions](https://docs.particle.io/datasheets/wi-fi/argon-datasheet/#pins-and-button-definitions) section of the datasheet and the [Input/Output API](https://docs.particle.io/reference/device-os/firmware/photon/#input-output) pages on the Argon for more information.
-3.  Here is a [UART PIC to Argon Tutorial](uart-pic-to-argon-tutorial.html) written by Mykol Reklaitis
+3.  Here is a [UART PIC to Argon Tutorial](/uart-pic-to-argon-tutorial/) written by Mykol Reklaitis
 
 ## How do I send numeric or formatted data over a UART connection?
 

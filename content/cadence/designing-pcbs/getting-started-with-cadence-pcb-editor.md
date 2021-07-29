@@ -7,7 +7,7 @@ title: Getting Started with Cadence PCB Editor
 
 ## What is a printed circuit board (PCB)?
 
-See the [What is a Printed Circuit Board?](what-is-a-printed-circuit-board.html) page for more information about PCBs and the general design flow for creating a PCB.
+See the [What is a Printed Circuit Board?](/what-is-a-printed-circuit-board/) page for more information about PCBs and the general design flow for creating a PCB.
 
 ## What is Cadence PCB Editor?
 
@@ -25,15 +25,15 @@ This program is also called "Allegro PCB Designer (was Performance L)" and "Alle
 
 ## How do I transfer a design from Design Entry CIS to PCB Editor?
 
-See the [Transferring a Cadence Schematic to PCB Editor](transferring-a-cadence-schematic-to-pcb-editor.html) page.
+See the [Transferring a Cadence Schematic to PCB Editor](/transferring-a-cadence-schematic-to-pcb-editor/) page.
 
 ## [](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)How do I create a PCB layout in PCB Editor?
 
-1.  [Create a board outline](creating-a-board-outline-in-cadence-pcb-editor.html)
-2.  [Change the library search path](changing-the-default-via-padstack-in-cadence-pcb-editor.html) to point to the footprints folder
-3.  [Place the components into the design](placing-and-moving-components-in-cadence-pcb-editor.html)
-4.  [Route traces on the PCB](manual-routing-in-cadence-pcb-editor.html)
-5.  [Follow the ASU PCB Fabrication Process](asu-pcb-fabrication-process.html)
+1.  [Create a board outline](/creating-a-board-outline-in-cadence-pcb-editor/)
+2.  [Change the library search path](/changing-the-default-via-padstack-in-cadence-pcb-editor/) to point to the footprints folder
+3.  [Place the components into the design](/placing-and-moving-components-in-cadence-pcb-editor/)
+4.  [Route traces on the PCB](/manual-routing-in-cadence-pcb-editor/)
+5.  [Follow the ASU PCB Fabrication Process](/asu-pcb-fabrication-process/)
 
 ## Misc
 

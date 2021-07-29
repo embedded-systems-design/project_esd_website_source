@@ -7,7 +7,7 @@ title: Creating a custom PCB footprint manually in Cadence
 
 ## Introduction
 
-A [PCB footprint](https://en.wikipedia.org/wiki/Footprint_(electronics)) is the physical layout on a PCB to which a component is soldered. Usually, you must create a custom PCB footprint for each custom schematic symbol that you create. Footprints can be made for many standard components (e.g., basic ICs) using the Package Symbol Wizard (see the [Creating a PCB footprint using Package Designer in Cadence page](creating-a-custom-pcb-footprint-using-package-designer-in-cadence.html)), but more complex components (like switching power supply ICs with thermal reliefs) must be created by hand. This tutorial details the manual creation of a custom footprint.
+A [PCB footprint](https://en.wikipedia.org/wiki/Footprint_(electronics)) is the physical layout on a PCB to which a component is soldered. Usually, you must create a custom PCB footprint for each custom schematic symbol that you create. Footprints can be made for many standard components (e.g., basic ICs) using the Package Symbol Wizard (see the [Creating a PCB footprint using Package Designer in Cadence page](/creating-a-custom-pcb-footprint-using-package-designer-in-cadence/)), but more complex components (like switching power supply ICs with thermal reliefs) must be created by hand. This tutorial details the manual creation of a custom footprint.
 
 The example custom PCB footprint created in this tutorial will be a [TI LM2676 SIMPLE SWITCHER® 8V to 40V, 3A Low Component Count Step-Down Regulator](http://www.ti.com/product/lm2676) (see Figure 1).
 
@@ -45,7 +45,7 @@ Pad - Pins
 
 ## Create Custom Padstack(s)
 
-For each different type of pin/pad, you need to create a custom padstack. For more information, see the [Creating a custom padstack in Cadence page](creating-a-custom-padstack-in-cadence.html). For this example, you will need to create two custom padstacks using the dimensions above: one for the mechanical pad and one for the pin pads (which are all the same, so one padstack can be used).
+For each different type of pin/pad, you need to create a custom padstack. For more information, see the [Creating a custom padstack in Cadence page](/creating-a-custom-padstack-in-cadence/). For this example, you will need to create two custom padstacks using the dimensions above: one for the mechanical pad and one for the pin pads (which are all the same, so one padstack can be used).
 
 ## Create a New Footprint
 
@@ -78,7 +78,7 @@ For each different type of pin/pad, you need to create a custom padstack. For mo
 
     The *Rotation* option dictates which way the padstack will be rotated. This is particularly relevant when pins are wrapped around multiple sides of an IC (e.g., for a microcontroller).
 
-    The *Pin #* and *Inc* options allow entry of the starting pin number for the first pin and the number by which to increment pin numbers when multiple pins are placed simultaneously. Make sure that these pin numbers align with the pin numbers in the [custom schematic symbol](creating-a-custom-schematic-symbol-in-cadence.html) that you created.
+    The *Pin #* and *Inc* options allow entry of the starting pin number for the first pin and the number by which to increment pin numbers when multiple pins are placed simultaneously. Make sure that these pin numbers align with the pin numbers in the [custom schematic symbol](/creating-a-custom-schematic-symbol-in-cadence/) that you created.
 
     The *Text block* and *Text name* options allow association of a name with the part.
 

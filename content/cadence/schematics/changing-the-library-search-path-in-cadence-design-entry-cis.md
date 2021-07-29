@@ -8,7 +8,7 @@ title: Changing the Library Search Path in Cadence Design Entry CIS
 
 When creating a custom PCB footprint for a component, it is stored somewhere on your computer. In order for Design Entry CIS to find where a custom footprint is stored and associate it with a schematic component, the *library search path* must be changed so that Design Entry CIS knows where to look.
 
-*Note: In order for PCB Editor to find custom PCB footprints and associate them with schematic components, you also need to [change the library search path in PCB Editor](changing-the-default-via-padstack-in-cadence-pcb-editor.html).*
+*Note: In order for PCB Editor to find custom PCB footprints and associate them with schematic components, you also need to [change the library search path in PCB Editor](/changing-the-default-via-padstack-in-cadence-pcb-editor/).*
 
 ## How do I change the library search path in Design Entry CIS?
 

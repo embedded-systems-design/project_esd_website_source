@@ -10,7 +10,7 @@ title: Running a Design for Manufacturing Check in DFM Now
 
 Designs created in an ECAD program may be electrically correct on the screen, but are ultimately constrained by the capabilities of your fabrication equipment. This tutorial walks through how to use the program [DFM Now](https://www.numericalinnovations.com/pages/dfm-now-free-gerber-viewer) to verify that a design is able to be manufactured by the [LPKF ProtoMat S63](https://www.lpkfusa.com/datasheets/prototyping/s63.pdf) in PRLTA 109.
 
-This tutorial requires that you have already [exported Gerber files](exporting-gerber-files-from-cadence-pcb-editor.html) of your design from Cadence.
+This tutorial requires that you have already [exported Gerber files](/exporting-gerber-files-from-cadence-pcb-editor/) of your design from Cadence.
 
 The following video shows the process described in this tutorial from start to finish.
 
@@ -58,7 +58,7 @@ The following video shows the process described in this tutorial from start to f
     ![Figure 7: General Settings window](/larger/image0228.png)
                         
   
-9.  Depending on the complexity of your board, the DFM check will take several seconds to several minutes to run. If it uncovers any errors, you will need to find and correct them within PCB Editor, re-[export your Gerber files](exporting-gerber-files-from-cadence-pcb-editor.html), and re-run the DFM Check on the new Gerber files.
+9.  Depending on the complexity of your board, the DFM check will take several seconds to several minutes to run. If it uncovers any errors, you will need to find and correct them within PCB Editor, re-[export your Gerber files](/exporting-gerber-files-from-cadence-pcb-editor/), and re-run the DFM Check on the new Gerber files.
 
 10. Once you have corrected all of the errors, you will receive a green checkmark. Success! (see Figure 8)
 

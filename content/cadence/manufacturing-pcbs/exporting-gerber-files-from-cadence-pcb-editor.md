@@ -63,7 +63,7 @@ You need **both** Gerber files for each layer **and** a single drill file in o
 
 ## How do I export solder mask files from Cadence? 
 
-See the [Exporting Solder Mask Layers from Cadence PCB Editor](exporting-solder-mask-layers-from-cadence-pcb-editor.html) tutorial
+See the [Exporting Solder Mask Layers from Cadence PCB Editor](/exporting-solder-mask-layers-from-cadence-pcb-editor/) tutorial
 
 ## How do I export drill files from Cadence? 
 

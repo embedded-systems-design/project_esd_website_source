@@ -85,4 +85,4 @@ Digital integrated circuits (ICs) need "bypass capacitors" to both filter the po
 
 ## Where can I find companies that manufacture power supply components?
 
--   [Sources for Electrical and Electromechanical Components](sources-for-electrical-and-electromechanical-components.html)
+-   [Sources for Electrical and Electromechanical Components](/sources-for-electrical-and-electromechanical-components/)

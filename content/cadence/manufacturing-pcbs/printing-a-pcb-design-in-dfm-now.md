@@ -5,17 +5,17 @@ tags:
 title: Printing a PCB Design in DFM Now
 ---
 
-*Note*: This tutorial shows how to print a PCB design on paper. Please see the [ASU PCB Fabrication Process](asu-pcb-fabrication-process.html) for instructions on how to manufacture / "print" a PCB design in copper.
+*Note*: This tutorial shows how to print a PCB design on paper. Please see the [ASU PCB Fabrication Process](/asu-pcb-fabrication-process/) for instructions on how to manufacture / "print" a PCB design in copper.
 
 ## Why would you want to print a PCB design on paper?
 
 Before sending a PCB to be manufactured, it is imperative to separate the layers and print it at 1:1 (100%) scale on paper to physically verify that your parts will fit through the holes and that pad spacing is correct.
 
-*Note:* You can also [Print a PCB Layout in Cadence PCB Editor](printing-a-pcb-layout-in-cadence-pcb-editor.html).
+*Note:* You can also [Print a PCB Layout in Cadence PCB Editor](/printing-a-pcb-layout-in-cadence-pcb-editor/).
 
 ## How do you print a PCB design on paper?
 
-1.  [Run a Design for Manufacturing Check](running-a-design-for-manufacturing-check-in-dfm-now.html) in DFM Now
+1.  [Run a Design for Manufacturing Check](/running-a-design-for-manufacturing-check-in-dfm-now/) in DFM Now
 
 2.  In the Layer Display window, right-click on a layer and choose All Layers Off.
 
