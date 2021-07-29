@@ -58,7 +58,7 @@ params:
   #googleAnalitycsID: Your ID
   home: Home
   location: Arizona State University
-  logo: images/esd3.svg
+  logo: images/esd3.png
 #  mobile: 0124857985320
   newsletter:
     content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
