@@ -45,10 +45,10 @@
           {{ .Render "post" }}
           {{ end }}
         </div>
-      </div>
-      <!-- pagination -->
-      <div class="row justify-content-center">
-        {{ partial "paginator.html" . }}
+        <!-- pagination -->
+        <div class="row justify-content-center">
+	  {{ partial "paginator.html" . }}
+        </div>
       </div>
       <!-- sidebar -->
         {{- block "sb" . }}{{- end }}
