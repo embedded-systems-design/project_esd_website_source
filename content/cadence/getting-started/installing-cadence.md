@@ -59,7 +59,7 @@ In order to use Cadence on your computer either in on-campus housing or off camp
 
 **Q:** What if I don't have enough hard drive space to install Cadence on my computer?
 
-**A: **
+**A:**
 
 1.  Free space on your hard drive
 2.  Use an external hard drive on your computer to move other files off of C:\ to make space for Cadence. Cadence will only run properly off of C:\.
