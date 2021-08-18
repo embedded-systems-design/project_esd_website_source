@@ -16,7 +16,7 @@ title: Installing Cadence
 
 ### Before Installing
 
-Cadence has been known to change environment variables used by other software.  One of those is the HOME variable.  If left unset, it will add this variable and define it as "C:/Cadence/SPB_Data-Silent/"
+Cadence has been known to change environment variables used by other software.  One of those is the HOME variable.  If left unset, it will add this variable and define it as ```C:\Cadence\SPB_Data-Silent\```
 
 It is therefore recommended to set that variable so that your other software remains working
 
@@ -30,7 +30,7 @@ In the **top** window, look for the HOME environment variable.  If it exists, y
 
 1.  If it doesn't exist, select "new"
 2.  In variable name, type HOME (all caps)
-3.  In the value field, enter the path to your user directory "c:\users\MYUSERNAME".  You can browse to the right directory
+3.  In the value field, enter the path to your user directory ```C:\users\MYUSERNAME```.  You can browse to the right directory
 
 Save your changes.
 
@@ -62,7 +62,7 @@ In order to use Cadence on your computer either in on-campus housing or off camp
 **A:**
 
 1.  Free space on your hard drive
-2.  Use an external hard drive on your computer to move other files off of C:\ to make space for Cadence. Cadence will only run properly off of C:\.
+2.  Use an external hard drive on your computer to move other files off of ```C:\``` to make space for Cadence. Cadence will only run properly off of ```C:\```.
 3.  Use Cadence on the computers in PRLTA 103/109/117
 
 **Q:** During installation, I get an error about a potential Trojan horse. What should I do?

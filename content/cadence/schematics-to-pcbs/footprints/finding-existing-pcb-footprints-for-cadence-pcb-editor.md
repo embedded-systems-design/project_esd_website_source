@@ -11,7 +11,9 @@ While Cadence does have some built-in footprint libraries, they are limited due 
 
 In most cases, it is easier and faster to build your own custom footprints for all components. However, there are some built-in libraries that can be found in the following directory:
 
-C:/Cadence/SPB_17.4-silent/share/pcb/pcb_lib/symbols
+```
+C:\Cadence\SPB_17.4-silent\share\pcb\pcb_lib\symbols
+```
 
 Within this folder, you can double-click on the .dra files to see footprints and the .pad files to see padstacks in PCB Editor.
 
@@ -21,7 +23,9 @@ Additionally, there is a [footprints document](https://drive.google.com/file/d/
 
 There are a number of useful built-in through-hole padstacks located in:
 
-C:/Cadence/SPB_17.4-silent/share/pcb/pcb_lib/symbols
+```
+C:\Cadence\SPB_17.4-silent\share\pcb\pcb_lib\symbols
+```
 
 that follow the naming convention:
 
@@ -32,8 +36,8 @@ pad(number1)(circle/square)(number2)d where
 -   "number2" is the diameter of the hole in the center of the pad (see Figure 1, red circle)
 
 ![Figure 1: Example through-hole Padstack, where the blue ring is copper and the red is the hole](/larger/image0164.png)
-   
-  
+
+
 For example, pad93cir56d.pad is a padstack with an outer copper ring diameter of 93 mils (not mm), and a center hole diameter of 56 mils.
 
 For surface-mount padstacks, it is easiest to make your own using the Padstack Editor application.
@@ -44,7 +48,9 @@ First, look in the manufacturer's datasheet for each component and identify the 
 
 Once you have identified the package type and footprint dimensions, there are a number of useful built-in through-hole and surface mount footprints located in:
 
-C:/Cadence/SPB_17.4-silent/share/pcb/pcb_lib/symbols
+```
+C:\Cadence\SPB_17.4-silent\share\pcb\pcb_lib\symbols
+```
 
 ### Capacitors (through-hole)
 

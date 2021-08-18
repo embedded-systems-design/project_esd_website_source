@@ -15,20 +15,22 @@ When creating a custom PCB footprint for a component, it is stored somewhere on 
 1.  Save your custom footprints in the symbols folder on your computer. Depending on how Cadence is installed on your computer, the full path should be similar to:
 
     ```
-    C:/Program Files/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols
+    C:\Program Files\Cadence\SPB_17.4\share\pcb\pcb_lib\symbols
     ```
 
     When creating a new footprint drawing, the New Drawing dialog box will show the default path (see Figure 1 below). If the path in the dialog box is different than the path above, use the dialog box path for the remainder of this tutorial.
 
     ![Figure 1: New Drawing dialog box](/larger/image0050.png) |
-    
+
 Also, note the exact name of the footprint. This will be needed later in order to reference it.
 
 2.  Launch Design Entry CIS. Note the full path for the Capture.ini file shown on the Start Page (see Figure 2). Depending on how Cadence is installed on your computer, the full path should be similar to:
 
-C:/Cadence/SPB_Data-Silent/cdssetup/OrCAD_Capture/17.4.0/Capture.ini
+```
+C:\Cadence\SPB_Data-Silent\cdssetup\OrCAD_Capture\17.4.0\Capture.ini
+```
 
-or, if you made a custom HOME variable: %HOME%/cdssetup/OrCAD_Capture/17.4.0/Capture.ini
+or, if you made a custom HOME variable: ```%HOME%\cdssetup\OrCAD_Capture\17.4.0\Capture.ini```
 
    ![Figure 2: Design Entry CIS Start Page](/figures/CaptureStart.png)
 
@@ -39,7 +41,7 @@ or, if you made a custom HOME variable: %HOME%/cdssetup/OrCAD_Capture/17.4.0/Cap
 4.  The Capture.ini file will open in Notepad. Under the [Allegro Footprints] section, add the full library search path from step 1 above if it is not already listed (see Figure 4). Note that you must increment the number after Dir for each path added (e.g., Dir0, Dir1, Dir2). **Do not delete any existing paths from the list.** ** **
 
    ![Figure 4: Capture.ini file with several library search paths added](/larger/image0053.png)
-        
+
 5.  You have successfully added a library search path to Design Entry CIS. If you are still not able to attach your custom footprints to schematic symbols, re-check the above steps and make sure your custom footprint name is correct.
 
 *Based on a tutorial written by Seana O'Reilly.*

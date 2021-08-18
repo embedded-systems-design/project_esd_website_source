@@ -15,7 +15,7 @@ This tutorial will walk through the creation of a custom surface-mount device (S
 
     ![Figure 1: Recommended soldering footprint for MCH3382 Power MOSFET](/larger/image0130.png)
 
-  
+
 
 2.  In Windows, open Pad Editor in the Cadence folder in the Start Menu. The Pad Editor window will appear (see Figure 2). The pad editor will allow you to create a padstack for the three individual pads in the footprint. Select "SMD Pin" under "Select padstack usage:" and select "Rectangle" under "Select the default pad geometry".
 
@@ -30,7 +30,7 @@ This tutorial will walk through the creation of a custom surface-mount device (S
 5.  Save the padstack in the same location as your custom symbols. The following folder is the default:
 
 ```
-C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+C:\Program Files\Cadence\SPB_17.2\share\pcb\pcb_lib\symbols
 ```
 
 6.  Repeat steps 1 - 5 for any additional different pads in your component. *You do **not** need to recreate the same pad if it is used multiple times in a single footprint.*
@@ -52,7 +52,7 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
 4. Choose Setup > Grids... to adjust the grid layout and spacing. In the Define Grid dialog, check the "Grids On" checkbox, enter 0.1 for the Spacing in both the x and y dimensions, and click OK (see Figure 7).
 
     ![Figure 7: Define Grid dialog](/larger/image0132.png)
-  
+
 5. Place an origin mark by going to Setup > Change Drawing Origin (see Figure 8)
 
     ![Figure 8: Changing the location of the drawing origin][3]
@@ -85,7 +85,7 @@ C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
   [1]: /custom-smd-footprint_media/image1.png
   [Figure 5: Color/Visibility selection]: /custom-smd-footprint_media/image2.png
   [2]: /custom-smd-footprint_media/image3.jpeg
-  [3]: /custom-smd-footprint_media/image4.png 
-  [4]: /custom-smd-footprint_media/image5.png 
-  [5]: /custom-smd-footprint_media/image6.png 
-  [6]: /custom-smd-footprint_media/image7.png 
+  [3]: /custom-smd-footprint_media/image4.png
+  [4]: /custom-smd-footprint_media/image5.png
+  [5]: /custom-smd-footprint_media/image6.png
+  [6]: /custom-smd-footprint_media/image7.png
