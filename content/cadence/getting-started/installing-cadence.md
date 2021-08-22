@@ -53,7 +53,7 @@ Save your changes.
 
 ## Using Cadence in On Campus Housing or Off Campus
 
-In order to use Cadence on your computer either in on-campus housing or off campus, you must connect to the [ASU VPN](https://sslvpn.asu.edu/) prior to launching Cadence. This allows Cadence to connect to the ASU license server.
+In order to use Cadence on your computer either in on-campus housing or off campus, you must have two-factor authentication enabled on your account ([instructions](https://getprotected.asu.edu/services/identity-and-access-management/duo-two-factor)) and connect to the [ASU VPN](https://sslvpn.asu.edu/) prior to launching Cadence. This allows Cadence to connect to the ASU license server.
 
 ## Most Common Errors
 
