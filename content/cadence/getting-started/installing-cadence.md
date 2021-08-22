@@ -30,7 +30,7 @@ In the **top** window, look for the HOME environment variable.  If it exists, y
 
 1.  If it doesn't exist, select "new"
 2.  In variable name, type HOME (all caps)
-3.  In the value field, enter the path to your user directory ```C:\users\MYUSERNAME```.  You can browse to the right directory
+3.  In the value field, enter the path to your user directory ```C:\Users\MYUSERNAME```.  You can browse to the right directory
 
 Save your changes.
 
@@ -43,7 +43,7 @@ Save your changes.
 5. Download the HotFix from the link provided in the Canvas announcement. The HotFix is over 6.4 GB so make sure you are using high-speed Internet at home or on campus.
 6. Decompress the Hotfix ZIP file. You can delete the ZIP file after it is decompressed.
 7. Launch setup.exe to initiate the HotFix installation. The HotFix has a status bar indicating when it is complete.
-8. Confirm that Cadence has installed correctly by launching Start > Cadence PCB 17.4-2019 > Capture CIS 17.4. This program allows you to model electronic schematics. The version number should be `17.4-2019 S019`.
+8. Confirm that Cadence and the HotFix have installed correctly by launching Start > Cadence PCB 17.4-2019 > Capture CIS 17.4. This program allows you to model electronic schematics. The version number should be `17.4-2019 S020`.
 9. Follow the [Configuring Cadence](/configuring-cadence/) instructions to configure and optimize Cadence for the ASU Polytechnic engineering programs.
 
 ## Using Cadence On Campus
