@@ -54,7 +54,7 @@ params:
     expire_days: 2
   copyright: "|  copyright &copy; 2021 Shawn Jordan and Dan Aukes.  All Rights Reserved.  |"
   description: This is meta description
-  email: emailaddress
+  #email: emailaddress
   #googleAnalitycsID: Your ID
   home: Home
   location: Arizona State University
