@@ -9,7 +9,11 @@ title: Soldering and Desoldering Tips and Tricks
 
 ## Video Walkthrough
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4kwuq9Yoj5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How do I turn on the soldering irons in PRLTA 103?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2WVQa1My0s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How do I solder through-hole components by hand?
 
