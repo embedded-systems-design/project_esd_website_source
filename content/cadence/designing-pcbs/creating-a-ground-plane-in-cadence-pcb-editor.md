@@ -96,6 +96,8 @@ A void, rubout, or anti-etch is a place where the copper is fully removed from t
 
 ## How do I create a rubout in Cadence? 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rec8kbkNtGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1.  First, make sure you have placed all of the components on your PCB (and ideally have not started routing traces yet, though this can still be done even if you have routed traces).
 
 2.  Choose Shape > Manual Void/Cavity and choose a shape of your liking (see Figure 17).

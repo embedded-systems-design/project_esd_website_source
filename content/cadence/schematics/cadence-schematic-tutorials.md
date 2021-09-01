@@ -22,6 +22,8 @@ This program is also called "Allegro Design Entry CIS" and "OrCAD Capture CIS". 
 
 ## How do I create a schematic?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rim7BOzS-jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ** WARNING:** Do NOT use spaces in naming your projects. Spaces will prevent Cadence from working correctly.
 
 -   [Quick Guide: Creating a New Project in Cadence](/creating-a-new-project-in-cadence/)

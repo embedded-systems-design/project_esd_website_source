@@ -23,3 +23,5 @@ A connector is an electrical component that links two or more components togethe
 You can also order connectors directly from distributors (e.g., [Newark](http://www.newark.com/), [Digikey](http://www.digikey.com/), [Mouser](http://www.mouser.com/))
 
 ## How do I choose a connector?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRlhBDCs5DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

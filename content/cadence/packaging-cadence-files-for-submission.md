@@ -89,4 +89,6 @@ This tutorial goes through how to package Cadence schematic and PCB files for su
 
 The following video shows an older version of the process described in this tutorial.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qsP4t-bZf8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Based on a video and tutorial created by Robert Goby*

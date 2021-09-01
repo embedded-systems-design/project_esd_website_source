@@ -15,7 +15,7 @@ Cadence PCB Editor is an electronic CAD (ECAD) program that takes a netlist cre
 
 ## Video Walkthrough (Cadence 16.6)
 
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tRAkY6g5NWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How do I launch Cadence to create a PCB?
 
@@ -27,7 +27,7 @@ This program is also called "Allegro PCB Designer (was Performance L)" and "Alle
 
 See the [Transferring a Cadence Schematic to PCB Editor](/transferring-a-cadence-schematic-to-pcb-editor/) page.
 
-## [](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)How do I create a PCB layout in PCB Editor?
+## How do I create a PCB layout in PCB Editor?
 
 1.  [Create a board outline](/creating-a-board-outline-in-cadence-pcb-editor/)
 2.  [Change the library search path](/changing-the-default-via-padstack-in-cadence-pcb-editor/) to point to the footprints folder
@@ -41,7 +41,6 @@ Globally changing trace widths: <altering-trace-widths.html>
 
 Globally changing vias: TBD
 
-[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)[](https://draft.blogger.com/blogger.g?blogID=6469592703220698319)
 
 ## Additional Resources
 

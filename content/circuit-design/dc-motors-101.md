@@ -8,6 +8,8 @@ title: DC Motors 101
 
 #### [Watch the video mini-lecture on DC motor control from Dr. Jordan](https://youtu.be/nMhxy2hxcKs)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nMhxy2hxcKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What types of DC motors are most common?
 
 -   Brushed DC motors. Current flowing in one direction makes the motor turn one direction, and current flowing in the opposite direction makes the motor turn the opposite direction.

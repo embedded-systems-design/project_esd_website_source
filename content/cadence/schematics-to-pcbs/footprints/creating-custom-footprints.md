@@ -22,4 +22,6 @@ Create a custom footprint for the component. There are two ways to do this:
 
 [Update the library search path in PCB Editor](/changing-the-default-via-padstack-in-cadence-pcb-editor/)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UFB1-EyFxco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Figure 1: Video walkthrough of creating a custom footprint (by Ryan Sparks, 2020)

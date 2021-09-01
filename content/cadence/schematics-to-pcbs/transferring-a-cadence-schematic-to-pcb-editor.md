@@ -14,6 +14,8 @@ In order to create a PCB, you must first prepare the schematic and check for err
   
 ## Video Walkthrough
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/coCbACLgDqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Create Custom Footprints
 
 All schematic symbols need a footprint. If you created any [custom schematic symbols](/creating-a-custom-schematic-symbol-in-cadence/), you likely need to create a custom footprint for each one. For most ICs, you can use the [Package Designer](/creating-a-custom-pcb-footprint-using-package-designer-in-cadence/) application to make custom footprints. For all other components, you can [make custom footprints manually](/creating-a-custom-pcb-footprint-manually-in-cadence/).

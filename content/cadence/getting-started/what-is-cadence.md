@@ -8,6 +8,8 @@ title: What is Cadence?
 
 Cadence is an electronic computer-aided drafting (ECAD) program commonly used in industry for the design and simulation of electronic circuits and printed circuit boards. The following video by Casey Petersen describes the basics of Cadence:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9k3eeZqNgWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What are all of the different Cadence file extensions used for?
 
 -   [Cadence Allegro file extensions and what they contain](http://kumargs-pcb-design.blogspot.com/2009/01/cadence-allegro-file-extensions-and.html) from Tharanthi

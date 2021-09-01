@@ -14,6 +14,8 @@ This tutorial requires that you have already [exported Gerber files](/exporting-
 
 The following video shows the process described in this tutorial from start to finish.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/huYkOAa1FVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Step 1: Install and Configure DFM Now
 
 1.  [Download](https://www.numericalinnovations.com/pages/dfm-now-download-now) and install DFM Now

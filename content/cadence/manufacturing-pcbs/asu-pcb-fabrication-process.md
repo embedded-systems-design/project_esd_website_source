@@ -10,6 +10,8 @@ title: ASU PCB Fabrication Process
 
 The following video shows our PCB manufacturing process.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DJPIYXGpPVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Video by Peralta Engineering Studios*
 
 ## How do you prepare and submit Cadence PCB design for fabrication?

@@ -238,3 +238,7 @@ What advantages of different numeral systems and using SPI serial communication 
 Can those be implemented in your current and future projects?
 
 Tutorial written by Qinchen (Sam) Zha
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RQEH6XNZmkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s3fj0yE4xLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

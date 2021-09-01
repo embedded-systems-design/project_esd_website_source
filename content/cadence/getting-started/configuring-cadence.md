@@ -122,3 +122,5 @@ Next: [Get started creating a schematic](/getting-started-with-cadence/)
 If you can't find your config.ini file, make sure you 
 
 Also, here is a video documenting an older version of this process:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QyfyskwCqGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

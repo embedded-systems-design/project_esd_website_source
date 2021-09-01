@@ -177,4 +177,6 @@ If the footprint does not show up, confirm that the name of the footprint in the
 
 The following video shows the process described in this tutorial from start to finish. Note that the Cadence interface has changed for padstack editing since the time the video was created.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i8y3Q2Sl-ZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Based on a video and tutorial created by Robert Goby*

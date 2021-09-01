@@ -54,4 +54,6 @@ As an alternative to using asuvia.pad, you can instead change the default via.pa
 
 The following video shows the process described in this tutorial from start to finish in Cadence 16.6 (old version):
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3PIpXoD9BbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Based on a video and tutorial created by Robert Goby and updated by Qinchen Zha (2/2020) and Ryan Sparks (10/2020).*
