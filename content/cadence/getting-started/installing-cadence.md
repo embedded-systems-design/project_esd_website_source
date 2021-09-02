@@ -5,6 +5,7 @@ tags:
 - cadence
 - pcb
 title: Installing Cadence
+weight: 2
 ---
 
 ## Installation

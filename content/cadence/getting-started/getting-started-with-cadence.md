@@ -3,6 +3,7 @@ tags:
 - tutorial
 - cadence
 title: Getting Started with Cadence
+weight: 1
 ---
 
 ## Introduction
