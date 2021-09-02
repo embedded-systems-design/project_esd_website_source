@@ -75,7 +75,7 @@ or if you have defined your home directory differently according to the installa
   
 ## Step 3. Configure PCB Editor
 
-1.  Open the PCB Editor application, which you will use to create PCB designs. When the "17.4 Allegro PCB Designer Product Choices" window (see Figure 4) appears, select Allegro PCB Designer and click the checkbox next to Use as default. Click OK to continue.
+1.  Open the PCB Editor application, which you will use to create PCB designs. When the "17.4 Allegro PCB Designer Product Choices" window (see Figure 4) appears, select 'Allegro PCB Designer' or 'Allegro PCB Venture' and click the checkbox next to Use as default. Click OK to continue.
 
     ![Allegro PCB Designer Product Choices window](/larger/image0066.png)
 
