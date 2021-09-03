@@ -7,6 +7,9 @@ icon: bi bi-person-circle
 type : "about"
 show_front: false
 summary: This website is developed by Shawn Jordan and Dan Aukes
+menu:
+  footer:
+    weight: 5
 ---
 
 This website is developed by

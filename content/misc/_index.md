@@ -1,4 +1,7 @@
 ---
-title: Misc Posts
+title: Misc
 icon: bi bi-folder
+menu:
+  main:
+    weight: 4
 ---

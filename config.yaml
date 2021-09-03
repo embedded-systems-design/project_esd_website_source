@@ -10,33 +10,6 @@ taxonomies:
   tag: tags
 disqusShortname: ''
 languageCode: en-us
-menu:
-  footer:
-  - URL: about
-    name: About
-    weight: 1
-  - URL: contact
-    name: Contact
-    weight: 3
-  main:
-  - URL: cadence
-    name: Cadence
-    weight: 1
-  - URL: circuit-design
-    name: Circuit Design
-    weight: 2
-  - URL: parts
-    name: Parts
-    weight: 3
-  - URL: tutorials
-    name: Tutorials
-    weight: 4
-  - URL: misc
-    name: Misc
-    weight: 5
-#  - URL: contact
-#    name: Contact
-#    weight: 3
 outputs:
   home:
   - HTML
