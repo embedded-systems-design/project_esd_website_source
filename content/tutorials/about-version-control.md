@@ -205,11 +205,11 @@ PSoC Creator for now.
 
 ## Setting up the Repo and including a .gitignore
 
-Open the folder in which the workspace was saved (C:/Users/UserName/Documents/PSoC Creator/WorkspaceName/) in Windows Explorer.
+Open the folder in which the workspace was saved (`C:\\Users\\UserName\\Documents\\PSoC Creator\\WorkspaceName`) in Windows Explorer.
 
 Right click within the folder and select "Git Bash here" to open a git terminal.
 
-To initialize the workspace as a git repo, enter `git init`. Next, download the (.gitignore)[https://google.com] and put the .gitignore file in the same folder. 
+To initialize the workspace as a git repo, enter `git init`. Next, download the [.gitignore](https://github.com/HalcyonAura/PSoCTest/blob/TestBranch1/.gitignore) and put the .gitignore file in the same folder. 
 
 On the GitHub UI, create a new repository, but do not initialize it with a README.md, .gitignore, license, or any other option. Just a name, such as PSoC Workspace. Click create repository. 
 
