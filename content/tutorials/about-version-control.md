@@ -71,7 +71,7 @@ Push to the development branch often/commit regularly. Not only to save changes 
 
 ### Setting up GitHub
 
-Create an account on GitHub by going to [github.com](github.com) and signing up. Once complete, click the profile circle on the top right. Most navigation items can be found through the pull down menu. Download a Git CLI, preferably [Git for Windows](https://gitforwindows.org/), however, GitHub provides a CLI that is recently out of beta (GitHub CLI)[https://cli.github.com/]. 
+Create an account on GitHub by going to [github.com](github.com) and signing up. Once complete, click the profile circle on the top right. Most navigation items can be found through the pull down menu. Download a Git CLI, preferably (Git for Windows)[https://gitforwindows.org/], however, GitHub provides a CLI that is recently out of beta [GitHub CLI](https://cli.github.com/). 
 
 ### Git for Windows
 
@@ -94,7 +94,7 @@ If there are any additional options not specified here do not change the options
 
 Click the plus left of the profile menu and choose "New Repository." When naming a repository the autochecker will reject repository names already in use by the account, special characters and spaces will be automatically turned into "-" and generally should be easy to remember and type. Though a description is optional, it is still recommended to add a short one sentence description or pitch about the project.
 
-Users can have unlimited public and private repositories. Public means visible to all, private means only visible to members of the repository. If there are features of interest that require a GitHub paid plan, consider checking out the (GitHub Education Student Package)[https://education.github.com/pack], which is free to all university students to have a Pro plan without needing to pay. As ASU students, additional verification will likely be needed and student validation requests are usually resolved in less than a week. 
+Users can have unlimited public and private repositories. Public means visible to all, private means only visible to members of the repository. If there are features of interest that require a GitHub paid plan, consider checking out the [GitHub Education Student Package](https://education.github.com/pack), which is free to all university students to have a Pro plan without needing to pay. As ASU students, additional verification will likely be needed and student validation requests are usually resolved in less than a week. 
 
 Select "Add a README.md" to instantiate (put a file in) the repo(sitory). Instructions to clone, build, and run projects, along with project descriptions, FAQ or other pertinent information can usually be found in the README.md. It is good practice to always have one at the top level of a repo.
 
