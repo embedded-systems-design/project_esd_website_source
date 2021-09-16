@@ -8,7 +8,7 @@ tags:
 title: Bypass capacitor basics
 ---
 
-A bypass capacitor (aka "filter cap") is a small capacitor that dampens electrical noise moving toward an IC. Electrical noise can cause circuit malfunctions. Unless otherwise specified in the data sheet of an IC, a 0.1 ÂµF non-polarized ceramic capacitor usually makes a good bypass capacitor.
+A bypass capacitor (aka "filter cap") is a small capacitor that dampens electrical noise moving toward an IC. Electrical noise can cause circuit malfunctions. Unless otherwise specified in the data sheet of an IC, a 0.1 µF non-polarized ceramic capacitor usually makes a good bypass capacitor.
 
 -   <http://www.learningaboutelectronics.com/Articles/What-is-a-bypass-capacitor.html>
 -   <https://en.wikipedia.org/wiki/Decoupling_capacitor>
