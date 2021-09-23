@@ -12,9 +12,10 @@ In order to create a PCB, you must first prepare the schematic and check for err
 ![Figure 1: Example schematic ready for transfer to PCB Editor](/larger/image0235.png)
            
   
-## Video Walkthrough
+## Video Walkthroughs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/coCbACLgDqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/kksKty9UeMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Create Custom Footprints
 
