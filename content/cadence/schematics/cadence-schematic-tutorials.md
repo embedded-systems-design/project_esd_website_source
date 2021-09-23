@@ -28,6 +28,7 @@ This program is also called "Allegro Design Entry CIS" and "OrCAD Capture CIS". 
 
 -   [Quick Guide: Creating a New Project in Cadence](/creating-a-new-project-in-cadence/)
 -   [Cadence Schematics Settings and Setup](https://www.youtube.com/watch?v=VjxWnRx8WZQ&list=PLfPEKfeM1ZYMa7phcDzKXsb0zQN60Vv3Q&index=2) video from Casey Petersen
+-   [Starting a Schematic](https://youtu.be/HU0upM9UCF4) video from Andrew Crouch
 -   [Part 1: Getting Started](https://www.youtube.com/watch?v=NU8i39HZTik) video from iEngineered
 -   [OrCAD Basic Tutorial](https://www.youtube.com/watch?v=LhSo14DUFVQ) video from Lauren Spradlin
 
@@ -62,6 +63,7 @@ If a part is not available through one of the sources above, then you must creat
 
 -   [Quick Guide: Creating a Custom Schematic Symbol](/creating-a-custom-schematic-symbol-in-cadence/)
 -   [Creating new parts and preparing for footprints](https://www.youtube.com/watch?v=8EgTsjVaZS8&index=5&list=PLfPEKfeM1ZYMa7phcDzKXsb0zQN60Vv3Q) video from Casey Petersen
+-   [Creating a custom schematic symbol](https://youtu.be/jBOrCeYZxdM) video from Andrew Crouch
 -   [Creating custom schematic symbols](https://www.youtube.com/watch?v=JBrpZbYMN4c) video from parsysEDA
 -   [Making and Editing Capture Parts - Chapter 7 in the *Complete PCB Design Using OrCAD Capture and PCB Editor*](http://search.ebscohost.com.ezproxy1.lib.asu.edu/login.aspx?direct=true&db=nlebk&AN=249296&site=ehost-live&ebv=EB&ppid=pp_v) book by Kraig Mitzner
 
@@ -85,6 +87,7 @@ Cadence sometimes hides the power and ground pins on components (particularly IC
 **STEP 2:** Check the schematic for errors. Schematic capture programs have a design rules check (DRC) option that checks for inconsistencies in schematics. DRCs will not find all errors (for instance, choosing the wrong part or function).
 
 -   [Quick Guide: Transferring a Schematic to PCB Editor](/transferring-a-cadence-schematic-to-pcb-editor/)
+-   [Design Rules Check example](https://youtu.be/ktMlFAqgS08) video by Andrew Crouch
 -   [OrCAD Tutorial - Section 2.4](https://drive.google.com/a/asu.edu/file/d/0ByRWb7dgVD-rX3VWTWxLNjdsRWs/edit) *(older version of software)*
 -   [Part 10: Design Validation and Processing](https://www.youtube.com/watch?v=WCCgKwLbV6o) video from iEngineered
 
