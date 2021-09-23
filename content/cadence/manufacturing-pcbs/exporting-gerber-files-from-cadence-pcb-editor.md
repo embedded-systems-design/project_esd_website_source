@@ -17,6 +17,8 @@ A drill file (also known as a NC Drill file) stores both the specific sizes and 
 
 You need **both** Gerber files for each layer **and** a single drill file in order to successfully submit your design for manufacturing.
 
+## Video Walkthrough
+<iframe width="560" height="315" src="https://youtu.be/CpwfKBhIi64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## How do I export Gerber files from Cadence? 
 
 1.  Open your PCB layout in Allegro PCB Designer
