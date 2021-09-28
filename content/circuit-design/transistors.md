@@ -1,5 +1,10 @@
 ---
 title: Transistors
+tags: 
+  - circuit-design
+  - transistors
+  - bjt
+  - mosfet
 ---
 
 ## What is a transistor?

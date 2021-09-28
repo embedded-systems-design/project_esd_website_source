@@ -1,5 +1,10 @@
 ---
 title: Pullup/Pulldown resistors
+tags: 
+  - circuit-design
+  - resistors
+  - pullup
+  - pulldown
 ---
 
 **What are pullup resistors?**

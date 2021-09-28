@@ -64,7 +64,7 @@ tags: [debugging,]
     If you compare your PCB Design against the datasheets of your components and find all traces and pin layouts are correct, try switching out the part for a brand new one from the bag. This is the importance of order multiple copies of your parts. It is possible to burn out the chip by touching the soldering iron to the pins of a part at too high of a heat or too often. Sometimes if a part is from an untrusted manufacturer such as an Amazon order, parts may come faulty as well. On this note however, you should never order parts from a website or company that does not come with a datasheet or is not approved by the teaching staff beforehand.
 
   [A picture containing text, device Description automatically generated]: image1.jpg 
-  [this article]: http://esdresources.blogspot.com/2016/02/soldering-and-desoldering-tips-and.html
+  [this article]: /soldering-and-desoldering-tips-and-tricks
   [Diagram Description automatically generated]: image2.jpeg 
   [A picture containing circuit, electronics Description automatically generated]: image3.jpeg 
   [A close-up of a machine Description automatically generated with low confidence]: image4.jpeg 

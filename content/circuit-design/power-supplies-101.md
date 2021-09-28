@@ -1,9 +1,9 @@
 ---
-tags:
-- circuits
-- noise
-- power supply
 title: Power Supplies 101
+tags:
+  - circuit-design
+  - noise
+  - power-supplies
 ---
 
 ## What are the components of a basic power supply subsystem?

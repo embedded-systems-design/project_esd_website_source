@@ -1,6 +1,8 @@
 ---
 tags:
-- components
+  - components
+  - circuit-design
+  - fuses
 title: Fuses 101
 ---
 

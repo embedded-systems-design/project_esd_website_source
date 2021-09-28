@@ -1,5 +1,8 @@
 ---
 title: Motors
+tags: 
+  - circuit-design
+  - motors
 ---
 
 There are many types of motors out there each with their own pros and cons. There are two main types of motors, brushed and brushless, each with many subcategories within them. In this we will only be going over the most common types and their control. These include DC brushed, stepper, and 3-phase brushless.

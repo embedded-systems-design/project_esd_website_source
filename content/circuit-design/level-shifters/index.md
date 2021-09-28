@@ -1,5 +1,8 @@
 ---
 title: Level shifters
+tags: 
+  - circuit-design
+  - level-shifters
 ---
 
 What is a level shifter?

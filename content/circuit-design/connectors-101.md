@@ -1,7 +1,8 @@
 ---
-tags:
-- components
 title: Connectors 101
+tags:
+  - connectors
+  - circuit-design
 ---
 
 ## What is a connector?

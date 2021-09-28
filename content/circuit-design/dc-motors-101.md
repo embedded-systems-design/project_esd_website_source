@@ -1,9 +1,8 @@
 ---
-tags:
-- circuits
-- actuator
-- motor
 title: DC Motors 101
+tags:
+  - circuit-design
+  - motors
 ---
 
 #### [Watch the video mini-lecture on DC motor control from Dr. Jordan](https://youtu.be/nMhxy2hxcKs)
