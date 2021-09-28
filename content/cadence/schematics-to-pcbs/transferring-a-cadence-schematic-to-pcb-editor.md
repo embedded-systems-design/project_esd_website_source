@@ -14,8 +14,18 @@ In order to create a PCB, you must first prepare the schematic and check for err
   
 ## Video Walkthroughs
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/coCbACLgDqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://youtu.be/kksKty9UeMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="ratio ratio-16x9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/coCbACLgDqM" title="YouTube video player" allowfullscreen></iframe>
+</div>
+
+[Cadence: Part 3 Netlist Export](https://www.youtube.com/watch?v=coCbACLgDqM&t=1s)
+
+<div class="ratio ratio-16x9">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kksKty9UeMo" title="YouTube video player" allowfullscreen></iframe>
+</div>
+
+[Creating a PCB in Cadence PCB Editor](https://www.youtube.com/watch?v=kksKty9UeMo)
 
 ## Create Custom Footprints
 
