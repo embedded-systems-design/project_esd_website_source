@@ -43,13 +43,11 @@ These suppliers generally offer lower prices for components, but may not have da
 
 [Electronic Goldmine](http://www.goldmine-elec-products.com/)
 
+[Excess Solutions](http://www.excesssolutions.com)
+
 [Hobby King](https://hobbyking.com/)
 
-[HSC Electronic Supply](http://www.halted.com/)
-
 [Marlin P. Jones & Associates](https://www.mpja.com/)
-
-[MCM Electronics](http://www.mcmelectronics.com/)
 
 [Parts Express](http://www.parts-express.com/)
 
@@ -66,11 +64,6 @@ These suppliers generally offer lower prices for components, but may not have da
 [Tower Hobbies](https://www.towerhobbies.com/)
 
 [Circuit Specialists](http://www.circuitspecialists.com/) - 819 W. Fairmont Dr., Ste. 2, Tempe, AZ 85282. (480) 464-2485. [Hours](http://www.circuitspecialists.com/contact-us.html).
-
-[Fry's Electronics](http://www.frys.com/)
-
--   [Phoenix Store](http://www.frys.com/ac/storeinfo/phoenix-location-frys-electronics-hours-maps-directions) - 3035 W. Thunderbird Rd., Phoenix, AZ 85053. (602) 445-8800
--   [Tempe Store](http://www.frys.com/ac/storeinfo/tempe-location-frys-electronics-hours-maps-directions) - 2300 W. Baseline Rd., Tempe, AZ 85283. (602) 445-5100
 
 [MHZ Electronics](https://mhzelectronics.com/) - 2801 E Washington St, Phoenix, AZ 85034. (602) 681-3850
 
