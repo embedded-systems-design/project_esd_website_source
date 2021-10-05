@@ -56,7 +56,7 @@ This tutorial goes through how to package Cadence schematic and PCB files for su
 
 1.  In Windows, open your PCB in PCB Editor
 
-    First, you will convert your PCB layout to .jpg form.
+    First, you will convert your PCB layout to .pdf form.
 
 2.  Choose File > Plot... Click "Setup..." and change the printer to "Microsoft Print to PDF". Save the PDF file to the desktop.
 
@@ -83,9 +83,9 @@ This tutorial goes through how to package Cadence schematic and PCB files for su
 
      ![Figure 8: Creating a .zip file in Windows](/larger/image0192.png)
 
-6.  Move the .zip file to the desktop with the .jpg you created in steps 1 - 2.
+6.  Move the .zip file to the desktop with the .pdf you created in steps 1 - 2.
 
-7.  Submit **both** the .jpg and the .zip file to the appropriate assignment on Canvas.
+7.  Submit **both** the .pdf and the .zip file to the appropriate assignment on Canvas.
 
 The following video shows an older version of the process described in this tutorial.
 
