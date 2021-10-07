@@ -6,6 +6,8 @@ tags:
 title: Running a Design for Manufacturing Check in DFM Now
 ---
 
+## This process has been replaced with a superior web-based [Peralta Studios DFM Checker](https://peraltastudios.engineering.asu.edu/wp-content/uploads/2021/08/dfmchecker.html).
+
 ## Introduction
 
 Designs created in an ECAD program may be electrically correct on the screen, but are ultimately constrained by the capabilities of your fabrication equipment. This tutorial walks through how to use the program [DFM Now](https://www.numericalinnovations.com/pages/dfm-now-free-gerber-viewer) to verify that a design is able to be manufactured by the [LPKF ProtoMat S63](https://www.lpkfusa.com/datasheets/prototyping/s63.pdf) in PRLTA 109.
@@ -19,7 +21,7 @@ The following video shows the process described in this tutorial from start to f
 ## Step 1: Install and Configure DFM Now
 
 1.  [Download](https://www.numericalinnovations.com/pages/dfm-now-download-now) and install DFM Now
-2.  [Download the Peralta Mill Specs.drf](https://drive.google.com/open?id=0ByRWb7dgVD-rYlRJMWZZM0V4QXc) configuration file and save it to a known location. This file contains customized settings that will allow you to use DFM 
+2.  [Download the Peralta Mill Specs.drf](https://drive.google.com/file/d/0ByRWb7dgVD-rYlRJMWZZM0V4QXc/view?usp=sharing&resourcekey=0-kci2MRa41dTNPgUzvXJNSQ) configuration file and save it to a known location. This file contains customized settings that will allow you to use DFM 
 
 ## Step 2: Run DFM Now on the Gerber Files
 
