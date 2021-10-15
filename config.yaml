@@ -10,6 +10,15 @@ taxonomies:
   tag: tags
 disqusShortname: ''
 languageCode: en-us
+#menu:
+#  footer:
+#  - URL: about
+#    name: About
+#    weight: 1
+#  main:
+#  - URL: notebook
+#    name: Notebook
+#    weight: 4
 outputs:
   home:
   - HTML
