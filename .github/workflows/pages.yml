@@ -3,7 +3,7 @@ name: hugo publish
 on:
   push:
     branches:
-    - hugo
+    - main
 
 jobs:
   build-deploy:
