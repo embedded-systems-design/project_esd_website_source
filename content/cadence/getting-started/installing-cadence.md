@@ -27,7 +27,7 @@ Navigate to "This PC", right click and select properties.
 
 In the "Related Settings" section, select "advanced system settings-->environment variables"
 
-In the **top** window (User Variables for <yourusername>), look for the HOME environment variable.  If it exists, you leave it as is
+In the **top** window (User Variables for \<yourusername\>), look for the HOME environment variable.  If it exists, you leave it as is
 
 1.  If it doesn't exist, select "new"
 2.  In variable name, type HOME (all caps)
