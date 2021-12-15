@@ -73,3 +73,6 @@ In order to use Cadence on your computer either in on-campus housing or off camp
 **Q:** During installation, the installer fails because it cannot find a file. What should I do?
 
 **A:** Make sure to unzip the Cadence17.4.zip file to a folder before running Install_Cadence17.4.exe. Also make sure that there are no spaces in the folder path that in which the installer is located.
+
+**Q:** What is the right license server for Cadence 17.4?
+**A: ** 5280@enlicense3.fulton.asu.edu
