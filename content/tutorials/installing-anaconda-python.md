@@ -1,5 +1,8 @@
 ---
 title: Anaconda (Python) Installation Tutorial
+tags: 
+  - python
+  - programming
 ---
 
 ## Introduction
