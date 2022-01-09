@@ -3,6 +3,7 @@ title: Anaconda (Python) Installation Tutorial
 tags: 
   - python
   - programming
+author: Dan Aukes
 ---
 
 ## Introduction
