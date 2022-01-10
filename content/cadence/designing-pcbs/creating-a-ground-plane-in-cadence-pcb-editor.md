@@ -92,7 +92,7 @@ A ground island can be fixed by adding a via between the ground island and the r
 
 ## What is a void, rubout, or anti-etch and when do I use one?
 
-A void, rubout, or anti-etch is a place where the copper is fully removed from the PCB. A common use of rubouts is underneath Bluetooth or Wifi antennas (e.g., from a Photon or Argon) as having a ground plane underneath an antenna will effectively shield RF waves from reaching the antenna. At best this will mean reduced range for a wireless device, and at worst it will mean that the device will not connect wirelessly.
+A void, rubout, or anti-etch is a place where the copper is fully removed from the PCB. A common use of rubouts is underneath Bluetooth or Wifi antennas (e.g., from a ESP32, Photon, or Argon) as having a ground plane underneath an antenna will effectively shield RF waves from reaching the antenna. At best this will mean reduced range for a wireless device, and at worst it will mean that the device will not connect wirelessly.
 
 ## How do I create a rubout in Cadence? 
 
