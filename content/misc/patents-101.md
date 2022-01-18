@@ -25,11 +25,9 @@ If you knowingly or unknowingly use intellectual property that is patented by so
 
 ## How do I search for a patent?
 
-[How to Conduct a Preliminary U.S. Patent Search: A Step by Step Strategy](http://www.uspto.gov/video/cbt/ptrcsearching/) - web tutorial from the Patent and Trademark Resource Center (PTRC)
+[How to Conduct a Preliminary U.S. Patent Search: A Step by Step Strategy](https://www.uspto.gov/video/cbt/prelim-patent-search/index.html) - web tutorial from the Patent and Trademark Resource Center (PTRC)
 
 [Seven Step Strategy](http://www.uspto.gov/learning-and-resources/support-centers/patent-and-trademark-resource-centers-ptrc/resources/seven) - outline from the PTRC
-
--   [7-Step U.S. Patent Search Strategy Guide](http://www.uspto.gov/sites/default/files/documents/7_Step_US_Patent_Search_Strategy_Guide_2015_rev.pdf) - detailed handout from the PTRC
 
 ## What patent databases should I use?
 
