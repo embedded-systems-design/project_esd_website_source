@@ -2,6 +2,7 @@
 title: All About the ESP32
 tags:
   - esp32
+  - iot
 ---
 
 
