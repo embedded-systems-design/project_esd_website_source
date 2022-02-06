@@ -190,4 +190,5 @@ The goal of this assignment is to introduce you to the MPLAB® X IDE, and to ver
 18. Add an **external** LED & resistor to the PWM output pin so that the LED *safely* turns on whenever the PWM output is high. (safely means that neither the LED nor the microcontroller pin burns out. Select an appropriate current-limiting resistor based on the LED specifications and the PIC18F47Q10 maximum pin current in the [*Datasheet*](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47Q10-Data-Sheet-40002043E.pdf))
 19. Demonstrate that the voltage read by the ADC can be used to alter the duty cycle of the PWM signal.
 
+And that's it!
 
