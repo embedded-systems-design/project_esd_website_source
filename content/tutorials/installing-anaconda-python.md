@@ -24,5 +24,5 @@ These installation instructions are for computers that **do** **not** have Pytho
 
 ``` {.bash}
 conda update --all
-pip install thonny
+pip install esptool thonny
 ```
