@@ -3,6 +3,7 @@ title: All About the ESP32
 tags:
   - esp32
   - iot
+  - microcontroller
 ---
 ## TL/DR
 <div class="alert alert-warning" role="alert">
