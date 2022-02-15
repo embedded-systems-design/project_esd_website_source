@@ -17,6 +17,8 @@ RX0 / TX0 are used by the onboard silabs USB/serial chip and shouldn't be used f
 
 ![Schematics](./SchematicsforESP32.png)
 
+![](https://github.com/Nicholas3388/LuaNode/raw/master/images/ESP32_dimension.png)
+
 ### External Pinout Resources
 
 * <https://johnmu.com/picking-esp32-dev-board/>
