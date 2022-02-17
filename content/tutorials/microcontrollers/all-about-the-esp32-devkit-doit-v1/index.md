@@ -21,8 +21,8 @@ RX0 / TX0 are used by the onboard silabs USB/serial chip and shouldn't be used f
 
 ### Espressif 
 
-[ESP32-WROOM-32 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
-[ESP32-Devkit-C Page](https://www.espressif.com/en/products/devkits/esp32-devkitc) [Technical Documents](https://www.espressif.com/en/support/documents/technical-documents)
+* [ESP32-WROOM-32 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)
+* [ESP32-Devkit-C Page](https://www.espressif.com/en/products/devkits/esp32-devkitc) [Technical Documents](https://www.espressif.com/en/support/documents/technical-documents)
 
 ### External Pinout Resources
 
