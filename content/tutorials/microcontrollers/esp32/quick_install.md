@@ -1,6 +1,7 @@
 ---
 title: quick setup steps
 published: True
+author: Dan Aukes
 ---
 
 1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) [win6](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)

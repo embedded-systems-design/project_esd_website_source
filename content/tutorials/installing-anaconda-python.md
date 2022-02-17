@@ -14,6 +14,10 @@ This tutorial is for installing the anaconda python distribution on windows.
 
 These installation instructions are for computers that **do** **not** have Python or Anaconda installed already. Python and Anaconda do not come installed by default on most computers so if you haven't installed them intentionally, these instructions likely apply to you. If you **do** have another version of Python installed, then please ask Dr. Aukes for further details.
 
+### Anaconda Instructions
+
+**Note:** These instructions are for the full Anaconda distribution.  You can also install Miniconda, which includes the ```conda``` package manager that you can use to install only the packages that you want.
+
 1.  Download and install [*Anaconda*](https://www.anaconda.com/products/individual#Downloads) (Python 3.9, x64) with the following options:
     -   Install for "All Users (requires admin privileges)" to the default directory (e.g., C:\\ProgramData\\Anaconda3 )
     -   Check the "Add Anaconda3 to the system PATH environment variable" box
@@ -24,5 +28,8 @@ These installation instructions are for computers that **do** **not** have Pytho
 
 ``` {.bash}
 conda update --all
-pip install esptool thonny
 ```
+
+### Miniconda Instructions
+
+...

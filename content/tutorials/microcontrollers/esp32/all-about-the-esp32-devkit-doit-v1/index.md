@@ -4,6 +4,7 @@ tags:
   - esp32
   - iot
   - microcontroller
+author: Dan Aukes
 ---
 ## TL/DR
 <div class="alert alert-warning" role="alert">
