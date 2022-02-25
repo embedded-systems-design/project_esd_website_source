@@ -25,27 +25,27 @@ author: Dan Aukes
 
 1. open cmd and type ```thonny```
 
-    ![](10.png)
+    ![Start Thonny](10.png)
     
 1. open up tools-->options, select the "interpreter" tab and ensure that "Micropython (ESP32)" is selected.  Select the "Silicon Labs CP210X USB to UART Bridge Com(XY)" down below.
 
-    ![](20.png)
+    ![Open Tools-->Options](20.png)
     
-    ![](30.png)
+    ![Select Interpreter Tab, then the ESP32 Interpreter](30.png)
     
-    ![](40.png)
+    ![Select the Port](40.png)
     
-    ![](50.png)
+    ![Selection Made](50.png)
 
 1. Before selecting ok, in the bottom right hand corner select "install or update firmware".  select the right port corresponding to the "Silicon Labs CP210X USB to UART Bridge Com(XY)"
 
-    ![](60.png)
+    ![Install or Update Firmware](60.png)
 
 1. select the firmware you downloaded, (e.g. "esp32-20220117-v1.18.bin") and hit "install".
 
-    ![](70.png)
+    ![Select Firmware File](70.png)
     
-    ![](80.png)
+    ![Hit install](80.png)
 
 1. wait for the install to finish
 1. Look at the interpreter window.  You should see:
