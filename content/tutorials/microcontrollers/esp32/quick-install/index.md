@@ -48,6 +48,9 @@ author: Dan Aukes
     ![Hit install](80.png)
 
 1. wait for the install to finish
+
+    ![Done](90.png)
+
 1. Look at the interpreter window.  You should see:
 
     ```
@@ -56,8 +59,13 @@ author: Dan Aukes
     Type "help()" for more information.
     >>> 
     ```
-1. type ```print(hello, world!)``` and that's it!  You should have a working python interpreter loaded on your ESP32!
+
+    ![Blank](100.png)
     
+    
+1. type ```print('hello, world!'')``` into the shell and that's it!  You should have a working python interpreter loaded on your ESP32!
+    
+    ![Hello World!](101.png)
     
 ----
 
