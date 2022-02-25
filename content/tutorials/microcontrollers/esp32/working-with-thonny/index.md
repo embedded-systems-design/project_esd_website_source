@@ -11,7 +11,7 @@ title: Working with Thonny
 
 * File --> Open(ctrl+o): If the ESP32 is connected it permits you to open a file either on your computer or from the ESP32's file space.
 
-    ![Local vs. Remote sae](local-remote.png)
+    ![Local vs. Remote File System Selection](local-remote.png)
 
 * File --> Save(ctrl+s): Saves the file to the current destination
 * File --> Save As(ctrl+shift+s): Permits you to save the file to a new destination, as well as to switch between saving to PC or ESP32
