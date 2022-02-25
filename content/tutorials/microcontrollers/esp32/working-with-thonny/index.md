@@ -62,6 +62,17 @@ import my_program
 
 This will load and run the my_program.py module at that specific point in the code.
 
+### ```upip```
+
+Micropython has the capability to download and use packages from the internet.  the ```upip``` module is responsible for this, and you can use it to download and install a number of useful external libraries.  For example, assuming you have a working wifi connection established, you can type in the following to the shell
+
+```python
+>>> import upip
+>>> upip.install('logging')
+```
+
+This has the effect of downloading the "logging" package to the "/lib/" folder.
+
 ## ESP32
 
 * Reset Button (EN): Use this button to restart the ESP32
