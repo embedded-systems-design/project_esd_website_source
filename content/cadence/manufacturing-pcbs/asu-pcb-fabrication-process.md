@@ -24,13 +24,13 @@ The following video shows our PCB manufacturing process.
 
 [Export solder mask layers from Cadence PCB Editor](/exporting-solder-mask-layers-from-cadence-pcb-editor/) *(optional, final design only)*
 
-Run a [Design for Manufacturing check](/running-a-design-for-manufacturing-check-in-dfm-now/) with DFM Now and fix any errors identified
+Run a [Design for Manufacturing check](https://peraltastudios.engineering.asu.edu/wp-content/uploads/2021/08/dfmchecker.html) and fix any errors identified
 
 [Print a 1:1 (100%)-sized copy of your PCB design](/printing-a-pcb-layout-in-cadence-pcb-editor/) and physically place all components on the printout to confirm that the footprints are correct. This is particularly important for ICs, connectors, and daughterboards.
 
 Show your successful DFM check results to a TA or professor so that they can document approval of your PCB design for fabrication. **You must receive approval from a TA or the professor before your PCB will be fabricated.**
 
-Zip all of your PCB files together in one ZIP folder with filename YourLastName.YourFirstName.zip
+Zip all of your PCB files together in one ZIP folder with filename YourName###.zip, where ### is your team number.
 
 1.  Top.art
 2.  Bottom.art
@@ -46,6 +46,11 @@ Submit your files at [fultonapps.asu.edu/polylab](http://fultonapps.asu.edu/poly
 3.  Solder mask needed? *(only allowed for final board designs)*
 4.  Rub out area needed? If yes, specify location. (*Pro tip:* Rub out copper underneath antennas)
 5.  Copper thickness (0.5, 1, or 2 oz/ft^2)
+
+You must also attach the following files to your request:
+
+1. ZIP of your Gerber files created above
+2. PDF of the results of the [Design for Manufacturing check](https://peraltastudios.engineering.asu.edu/wp-content/uploads/2021/08/dfmchecker.html)
 
 You will receive an emails from the Poly Lab Request Notification System indicating the acceptance of the job and when your PCB is ready to be picked up. If you are interested in learning about and being a part of the fabrication process with the LPKF mill, please see one of the staff members in PRLTA 109. If you have any questions, please contact <Peralta.Labs@asu.edu>
 
