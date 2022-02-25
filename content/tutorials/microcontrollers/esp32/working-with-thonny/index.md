@@ -49,8 +49,18 @@ Type "help()" for more information.
 
 ## Files
 
+Files in python are called "modules".  To load a module you should use the ```import``` statement.  The ESP32, however, also handles specific files as special cases:
+
 * boot.py: If this file is present on the ESP32, it will be the first code to run after a hard reset
 * main.py: If this file is present, it will be the second script that gets run automatically after a hard reset.  It only runs once, so you have to implement a ``while``` loop if you want code to continue running.
+* any other file: You must ```import``` that file in either boot.py or main.py if you want it to be loaded and run.  For example, if you have a file called "my_program.py", and want it to be run from "main.py", open up "main.py" and add
+
+
+```python
+import my_program
+```
+
+This will load and run the my_program.py module at that specific point in the code.
 
 ## ESP32
 
