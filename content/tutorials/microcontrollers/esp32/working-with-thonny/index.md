@@ -54,5 +54,5 @@ Type "help()" for more information.
 
 ## ESP32
 
-* Reset Button: Use this button to restart the ESP32
-* Bootloader Button: This doesn't seem to be necessary to program or work with micropython.  It is most likely used for programming with other tools/languages/IDE's
+* Reset Button (EN): Use this button to restart the ESP32
+* Bootloader Button (Boot): This doesn't seem to be necessary to program or work with micropython.  It is most likely used for programming with other tools/languages/IDE's to initiate "bootloader mode".
