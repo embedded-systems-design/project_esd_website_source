@@ -68,10 +68,14 @@ Micropython has the capability to download and use packages from the internet.  
 
 ```python
 >>> import upip
->>> upip.install('logging')
+>>> upip.install('micropython-logging')
 ```
 
-This has the effect of downloading the "logging" package to the "/lib/" folder.
+This has the effect of downloading the "micropython-logging" package from the pypi python repository to the "/lib/" folder.
+
+<div class="alert alert-warning">
+Not all pypi packages are compatible with micropython, and will throw an error if you attempt to install them.
+</div>
 
 ## ESP32
 
