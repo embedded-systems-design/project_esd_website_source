@@ -6,7 +6,7 @@ author: Dan Aukes
 
 1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe))
     1. if on a shared computer without administrative access, can be "just for me".
-1. Open up power shell (win+x, i) and type ```pip install esp32 esptool thonny```
+1. Open up power shell (win+x, i) and type ```pip install esptool thonny```
 1. _(optional)_ Install [Silabs cp210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) [windows download](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
 
     _This step is only required if the device is not recognized as a virtual COM port._
