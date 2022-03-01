@@ -1,5 +1,11 @@
 ---
 title: Working with Thonny
+author: Dan Aukes
+tags:
+  - esp32
+  - python
+  - micropython
+  - thonny
 ---
 
 

@@ -1,10 +1,11 @@
 ---
-title: All About the ESP32
+title: Overview of the ESP32 DevKit DOIT V1
 tags:
   - esp32
-  - iot
-  - microcontroller
+  - python
+  - micropython
 author: Dan Aukes
+weight: 10
 ---
 ## TL/DR
 <div class="alert alert-warning" role="alert">
@@ -38,11 +39,8 @@ RX0 / TX0 are used by the onboard silabs USB/serial chip and shouldn't be used f
 * ESP32 Micropython Documentation 
     * [quickref](https://docs.micropython.org/en/latest/esp32/quickref.html)
 
-## Thonny (IDE)
+## Python IDE
 
-* Must [install anaconda python](/installing-anaconda-python)
-* once you have, 
+1. [ESP32 Installation and Setup](/esp32-installation-and-setup/)
+1. [Working With Thonny](/working-with-thonny/)
 
-    ```bash
-    pip install esptool thonny
-    ```

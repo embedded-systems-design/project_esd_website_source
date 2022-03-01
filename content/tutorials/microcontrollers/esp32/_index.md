@@ -1,6 +1,5 @@
 ---
-title: ESP32
+title: ESP32 Documentation
 type: starred
 icon: bi bi-folder
-author: Dan Aukes
 ---
