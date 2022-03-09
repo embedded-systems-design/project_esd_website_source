@@ -16,6 +16,7 @@ I2C, SPI, and UART are three of the most common protocols for serial data transm
 
 ## I2C Communication
 
+- [TI's I2C Resistor Sizing Guide](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/6/I2C-Bus-Pullup-Resistor-Calculation.pdf)
 -   [I2C Communication, part 1: Introduction](https://www.youtube.com/watch?v=A-RQ5ShriHY&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-&index=27) video
 -   [I2C Communication, part 2: Microchip Code Configurator](https://www.youtube.com/watch?v=1M1n8oEw9zk&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-&index=28) video
 -   [MPLAB XC8 for Beginners Tutorial 38: Interfacing the TC74 I2C Temperature Sensor](https://www.youtube.com/watch?v=uxYf_k8UB3Q&list=PL3lfkED2i6JcJH-OETxsI43e8M-7eLeL-&index=29) video ([TC74 Datasheet](http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf))

@@ -35,5 +35,9 @@ Figure 2
 
 A Special use case of a Pullup resistor is in the data line of the I2C protocol. This protocol needs the data lines to be pulled high, for most use cases, a 10k resistor will work, but for higher clock speeds you will need to calculate the perfect resistor value by looking at the datasheet for your part.
 
+Refer to TI's [I2C Resistor Sizing guide](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/6/I2C-Bus-Pullup-Resistor-Calculation.pdf) for more details, or the following online calculators:
+
+* <https://atman-iot.com/blog/i2c-pull-up-calculator/>
+
   [1]: image1.png 
   [2]: image2.png 
