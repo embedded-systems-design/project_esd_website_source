@@ -35,5 +35,11 @@ Level shifting ICs address the main problem with the above circuits. The above c
 
 This specific IC has 2 lanes of level shifters. You may want more so check your project before purchase. It is recommended to find an IC with a typical application section as the usage of the pins of some ICs are not immediately clear. This specific IC needs its EN pulled to GND to enable the input, and since all data pins are inputs, it essentially turns off the chip. You then have your A and B lanes, do not mix them up. A1 and A2 are both inputs and outputs on the same line. This is where you put your data lines. Then to change how the IC shifts the voltage you will need to calculate the voltages that need to be on the vref pins for that specific ic. A good way to get those voltages is using the voltage divider seen in Figure 1.
 
+## External Resources
+
+* <https://itp.nyu.edu/physcomp/lessons/electronics/level-shifting/>
+
+
   [1]: image1.png
   [2]: image2.png
+
