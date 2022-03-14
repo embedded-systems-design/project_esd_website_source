@@ -22,3 +22,11 @@ tags:
 ## Digital Calipers
 
 * <https://www.wonkeedonkeetools.co.uk/calipers/how-does-a-digital-caliper-work>
+
+
+## Ultrasonic Distance Sensors
+
+* <https://www.arrow.com/en/research-and-events/articles/ultrasonic-sensors-how-they-work-and-how-to-use-them-with-arduino>
+* <https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm>
+* <https://www.youtube.com/watch?v=2ojWO1QNprw>
+* <https://www.youtube.com/watch?v=1jGvzNrtF24>
