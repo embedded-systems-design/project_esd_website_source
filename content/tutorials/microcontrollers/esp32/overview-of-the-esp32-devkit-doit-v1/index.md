@@ -38,6 +38,7 @@ RX0 / TX0 are used by the onboard silabs USB/serial chip and shouldn't be used f
 * MicroPython for ESP32 [firmware download page](https://micropython.org/download/esp32/)
 * ESP32 Micropython Documentation 
     * [quickref](https://docs.micropython.org/en/latest/esp32/quickref.html)
+* Asynchronous micropython-based [MQTT repository](https://github.com/tve/mqboard)
 
 ## Python IDE
 
