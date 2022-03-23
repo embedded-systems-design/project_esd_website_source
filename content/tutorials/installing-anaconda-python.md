@@ -1,5 +1,5 @@
 ---
-title: Anaconda (Python) Installation Tutorial
+title: Miniconda/Anaconda (Python) Installation Tutorial
 tags: 
   - python
   - programming

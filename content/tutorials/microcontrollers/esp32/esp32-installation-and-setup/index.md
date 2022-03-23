@@ -10,8 +10,7 @@ tags:
 weight: 20
 ---
 
-1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe))
-    1. if on a shared computer without administrative access, can be "just for me".
+1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)).  Follow this [tutorial](/installing-anaconda-python/) for detailed instructions.
 1. Open up powershell (win+x, i) and type ```pip install esptool thonny```
 
     **Note:** on Mac, open up terminal or xterm and type ```pip3 install esptool thonny```
