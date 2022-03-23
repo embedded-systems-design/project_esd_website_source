@@ -16,12 +16,12 @@ These installation instructions are for computers that **do** **not** have Pytho
 
 ### Anaconda Instructions
 
-**Note:** These instructions are for the full Anaconda distribution.  You can also install Miniconda, which includes the ```conda``` package manager that you can use to install only the packages that you want.
+**Note:** These instructions are for the smaller "Miniconda" distribution, that includes only the ```conda``` package manager that you can use to install only the packages that you want.  You can also install the full [Anaconda](https://www.anaconda.com/products/individual#Downloads) distribution, and follow the same basic instructions.
 
-1.  Download and install [*Anaconda*](https://www.anaconda.com/products/individual#Downloads) (Python 3.9, x64) with the following options:
-    -   Install for "All Users (requires admin privileges)" to the default directory (e.g., C:\\ProgramData\\Anaconda3 )
-    -   Check the "Add Anaconda3 to the system PATH environment variable" box
-    -   Check the "Register Anaconda3 as the system Python 3.9" box
+1.  Download and install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)) with the following options:
+    -   Install for "All Users (requires admin privileges)" to the default directory (e.g., C:\\ProgramData\\Miniconda3 )
+    -   Check the "Add Miniconda3 to the system PATH environment variable" box
+    -   Check the "Register Miniconda3 as the system Python 3.9" box
 2.  Install additional software packages
     a.  In Windows, go to the search bar and type "cmd". Once you see the Command Prompt app in the list, right click on it and choose "Run as administrator" from the contextual menu.
     b.  Paste each of the following lines (one at a time) at the command prompt and press enter:

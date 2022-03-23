@@ -12,7 +12,10 @@ weight: 20
 
 1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe))
     1. if on a shared computer without administrative access, can be "just for me".
-1. Open up power shell (win+x, i) and type ```pip install esptool thonny```
+1. Open up powershell (win+x, i) and type ```pip install esptool thonny```
+
+    **Note:** on Mac, open up terminal or xterm and type ```pip3 install esptool thonny```
+
 1. Install [Silabs cp210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) [windows download](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
 
     _This step is required if the device is not recognized as a virtual COM port._
@@ -73,6 +76,28 @@ weight: 20
     
     ![Hello World!](101.png)
     
+
+## Mac Specific Suggestions:
+
+* use terminal or xterm if you have it as Macs do not have powershell
+* use ```pip3 install ...``` instead of ```pip install ...``` with the most recent flavors of MacOS
+* make sure ```pip``` or ```pip3```(Mac) is updated to avoid installation errors
+
+    ```bash
+    python3 -m pip install --upgrade pip
+    ```
+
+* Mac doesn't do COM, but can list USB devices.  In your terminal, type:
+
+    ```bash
+    ls -al /dev/tty.
+    ```
+    
+    then unplug your ESP32 and run the previous command again to see which name for the device is the ESP32
+    
+* when selecting the port, there may be two Silicon Labs CP210X USB to UART Bridge (ESP device name here) devices.  Watch the messages in the terminal to determine the correct selection (obviously, don't use the one that says error/cannot find/etc.)
+* when running the program you may need to press ctrl + c twice within thonny
+
 ----
 
 ## Issues
