@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>ESP32 and MicroPython</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/dist/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">ESP32 and MicroPython</h1>
+</section>
+
+<section id="what-is-python" class="slide level2">
+<h2>What is Python</h2>
+<p>The #1 Programming language*</p>
+<div>
+<ul>
+<li class="fragment">Python: 14.2%<br />
+</li>
+<li class="fragment">Matlab: 0.8%<br />
+</li>
+<li class="fragment">Labview: 0.14%<br />
+</li>
+</ul>
+</div>
+<div style="font-size:12pt">
+<p>* as of March 2022, <a href="https://www.tiobe.com/tiobe-index/">tiobe.com</a></p>
+</div>
+</section>
+<section id="what-is-python-really" class="slide level2">
+<h2>What is Python, really?</h2>
+<p>A <strong>really</strong> easy to learn programming language</p>
+<div>
+<ul>
+<li class="fragment">simple formatting:
+<ul>
+<li class="fragment">mostly spaces,</li>
+<li class="fragment">few extraneous brackets, braces, or parenthesis</li>
+<li class="fragment">similar basic keywords as other languages.</li>
+<li class="fragment">easy access to complex data types</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="what-else-is-python" class="slide level2">
+<h2>What else is Python?</h2>
+<p>An extensible system of software “packages”</p>
+<div>
+<ul>
+<li class="fragment">use pip/pypi to install</li>
+<li class="fragment">install straight from github!</li>
+</ul>
+</div>
+</section>
+<section id="but-what-makes-it-unique" class="slide level2">
+<h2>But what makes it unique?</h2>
+<p>An “interpreted” language</p>
+<div>
+<ul>
+<li class="fragment">In its simplest form, the Python interpreter simply runs human-readable scripts*.</li>
+<li class="fragment">Can load and run code compiled in C, C++ FORTRAN, etc.</li>
+</ul>
+</div>
+<div style="font-size:12pt">
+<p>* there are many exceptions</p>
+</div>
+</section>
+<section id="python-interpreter" class="slide level2">
+<h2>Python Interpreter</h2>
+<div>
+<ul>
+<li class="fragment">Simple program that runs scripts or typed commands.</li>
+<li class="fragment">A lot like <code>bash</code>, <code>powershell</code>, or <code>cmd</code>, only cross-platform and independent of the operating system.</li>
+</ul>
+</div>
+</section>
+<section id="what-is-micropython" class="slide level2">
+<h2>What is MicroPython?</h2>
+<div>
+<ul>
+<li class="fragment">A slimmed down, limited version of Python that fits within the program space of a little microcontroller</li>
+<li class="fragment">The system of software packages written for it</li>
+<li class="fragment">The same idea of an interpreter… you just access it over UART/USB.</li>
+</ul>
+</div>
+</section>
+<section id="what-is-thonny" class="slide level2">
+<h2>What is Thonny?</h2>
+<div>
+<ul>
+<li class="fragment">a Graphical User Interface (GUI) <em>written in Python</em></li>
+<li class="fragment">A text editor</li>
+<li class="fragment">The interface to your device and its interpreter</li>
+<li class="fragment">A nice way to re-flash your device</li>
+</ul>
+</div>
+</section>
+<section id="what-is-anacondaminiconda" class="slide level2">
+<h2>What is Anaconda/Miniconda?</h2>
+<div>
+<ul>
+<li class="fragment">A way to manage all the “packages” you can install on your PC</li>
+<li class="fragment">A solution for dealing with conflicting installation requirements.</li>
+<li class="fragment">A way to share packages that contained OS-specific, compiled libraries.</li>
+</ul>
+</div>
+</section>
+<section id="why-do-i-need-to-use-anaconda" class="slide level2">
+<h2>Why do I need to use Anaconda?</h2>
+<p>Many packages include libraries that are compiled specific to one operating system</p>
+<div class="fragment">
+<p>this requires a compiler, and understanding the compilation process in case it doesn’t work</p>
+</div>
+<div class="fragment">
+<p>or, requires access to compiled packages</p>
+<aside class="notes" style="font-size:12pt">
+<p>* <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/" class="uri">https://www.lfd.uci.edu/~gohlke/pythonlibs/</a></p>
+</aside>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script src="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/plugin/notes/notes.js"></script>
+  <script src="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/plugin/search/search.js"></script>
+  <script src="file:////home/danaukes/code/code_pandoc_plus/support/reveal.js/plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+      
+        // Push each slide change to the browser history
+        history: true,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
