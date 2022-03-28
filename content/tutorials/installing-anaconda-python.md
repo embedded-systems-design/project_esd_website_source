@@ -30,6 +30,3 @@ These installation instructions are for computers that **do** **not** have Pytho
 conda update --all
 ```
 
-### Miniconda Instructions
-
-...
