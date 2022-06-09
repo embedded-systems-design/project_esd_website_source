@@ -11,9 +11,11 @@ weight: 20
 ---
 
 1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)).  Follow this [tutorial](/installing-anaconda-python/) for detailed instructions.
-1. Open up powershell (win+x, i) and type ```pip install esptool thonny```
+1. Open up powershell (win+x, i) and 
+    1. type ```conda install -c conda-forge wrapt```
+    1. type ```pip install esptool thonny```
 
-    **Note:** on Mac, open up terminal or xterm and type ```pip3 install esptool thonny```
+        **Note:** on Mac, open up terminal or xterm and type ```pip3 install esptool thonny```
 
 1. Install [Silabs cp210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) [windows download](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
 
@@ -29,7 +31,7 @@ weight: 20
 
     ![Done](05.png)
 
-1. download [firmware](https://micropython.org/download/esp32/) ([v1.18 quicklink](https://micropython.org/resources/firmware/esp32-20220117-v1.18.bin))
+1. download [firmware](https://micropython.org/download/esp32/) (I don't recommend v1.18, use the nightly build as it contains several more recent fixes to PWM)
 
 1. open cmd and type ```thonny```
 
