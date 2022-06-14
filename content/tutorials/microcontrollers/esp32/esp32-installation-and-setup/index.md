@@ -10,12 +10,22 @@ tags:
 weight: 20
 ---
 
+
+## Install Miniconda and packages
+
+You need to use Python on your PC to program the ESP32.
+
 1. install [miniconda](https://docs.conda.io/en/latest/miniconda.html) ([win64 quick link](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)).  Follow this [tutorial](/installing-anaconda-python/) for detailed instructions.
-1. Open up powershell (win+x, i) and 
+
+1. **Installing Thonny and other Packages:** Open up powershell (win+x, i) and 
     1. type ```conda install -c conda-forge wrapt```
     1. type ```pip install esptool thonny```
 
         **Note:** on Mac, open up terminal or xterm and type ```pip3 install esptool thonny```
+
+## Install Device Drivers
+
+The device drivers will help your computer recognize the ESP32 as a USB Device
 
 1. Install [Silabs cp210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) [windows download](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
 
@@ -32,6 +42,8 @@ weight: 20
     ![Done](05.png)
 
 1. download [firmware](https://micropython.org/download/esp32/) (I don't recommend v1.18, use the nightly build as it contains several more recent fixes to PWM)
+
+## Flashing the ESP32 Firmware for MicroPython
 
 1. open cmd and type ```thonny```
 
