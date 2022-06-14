@@ -27,7 +27,7 @@ You need to use Python on your PC to program the ESP32.
 
 The device drivers will help your computer recognize the ESP32 as a USB Device
 
-1. Install [Silabs cp210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) [windows download](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
+1. Install [Silabs cp210x driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) ([windows download](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip))
 
     _This step is required if the device is not recognized as a virtual COM port._
     
