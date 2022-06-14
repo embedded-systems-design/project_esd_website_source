@@ -41,9 +41,10 @@ The device drivers will help your computer recognize the ESP32 as a USB Device
 
     ![Done](05.png)
 
-1. download [firmware](https://micropython.org/download/esp32/) (I don't recommend v1.18, use the nightly build as it contains several more recent fixes to PWM)
 
 ## Flashing the ESP32 Firmware for MicroPython
+
+1. download [firmware](https://micropython.org/download/esp32/) (I don't recommend v1.18, use the nightly build as it contains several more recent fixes to PWM)
 
 1. open cmd and type ```thonny```
 
@@ -85,7 +86,7 @@ The device drivers will help your computer recognize the ESP32 as a USB Device
     ![Blank](100.png)
     
     
-1. type ```print('hello, world!'')``` into the shell and that's it!  You should have a working python interpreter loaded on your ESP32!
+1. type ```print('hello, world!')``` into the shell and that's it!  You should have a working python interpreter loaded on your ESP32!
     
     ![Hello World!](101.png)
     
