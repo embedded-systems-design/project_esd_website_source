@@ -9,6 +9,4 @@ menu:
     name: Schematics to PCB
 ---
 
-## Introduction
-
-## Resources
+Coming Soon...

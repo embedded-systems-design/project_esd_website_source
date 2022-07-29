@@ -120,7 +120,7 @@ menu:
 
     1. To automatically number your parts, go to Tools --> annotate schematic in the menu
 
-        ![](VirtualBox_Windows_10_2_29_07_2022_13_47_59.png)
+        ![Annotation Tool](VirtualBox_Windows_10_2_29_07_2022_13_47_59.png)
 
         1. when the window opens, it will give you a number of options.  
             * You can choose whether to number top-to-bottom first or left-to-right first.

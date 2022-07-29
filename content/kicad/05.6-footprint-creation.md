@@ -8,6 +8,4 @@ menu:
     parent: KiCad
 ---
 
-## Introduction
-
-## Resources
+Coming Soon...
