@@ -52,6 +52,8 @@ http://updates.cypress.com/updates/prerequisite/vcredist_x86_2013.exe
 1. Create an account with Infineon
 1. Download and install [PSoC Creator](https://www.infineon.com/cms/en/design-support/tools/sdk/psoc-software/psoc-creator/)
     1. Choose Typical Installation 
+1. Once the install completes, select run updater (help-->update manager) from PSoC Creator and update all packages
+1. Go to add-ons
 
 
 ## Optional or Separate Installers
