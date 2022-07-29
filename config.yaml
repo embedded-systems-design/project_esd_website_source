@@ -10,15 +10,16 @@ taxonomies:
   tag: tags
 disqusShortname: ''
 languageCode: en-us
-#menu:
+menu:
 #  footer:
 #  - URL: about
 #    name: About
 #    weight: 1
-#  main:
-#  - URL: notebook
-#    name: Notebook
-#    weight: 4
+  main:
+  - name: KiCad
+    weight: 1
+  - name: Cadence
+    weight: 2
 outputs:
   home:
   - HTML
@@ -34,8 +35,8 @@ params:
   cookies:
     enable: false
     expire_days: 2
-  copyright: "|  copyright &copy; 2021 Shawn Jordan and Dan Aukes.  All Rights Reserved.  |"
-  description: This is meta description
+  copyright: "|  copyright &copy; 2022 Shawn Jordan and Dan Aukes.  All Rights Reserved.  |"
+  description: Embedded Systems Design Blog
   #email: emailaddress
   #googleAnalitycsID: Your ID
   home: Home
