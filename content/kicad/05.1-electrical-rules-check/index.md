@@ -54,9 +54,9 @@ In the last tutorial you created a schematic.  But is it any good?  The electric
 
 1. Run ERC again
    
-    ![Open ERC](virtualbox_windows-10.2_29_07_2022_21_35_11.png)
+    ![Open ERC](virtualbox_windows-10.2_29_07_2022_21_35_20.png)
 
-    ![Run ERC](virtualbox_windows-10.2_29_07_2022_21_35_20.png)
+    ![Run ERC](virtualbox_windows-10.2_29_07_2022_21_35_11.png)
 
     ![See Errors](virtualbox_windows-10.2_29_07_2022_21_35_31.png)
     
@@ -72,7 +72,7 @@ In the last tutorial you created a schematic.  But is it any good?  The electric
         
     1. Change pin 1 and 2 to "power output" types
     
-        ![Select "Power Output"](virtualbox_windows-10.2_29_07_2022_21_36_03.png)
+        ![Select Power Output](virtualbox_windows-10.2_29_07_2022_21_36_03.png)
         
     1. Save and close the symbol editor window.
     
