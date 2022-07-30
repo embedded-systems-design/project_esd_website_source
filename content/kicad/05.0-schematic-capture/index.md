@@ -72,7 +72,7 @@ menu:
 
     ![Search for "Resistor US"](VirtualBox_Windows_10_2_29_07_2022_09_48_58.png)
     
-1. Select the R_US text in the part that you place.  Replace the text with the value of the resistor in Ohms.  You can use "10k" or "10kOhm" to denote kilo-Ohms, just be consistent.
+1. Select the R_US text in the part that you place.  Replace the text with the value of the resistor in Ohms.  You can use "10k" or "10kOhm" to denote kilo-Ohms, just be consistent. **_(Note, this value is just a dummy value, you will need to select your own resistance)_**
 
     ![Select R_US](VirtualBox_Windows_10_2_29_07_2022_14_10_14.png)
     
@@ -80,7 +80,7 @@ menu:
     
     ![The value is displayed](VirtualBox_Windows_10_2_29_07_2022_14_10_26.png)
 
-1. Repeat the last two steps, this time adding "Resistor_Variable_US".  Select the "R_Variable_US" part that comes up and replace the text with the value of the resistor in Ohms.  You can use "10k" or "10kOhm" to denote kilo-Ohms, just be consistent.
+1. Repeat the last two steps, this time adding "Resistor_Variable_US".  Select the "R_Variable_US" part that comes up and replace the text with the value of the resistor in Ohms.  You can use "10k" or "10kOhm" to denote kilo-Ohms, just be consistent. **_(Note, this value is just a dummy value, you will need to select your own resistance)_**
 
     ![Select "Resistor_Variable_US"](VirtualBox_Windows_10_2_29_07_2022_13_34_04.png)
 
