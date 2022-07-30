@@ -8,17 +8,6 @@ menu:
     parent: KiCad
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 ## Introduction
 
 ## Resources

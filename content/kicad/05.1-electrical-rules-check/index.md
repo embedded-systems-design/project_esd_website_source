@@ -1,5 +1,6 @@
 ---
 title: Electrical Rules Check (ERC)
+weight: 51
 author: Dan Aukes
 menu:
   main:
