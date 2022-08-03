@@ -1,6 +1,5 @@
 ---
 title: KiCad Design Workflow
-author: Dan Aukes
 menu:
   main:
     weight: 1
