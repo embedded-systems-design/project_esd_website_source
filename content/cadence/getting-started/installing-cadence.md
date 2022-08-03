@@ -37,15 +37,19 @@ Save your changes.
 
 ### Instructions
 
+<!--
 1. Go to Canvas and find the announcement from your professor on Cadence installation.
 2. Download Cadence17.4.zip from the link provided. The installer is over 8.2 GB so make sure you are using high-speed Internet at home or on campus.
-3. Double-click the Cadence17.4.zip file to decompress the installer. You can delete the ZIP file after it is decompressed.
-4. Open the Cadence17.4 folder and double-click InstallTPSCadence.vbs to initiate the installation. There is no status bar or completion message during the installation process, which may take up to an hour. You will know it is complete when the installer icon disappears from the task bar. You can delete the installation folder after it has finished installation.
-5. Download the HotFix from the link provided in the Canvas announcement. The HotFix is over 6.4 GB so make sure you are using high-speed Internet at home or on campus.
-6. Decompress the Hotfix ZIP file. You can delete the ZIP file after it is decompressed.
-7. Launch setup.exe to initiate the HotFix installation. The HotFix has a status bar indicating when it is complete.
-8. Confirm that Cadence and the HotFix have installed correctly by launching Start > Cadence PCB 17.4-2019 > Capture CIS 17.4. This program allows you to model electronic schematics. The version number should be `17.4-2019 S020`.
-9. Follow the [Configuring Cadence](/configuring-cadence/) instructions to configure and optimize Cadence for the ASU Polytechnic engineering programs.
+-->
+1. Go to [myapps.asu.edu](https://myapps.asu.edu) to download Cadence 17.4
+1. Double-click the Cadence2020.zip file to decompress the installer. You can delete the ZIP file after it is decompressed.
+1. Open the Cadence2020 folder and double-click InstallTPSCadence.vbs to initiate the installation. There is no status bar or completion message during the installation process, which may take up to an hour. You will know it is complete when the installer icon disappears from the task bar. You can delete the installation folder after it has finished installation.
+<!--1. Download the HotFix from the link provided in the Canvas announcement. The HotFix is over 6.4 GB so make sure you are using high-speed Internet at home or on campus.
+1. Decompress the Hotfix ZIP file. You can delete the ZIP file after it is decompressed.
+1. Launch setup.exe to initiate the HotFix installation. The HotFix has a status bar indicating when it is complete.
+1. Confirm that Cadence and the HotFix have installed correctly by launching Start > Cadence PCB 17.4-2019 > Capture CIS 17.4. This program allows you to model electronic schematics. The version number should be `17.4-2019 S020`.
+-->
+1. Follow the [Configuring Cadence](/configuring-cadence/) instructions to configure and optimize Cadence for the ASU Polytechnic engineering programs.
 
 ## Using Cadence On Campus
 
